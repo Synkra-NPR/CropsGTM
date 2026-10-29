@@ -1,0 +1,43 @@
+{
+    "id":  "cropsgtm:nettles",
+    "lang_key":  "cropsgtm_pam.crop.nettles",
+    "seed_shape":  "pam",
+    "tier":  2,
+    "drop_rounds":  0.9025,
+    "growth_duration":  650,
+    "colors":  [
+                   "#2E451F",
+                   "#608F40"
+               ],
+    "soil":  "farmland",
+    "growth_requirements":  [
+                                {
+                                    "type":  "min_light",
+                                    "level":  9
+                                }
+                            ],
+    "drops":  [
+                  {
+                      "item":  "pamhc2crops:nettlesitem",
+                      "chance":  10000
+                  }
+              ],
+    "alternate_seeds":  [
+                            "pamhc2crops:nettlesseeditem"
+                        ],
+    "liked_biomes":  [
+                         "forge:is_wet",
+                         "forge:is_cold"
+                     ],
+    "mutation_pools":  [
+                           "green",
+                           "leafy",
+                           "pam1",
+                           "pam2"
+                       ],
+    "sprites":  [
+                    "pamhc2crops:block/nettles_stage_0",
+                    "pamhc2crops:block/nettles_stage_1",
+                    "pamhc2crops:block/nettles_stage_3"
+                ]
+}

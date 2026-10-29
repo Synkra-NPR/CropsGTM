@@ -1,0 +1,37 @@
+{
+    "id":  "cropsgtm:glowflower",
+    "seed_shape": "flower",
+    "tier":  3,
+    "drop_rounds":  0.857375,
+    "growth_duration":  2000,
+    "colors":  [
+                   "#004d4c",
+                   "#12a4a2"
+               ],
+    "sprite":  {
+                   "base":  "cropsgtm:block/crops/biomesoplenty/glowflower/",
+                   "min":  1,
+                   "max":  3
+               },
+    "soil":  "dirtGrass",
+    "drops":  [
+                  {
+                      "item":  "biomesoplenty:glowflower",
+                      "chance":  10000,
+                      "required":  false
+                  }
+              ],
+    "liked_biomes":  [
+                         "forge:is_wet",
+                         "forge:is_lush",
+                         "cropsgtm:is_magical",
+                         "minecraft:is_forest"
+                     ],
+    "mutation_pools":  [
+                           "blue",
+                           "nether",
+                           "light",
+                           "shiny",
+                           "ingredient"
+                       ]
+}

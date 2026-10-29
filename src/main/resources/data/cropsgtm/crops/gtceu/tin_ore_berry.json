@@ -1,0 +1,42 @@
+{
+    "id":  "cropsgtm:tin_ore_berry",
+    "seed_shape": "oreberry",
+    "tier":  4,
+    "drop_rounds":  0.81450625,
+    "growth_duration":  6000,
+    "colors":  [
+                   "#8f8f8f",
+                   "#dcdcdc"
+               ],
+    "sprite":  {
+                   "base":  "cropsgtm:block/crops/core/oreberries/tin/",
+                   "min":  1,
+                   "max":  4
+               },
+    "soil":  "stone",
+    "growth_requirements":  [
+                                {
+                                    "type":  "sub_soil",
+                                    "id":  "tin"
+                                }
+                            ],
+    "drops":  [
+                  {
+                      "gt": "dustTiny",
+                      "material":  "tin",
+                      "chance":  10000
+                  }
+              ],
+    "liked_biomes":  [
+                         "minecraft:is_mountain",
+                         "minecraft:is_hill"
+                     ],
+    "mutation_pools":  [
+                           "white",
+                           "oreBerry",
+                           "danger",
+                           "metal",
+                           "shiny",
+                           "tin"
+                       ]
+}

@@ -1,0 +1,43 @@
+{
+    "id":  "cropsgtm:eggplant",
+    "lang_key":  "cropsgtm_pam.crop.eggplant",
+    "seed_shape":  "pam",
+    "tier":  3,
+    "drop_rounds":  0.857375,
+    "growth_duration":  800,
+    "colors":  [
+                   "#38242A",
+                   "#744A56"
+               ],
+    "soil":  "farmland",
+    "growth_requirements":  [
+                                {
+                                    "type":  "min_light",
+                                    "level":  9
+                                }
+                            ],
+    "drops":  [
+                  {
+                      "item":  "pamhc2crops:eggplantitem",
+                      "chance":  10000
+                  }
+              ],
+    "alternate_seeds":  [
+                            "pamhc2crops:eggplantseeditem"
+                        ],
+    "liked_biomes":  [
+                         "forge:is_hot",
+                         "forge:is_wet"
+                     ],
+    "mutation_pools":  [
+                           "green",
+                           "tendrilly",
+                           "pam1",
+                           "pam2"
+                       ],
+    "sprites":  [
+                    "pamhc2crops:block/eggplant_stage_0",
+                    "pamhc2crops:block/eggplant_stage_1",
+                    "pamhc2crops:block/eggplant_stage_3"
+                ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "cropsgtm:evilOre",
+  "tier": 8,
+  "drop_rounds": 0.663420431289062,
+  "growth_duration": 1600,
+  "machine_breeding_tier": 2,
+  "colors": ["#897B73", "#EFEBE7"],
+  "soil": "netherrack",
+  "drops": [
+    { "gt": "dust", "material": "nether_quartz", "chance": 6666 },
+    { "gt": "dust", "material": "certus_quartz", "chance": 1667 },
+    { "item": "minecraft:quartz", "chance": 1667 }
+  ],
+  "liked_biomes": ["forge:is_hot", "forge:is_dry", "minecraft:is_nether"],
+  "mutation_pools": ["white", "nether", "crystal", "evil", "fire"]
+}

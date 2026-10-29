@@ -1,0 +1,34 @@
+{
+    "id":  "cropsgtm:moss",
+    "tier":  4,
+    "drop_rounds":  0.81450625,
+    "growth_duration":  450,
+    "colors":  [
+                   "#256319",
+                   "#3a9126"
+               ],
+    "sprite":  {
+                   "base":  "cropsgtm:block/crops/biomesoplenty/moss/",
+                   "min":  1,
+                   "max":  4
+               },
+    "soil":  "farmland",
+    "drops":  [
+                  {
+                      "item":  "biomesoplenty:glowing_moss_block",
+                      "chance":  10000,
+                      "required":  false
+                  }
+              ],
+    "liked_biomes":  [
+                         "forge:is_wet",
+                         "forge:is_swamp",
+                         "forge:is_lush"
+                     ],
+    "mutation_pools":  [
+                           "green",
+                           "twilightForest",
+                           "climbable",
+                           "tendrilly"
+                       ]
+}

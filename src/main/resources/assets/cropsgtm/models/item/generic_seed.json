@@ -1,0 +1,21 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "cropsgtm:item/genericseed/vanilla1",
+    "layer1": "cropsgtm:item/genericseed/vanilla2"
+  },
+  "overrides": [
+    { "predicate": { "custom_model_data": 1 }, "model": "cropsgtm:item/generic_seed_oreberry" },
+    { "predicate": { "custom_model_data": 2 }, "model": "cropsgtm:item/generic_seed_bonsai" },
+    { "predicate": { "custom_model_data": 3 }, "model": "cropsgtm:item/generic_seed_botania" },
+    { "predicate": { "custom_model_data": 4 }, "model": "cropsgtm:item/generic_seed_flower" },
+    { "predicate": { "custom_model_data": 5 }, "model": "cropsgtm:item/generic_seed_grains" },
+    { "predicate": { "custom_model_data": 6 }, "model": "cropsgtm:item/generic_seed_magic" },
+    { "predicate": { "custom_model_data": 7 }, "model": "cropsgtm:item/generic_seed_spore" },
+    { "predicate": { "custom_model_data": 8 }, "model": "cropsgtm:item/generic_seed_vanilla" },
+    { "predicate": { "custom_model_data": 9 }, "model": "cropsgtm:item/generic_seed_troll" },
+    { "predicate": { "custom_model_data": 10 }, "model": "cropsgtm:item/generic_seed_farmersdelight" },
+    { "predicate": { "custom_model_data": 11 }, "model": "cropsgtm:item/generic_seed_pam" },
+    { "predicate": { "custom_model_data": 12 }, "model": "cropsgtm:item/generic_seed_pamtree" }
+  ]
+}

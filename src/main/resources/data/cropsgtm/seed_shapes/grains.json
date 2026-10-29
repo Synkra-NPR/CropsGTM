@@ -1,0 +1,6 @@
+{
+    "id":  "grains",
+    "model_data":  5,
+    "dark_texture":  "cropsgtm:item/genericseed/grains1",
+    "light_texture":  "cropsgtm:item/genericseed/grains2"
+}

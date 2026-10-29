@@ -1,0 +1,4 @@
+{
+  "output": "cropsgtm:netherWart",
+  "parents": ["cropsgtm:redMushroom", "cropsgtm:brownMushroom"]
+}

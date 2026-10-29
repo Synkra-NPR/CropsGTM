@@ -1,0 +1,16 @@
+{
+    "parent": "gtceu:block/machine/template/sided/sided",
+    "textures": {
+        "overlay_front": "cropsgtm:block/machine/crop_manager_cutter",
+        "overlay_back": "cropsgtm:block/machine/crop_manager_cutter",
+        "overlay_top": "cropsgtm:block/machine/crop_manager_boxes",
+        "overlay_bottom": "cropsgtm:block/machine/crop_manager_boxes",
+        "overlay_side": "cropsgtm:block/machine/crop_manager_cutter",
+
+        "overlay_front_emissive": "gtceu:block/void",
+        "overlay_back_emissive": "gtceu:block/void",
+        "overlay_top_emissive": "gtceu:block/void",
+        "overlay_bottom_emissive": "gtceu:block/void",
+        "overlay_side_emissive": "gtceu:block/void"
+    }
+}

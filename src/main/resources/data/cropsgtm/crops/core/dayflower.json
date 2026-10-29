@@ -1,0 +1,14 @@
+{
+  "id": "cropsgtm:dayflower",
+  "tier": 2,
+  "drop_rounds": 0.9025,
+  "growth_duration": 600,
+  "colors": ["#236F8F", "#3C8EB0"],
+  "seed_shape": "flower",
+  "soil": "dirtGrass",
+  "drops": [
+    { "item": "minecraft:cyan_dye", "chance": 10000 }
+  ],
+  "liked_biomes": ["forge:is_cold", "minecraft:is_hill", "forge:is_sparse"],
+  "mutation_pools": ["blue", "flower", "addictive"]
+}

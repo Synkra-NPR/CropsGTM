@@ -1,0 +1,57 @@
+{
+    "id":  "cropsgtm:meatrose",
+    "seed_shape": "flower",
+    "tier":  7,
+    "drop_rounds":  0.698337296094,
+    "growth_duration":  4200,
+    "colors":  [
+                   "#dd3830",
+                   "#ef7070"
+               ],
+    "sprite":  {
+                   "base":  "cropsgtm:block/crops/core/meatrose/",
+                   "min":  1,
+                   "max":  4
+               },
+    "soil":  "dirtGrass",
+    "growth_requirements":  [
+                                {
+                                    "type":  "min_light",
+                                    "value":  9
+                                }
+                            ],
+    "drops":  [
+                  {
+                      "item":  "minecraft:pink_dye",
+                      "chance":  6000
+                  },
+                  {
+                      "item":  "minecraft:chicken",
+                      "chance":  1000
+                  },
+                  {
+                      "item":  "minecraft:cod",
+                      "chance":  1000
+                  },
+                  {
+                      "item":  "minecraft:beef",
+                      "chance":  1000
+                  },
+                  {
+                      "item":  "minecraft:porkchop",
+                      "chance":  1000
+                  }
+              ],
+    "liked_biomes":  [
+                         "forge:is_plains",
+                         "cropsgtm:is_magical"
+                     ],
+    "mutation_pools":  [
+                           "red",
+                           "flower",
+                           "chicken",
+                           "cow",
+                           "food",
+                           "fish"
+                       ]
+}

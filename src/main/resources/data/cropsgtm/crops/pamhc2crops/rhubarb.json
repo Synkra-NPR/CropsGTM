@@ -1,0 +1,43 @@
+{
+    "id":  "cropsgtm:rhubarb",
+    "lang_key":  "cropsgtm_pam.crop.rhubarb",
+    "seed_shape":  "pam",
+    "tier":  4,
+    "drop_rounds":  0.81450625,
+    "growth_duration":  900,
+    "colors":  [
+                   "#685447",
+                   "#D7AD92"
+               ],
+    "soil":  "farmland",
+    "growth_requirements":  [
+                                {
+                                    "type":  "min_light",
+                                    "level":  9
+                                }
+                            ],
+    "drops":  [
+                  {
+                      "item":  "pamhc2crops:rhubarbitem",
+                      "chance":  10000
+                  }
+              ],
+    "alternate_seeds":  [
+                            "pamhc2crops:rhubarbseeditem"
+                        ],
+    "liked_biomes":  [
+                         "forge:is_hot",
+                         "forge:is_dry"
+                     ],
+    "mutation_pools":  [
+                           "green",
+                           "leafy",
+                           "pam2",
+                           "pam3"
+                       ],
+    "sprites":  [
+                    "pamhc2crops:block/rhubarb_stage_0",
+                    "pamhc2crops:block/rhubarb_stage_1",
+                    "pamhc2crops:block/rhubarb_stage_3"
+                ]
+}

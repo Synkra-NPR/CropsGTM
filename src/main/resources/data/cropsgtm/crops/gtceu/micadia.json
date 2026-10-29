@@ -1,0 +1,33 @@
+{
+    "id":  "cropsgtm:micadia",
+    "machine_breeding_only": true,
+    "tier":  9,
+    "drop_rounds":  0.630249409725,
+    "growth_duration":  1800,
+    "colors":  [
+                   "#d5ccc3",
+                   "#f4f2ef"
+               ],
+    "sprite":  {
+                   "base":  "cropsgtm:block/crops/gtceu/micadia/",
+                   "min":  1,
+                   "max":  4
+               },
+    "soil":  "stone",
+    "growth_requirements":  [
+                                {
+                                    "type":  "sub_soil",
+                                    "id":  "mica"
+                                }
+                            ],
+    "drops":  [
+                  {
+                      "item":  "cropsgtm:micadia_flower",
+                      "chance":  10000
+                  }
+              ],
+    "liked_biomes":  [
+                         "minecraft:is_hill",
+                         "forge:is_sparse"
+                     ]
+}

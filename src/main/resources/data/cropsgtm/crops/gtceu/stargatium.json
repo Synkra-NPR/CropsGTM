@@ -1,0 +1,41 @@
+{
+    "id":  "cropsgtm:stargatium",
+    "machine_breeding_only": true,
+    "tier":  12,
+    "drop_rounds":  0.540360087663,
+    "growth_duration":  7200,
+    "colors":  [
+                   "#333333",
+                   "#555555"
+               ],
+    "sprite":  {
+                   "base":  "cropsgtm:block/crops/gtceu/stargatium/",
+                   "min":  1,
+                   "max":  4
+               },
+    "soil":  "stone",
+    "growth_requirements":  [
+                                {
+                                    "type":  "sub_soil",
+                                    "id":  "naquadah"
+                                },
+                                {
+                                    "type":  "machine_only"
+                                }
+                            ],
+    "drops":  [
+                  {
+                      "item":  "cropsgtm:stargatium_leaf",
+                      "chance":  7500
+                  },
+                  {
+                      "gt": "dust",
+                      "material":  "endstone",
+                      "chance":  2500
+                  }
+              ],
+    "liked_biomes":  [
+                         "forge:is_lush",
+                         "forge:is_wasteland"
+                     ]
+}

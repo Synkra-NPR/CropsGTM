@@ -1,0 +1,18 @@
+{
+  "id": "cropsgtm:pinkTulip",
+  "lang_key": "block.minecraft.pink_tulip",
+  "creator": "Notch",
+  "tier": 2,
+  "drop_rounds": 0.9025,
+  "growth_duration": 600,
+  "colors": ["#80365C", "#F7B4D6"],
+  "seed_shape": "flower",
+  "soil": "dirtGrass",
+  "drops": [
+    { "item": "minecraft:pink_dye", "chance": 7500 },
+    { "item": "minecraft:pink_tulip", "chance": 2500 }
+  ],
+  "alternate_seeds": ["minecraft:pink_tulip"],
+  "liked_biomes": ["forge:is_plains", "forge:is_lush", "forge:is_wet"],
+  "mutation_pools": ["red", "flower", "tulip"]
+}

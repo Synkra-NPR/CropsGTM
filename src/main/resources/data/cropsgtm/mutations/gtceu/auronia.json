@@ -1,0 +1,7 @@
+{
+    "output":  "cropsgtm:auronia",
+    "parents":  [
+                    "cropsgtm:plumbilia",
+                    "cropsgtm:coppon"
+                ]
+}

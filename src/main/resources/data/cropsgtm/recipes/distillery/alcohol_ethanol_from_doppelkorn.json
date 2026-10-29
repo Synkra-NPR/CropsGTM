@@ -1,0 +1,60 @@
+{
+  "type": "gtceu:distillery",
+  "duration": 16,
+  "category": "gtceu:distillery",
+  "tickInputs": {
+    "eu": [
+      {
+        "content": 24
+      }
+    ]
+  },
+  "inputs": {
+    "item": [
+      {
+        "content": {
+          "type": "gtceu:sized",
+          "count": 1,
+          "ingredient": {
+            "type": "forge:nbt",
+            "item": "gtceu:programmed_circuit",
+            "count": 1,
+            "nbt": "{Configuration:1}"
+          }
+        }
+      }
+    ],
+    "fluid": [
+      {
+        "content": {
+          "amount": 100,
+          "value": [
+            {
+              "tag": "forge:doppelkorn"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "outputs": {
+    "fluid": [
+      {
+        "content": {
+          "amount": 30,
+          "value": [
+            {
+              "fluid": "gtceu:ethanol"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "gtceu"
+    }
+  ]
+}

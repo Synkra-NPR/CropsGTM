@@ -1,0 +1,7 @@
+{
+    "output":  "cropsgtm:lazulia",
+    "parents":  [
+                    "cropsgtm:stoneLily",
+                    "cropsgtm:indigo"
+                ]
+}

@@ -1,0 +1,7 @@
+{
+    "id":  "redGranite",
+    "blocks":  [
+                   "gtceu:red_granite",
+                   "gtceu:red_granite_cobblestone"
+               ]
+}

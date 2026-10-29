@@ -1,0 +1,60 @@
+{
+  "type": "gtceu:distillery",
+  "duration": 24,
+  "category": "gtceu:distillery",
+  "tickInputs": {
+    "eu": [
+      {
+        "content": 24
+      }
+    ]
+  },
+  "inputs": {
+    "item": [
+      {
+        "content": {
+          "type": "gtceu:sized",
+          "count": 1,
+          "ingredient": {
+            "type": "forge:nbt",
+            "item": "gtceu:programmed_circuit",
+            "count": 1,
+            "nbt": "{Configuration:2}"
+          }
+        }
+      }
+    ],
+    "fluid": [
+      {
+        "content": {
+          "amount": 95,
+          "value": [
+            {
+              "tag": "forge:fermented_wheat"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "outputs": {
+    "fluid": [
+      {
+        "content": {
+          "amount": 1,
+          "value": [
+            {
+              "fluid": "gtceu:doppelkorn"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "gtceu"
+    }
+  ]
+}

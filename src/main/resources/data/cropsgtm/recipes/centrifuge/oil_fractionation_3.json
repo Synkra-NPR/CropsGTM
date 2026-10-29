@@ -1,0 +1,93 @@
+{
+  "type": "gtceu:centrifuge",
+  "duration": 128,
+  "category": "gtceu:centrifuge",
+  "tickInputs": {
+    "eu": [
+      {
+        "content": 480
+      }
+    ]
+  },
+  "inputs": {
+    "item": [
+      {
+        "content": {
+          "type": "gtceu:sized",
+          "count": 10,
+          "ingredient": {
+            "item": "cropsgtm:oil_berry"
+          }
+        }
+      },
+      {
+        "content": {
+          "type": "gtceu:sized",
+          "count": 1,
+          "ingredient": {
+            "type": "forge:nbt",
+            "item": "gtceu:programmed_circuit",
+            "count": 1,
+            "nbt": "{Configuration:3}"
+          }
+        }
+      }
+    ]
+  },
+  "outputs": {
+    "fluid": [
+      {
+        "content": {
+          "amount": 100,
+          "value": [
+            {
+              "fluid": "gtceu:sulfuric_heavy_fuel"
+            }
+          ]
+        }
+      },
+      {
+        "content": {
+          "amount": 500,
+          "value": [
+            {
+              "fluid": "gtceu:sulfuric_light_fuel"
+            }
+          ]
+        }
+      },
+      {
+        "content": {
+          "amount": 1500,
+          "value": [
+            {
+              "fluid": "gtceu:sulfuric_naphtha"
+            }
+          ]
+        }
+      },
+      {
+        "content": {
+          "amount": 600,
+          "value": [
+            {
+              "fluid": "gtceu:sulfuric_gas"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "gtceu"
+    },
+    {
+      "type": "cropsgtm:crop_exists",
+      "crops": [
+        "cropsgtm:oil_berry"
+      ]
+    }
+  ]
+}

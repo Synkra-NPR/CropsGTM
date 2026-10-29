@@ -1,0 +1,7 @@
+{
+    "output":  "cropsgtm:necrobloom",
+    "parents":  [
+                    "cropsgtm:spidernip",
+                    "cropsgtm:purpleTulip"
+                ]
+}

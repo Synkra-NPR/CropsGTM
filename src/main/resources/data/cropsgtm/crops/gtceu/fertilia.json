@@ -1,0 +1,17 @@
+{
+  "id": "cropsgtm:fertilia",
+  "tier": 3,
+  "drop_rounds": 0.857375,
+  "growth_duration": 1800,
+  "machine_breeding_tier": 2,
+  "colors": ["#554516", "#6E6038"],
+  "soil": "farmland",
+  "drops": [
+    { "gt": "dust", "material": "calcite", "chance": 6250 },
+    { "gt": "dust", "material": "phosphate", "chance": 1250 },
+    { "gt": "dust", "material": "apatite", "chance": 1250 },
+    { "item": "gtceu:fertilizer", "chance": 1250 }
+  ],
+  "liked_biomes": ["forge:is_swamp", "forge:is_wet", "forge:is_hot"],
+  "mutation_pools": ["brown", "mushroom", "healing"]
+}

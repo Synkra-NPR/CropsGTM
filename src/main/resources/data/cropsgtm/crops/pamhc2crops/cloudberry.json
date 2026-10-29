@@ -1,0 +1,44 @@
+{
+    "id":  "cropsgtm:cloudberry",
+    "lang_key":  "cropsgtm_pam.crop.cloudberry",
+    "seed_shape":  "pam",
+    "tier":  3,
+    "drop_rounds":  0.857375,
+    "growth_duration":  800,
+    "colors":  [
+                   "#5E451D",
+                   "#C38E3C"
+               ],
+    "soil":  "farmland",
+    "growth_requirements":  [
+                                {
+                                    "type":  "min_light",
+                                    "level":  9
+                                }
+                            ],
+    "drops":  [
+                  {
+                      "item":  "pamhc2crops:cloudberryitem",
+                      "chance":  10000
+                  }
+              ],
+    "alternate_seeds":  [
+                            "pamhc2crops:cloudberryseeditem"
+                        ],
+    "liked_biomes":  [
+                         "forge:is_lush",
+                         "forge:is_wet"
+                     ],
+    "mutation_pools":  [
+                           "red",
+                           "berry",
+                           "bush",
+                           "pam1",
+                           "pam3"
+                       ],
+    "sprites":  [
+                    "pamhc2crops:block/cloudberry_stage_0",
+                    "pamhc2crops:block/cloudberry_stage_1",
+                    "pamhc2crops:block/cloudberry_stage_3"
+                ]
+}

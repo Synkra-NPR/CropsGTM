@@ -1,0 +1,6 @@
+{
+  "values": [
+    { "id": "twilightforest:stream", "required": false },
+    { "id": "twilightforest:lake", "required": false }
+  ]
+}

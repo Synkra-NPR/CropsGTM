@@ -1,0 +1,83 @@
+{
+  "type": "gtceu:centrifuge",
+  "duration": 100,
+  "category": "gtceu:centrifuge",
+  "tickInputs": {
+    "eu": [
+      {
+        "content": 30
+      }
+    ]
+  },
+  "inputs": {
+    "item": [
+      {
+        "content": {
+          "type": "gtceu:sized",
+          "count": 1,
+          "ingredient": {
+            "item": "cropsgtm:salty_root"
+          }
+        }
+      },
+      {
+        "content": {
+          "type": "gtceu:sized",
+          "count": 1,
+          "ingredient": {
+            "type": "forge:nbt",
+            "item": "gtceu:programmed_circuit",
+            "count": 1,
+            "nbt": "{Configuration:1}"
+          }
+        }
+      }
+    ],
+    "fluid": [
+      {
+        "content": {
+          "amount": 100,
+          "value": [
+            {
+              "tag": "forge:water"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "outputs": {
+    "item": [
+      {
+        "content": {
+          "item": "gtceu:salt_dust"
+        },
+        "chance": 9500
+      },
+      {
+        "content": {
+          "item": "gtceu:rock_salt_dust"
+        },
+        "chance": 8000
+      },
+      {
+        "content": {
+          "item": "gtceu:saltpeter_dust"
+        },
+        "chance": 5000
+      }
+    ]
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "gtceu"
+    },
+    {
+      "type": "cropsgtm:crop_exists",
+      "crops": [
+        "cropsgtm:salty_root"
+      ]
+    }
+  ]
+}

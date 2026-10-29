@@ -1,0 +1,36 @@
+{
+    "id":  "cropsgtm:platina",
+    "machine_breeding_only": true,
+    "tier":  11,
+    "drop_rounds":  0.568800092276,
+    "growth_duration":  6600,
+    "colors":  [
+                   "#dadaab",
+                   "#f7f7c7"
+               ],
+    "sprite":  {
+                   "base":  "cropsgtm:block/crops/gtceu/platina/",
+                   "min":  1,
+                   "max":  4
+               },
+    "soil":  "stone",
+    "growth_requirements":  [
+                                {
+                                    "type":  "sub_soil",
+                                    "id":  "platinum"
+                                },
+                                {
+                                    "type":  "machine_only"
+                                }
+                            ],
+    "drops":  [
+                  {
+                      "item":  "cropsgtm:platina_leaf",
+                      "chance":  10000
+                  }
+              ],
+    "liked_biomes":  [
+                         "forge:is_hot",
+                         "forge:is_sandy"
+                     ]
+}

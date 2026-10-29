@@ -1,0 +1,33 @@
+modLoader = "javafml"
+loaderVersion = "[47,)"
+license = "${mod_license}"
+
+[[mods]]
+    modId = "${mod_id}"
+    version = "${version}"
+    displayName = "${mod_name}"
+    displayURL = "${mod_url}"
+    authors = "${mod_author}"
+    description = '''
+CropsGTM - a GregTech CEu Modern (1.20.1) port of the CropNH mod.
+Based on CropNH by InfinityRaider, mitchej123, C0bra5 and the GTNH team, licensed under LGPL-3.0.
+'''
+
+    [[dependencies.${mod_id}]]
+        modId = "forge"
+        mandatory = true
+        versionRange = "[${forge_version},)"
+        ordering = "NONE"
+        side = "BOTH"
+    [[dependencies.${mod_id}]]
+        modId = "minecraft"
+        mandatory = true
+        versionRange = "[${minecraft_version},)"
+        ordering = "NONE"
+        side = "BOTH"
+    [[dependencies.${mod_id}]]
+        modId = "gtceu"
+        mandatory = false
+        versionRange = "${gtceu_version_range}"
+        ordering = "AFTER"
+        side = "BOTH"

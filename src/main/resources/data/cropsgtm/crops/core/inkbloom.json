@@ -1,0 +1,13 @@
+{
+  "id": "cropsgtm:inkbloom",
+  "tier": 4,
+  "drop_rounds": 0.81450625,
+  "growth_duration": 600,
+  "colors": ["#000000", "#2E1F27"],
+  "soil": "dirtGrass",
+  "drops": [
+    { "item": "minecraft:ink_sac", "chance": 10000 }
+  ],
+  "liked_biomes": ["forge:is_wet", "minecraft:is_ocean"],
+  "mutation_pools": ["black", "flower", "water"]
+}

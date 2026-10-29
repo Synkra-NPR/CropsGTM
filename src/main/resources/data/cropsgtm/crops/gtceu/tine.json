@@ -1,0 +1,40 @@
+{
+    "id":  "cropsgtm:tine",
+    "tier":  5,
+    "drop_rounds":  0.7737809375,
+    "growth_duration":  1000,
+    "colors":  [
+                   "#7d7d7d",
+                   "#acacac"
+               ],
+    "sprite":  {
+                   "base":  "cropsgtm:block/crops/gtceu/tine/",
+                   "min":  1,
+                   "max":  4
+               },
+    "soil":  "stone",
+    "growth_requirements":  [
+                                {
+                                    "type":  "sub_soil",
+                                    "id":  "tin"
+                                }
+                            ],
+    "drops":  [
+                  {
+                      "item":  "cropsgtm:tine_twig",
+                      "chance":  10000
+                  }
+              ],
+    "liked_biomes":  [
+                         "minecraft:is_mountain",
+                         "minecraft:is_hill"
+                     ],
+    "mutation_pools":  [
+                           "gray",
+                           "stem",
+                           "metal",
+                           "shiny",
+                           "wood",
+                           "tin"
+                       ]
+}

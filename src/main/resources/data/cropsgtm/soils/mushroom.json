@@ -1,0 +1,8 @@
+{
+    "id":  "mushroom",
+    "include":  [
+                    "stone",
+                    "dirtGrass",
+                    "mycelium"
+                ]
+}

@@ -1,0 +1,39 @@
+{
+    "id":  "cropsgtm:plumbilia",
+    "tier":  6,
+    "drop_rounds":  0.735091890625,
+    "growth_duration":  1200,
+    "colors":  [
+                   "#503950",
+                   "#6d4e6d"
+               ],
+    "sprite":  {
+                   "base":  "cropsgtm:block/crops/gtceu/plumbilia/",
+                   "min":  1,
+                   "max":  4
+               },
+    "soil":  "stone",
+    "growth_requirements":  [
+                                {
+                                    "type":  "sub_soil",
+                                    "id":  "lead"
+                                }
+                            ],
+    "drops":  [
+                  {
+                      "item":  "cropsgtm:plumbilia_leaf",
+                      "chance":  10000
+                  }
+              ],
+    "liked_biomes":  [
+                         "minecraft:is_savanna",
+                         "forge:is_plains"
+                     ],
+    "mutation_pools":  [
+                           "purple",
+                           "metal",
+                           "lead",
+                           "dense",
+                           "tendrilly"
+                       ]
+}

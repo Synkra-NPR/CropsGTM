@@ -1,0 +1,16 @@
+{
+  "id": "cropsgtm:malaxia",
+  "tier": 6,
+  "drop_rounds": 0.735091890625,
+  "growth_duration": 2800,
+  "colors": ["#B26003", "#D77106"],
+  "soil": "stone",
+  "growth_requirements": [
+    { "type": "sub_soil", "id": "copper" }
+  ],
+  "drops": [
+    { "gt": "dustTiny", "material": "copper", "chance": 10000 }
+  ],
+  "liked_biomes": ["forge:is_plains", "forge:is_lush"],
+  "mutation_pools": ["orange", "bush", "leafy", "metal", "copper"]
+}

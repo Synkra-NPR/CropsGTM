@@ -1,0 +1,7 @@
+{
+    "id":  "netherMushroom",
+    "include":  [
+                    "mushroom",
+                    "netherrack"
+                ]
+}

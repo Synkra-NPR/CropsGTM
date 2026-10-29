@@ -1,0 +1,7 @@
+{
+    "output":  "cropsgtm:coppon",
+    "parents":  [
+                    "cropsgtm:stoneLily",
+                    "cropsgtm:netherStoneLily"
+                ]
+}

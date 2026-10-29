@@ -1,0 +1,43 @@
+{
+    "id":  "cropsgtm:spinach",
+    "lang_key":  "cropsgtm_pam.crop.spinach",
+    "seed_shape":  "pam",
+    "tier":  2,
+    "drop_rounds":  0.9025,
+    "growth_duration":  650,
+    "colors":  [
+                   "#325B0D",
+                   "#66BC1B"
+               ],
+    "soil":  "farmland",
+    "growth_requirements":  [
+                                {
+                                    "type":  "min_light",
+                                    "level":  9
+                                }
+                            ],
+    "drops":  [
+                  {
+                      "item":  "pamhc2crops:spinachitem",
+                      "chance":  10000
+                  }
+              ],
+    "alternate_seeds":  [
+                            "pamhc2crops:spinachseeditem"
+                        ],
+    "liked_biomes":  [
+                         "forge:is_wet",
+                         "forge:is_cold"
+                     ],
+    "mutation_pools":  [
+                           "green",
+                           "leafy",
+                           "pam2",
+                           "pam3"
+                       ],
+    "sprites":  [
+                    "pamhc2crops:block/spinach_stage_0",
+                    "pamhc2crops:block/spinach_stage_1",
+                    "pamhc2crops:block/spinach_stage_3"
+                ]
+}

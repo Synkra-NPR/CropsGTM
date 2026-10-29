@@ -1,0 +1,6 @@
+{
+    "id":  "farmland",
+    "blocks":  [
+                   "minecraft:farmland"
+               ]
+}

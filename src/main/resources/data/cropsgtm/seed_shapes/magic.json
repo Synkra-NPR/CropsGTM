@@ -1,0 +1,6 @@
+{
+    "id":  "magic",
+    "model_data":  6,
+    "dark_texture":  "cropsgtm:item/genericseed/magic1",
+    "light_texture":  "cropsgtm:item/genericseed/magic2"
+}

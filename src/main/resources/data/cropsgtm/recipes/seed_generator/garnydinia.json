@@ -1,0 +1,98 @@
+{
+    "conditions":  [
+                       {
+                           "type":  "cropsgtm:crop_exists",
+                           "crop":  "cropsgtm:garnydinia"
+                       },
+                       {
+                           "type":  "forge:mod_loaded",
+                           "modid":  "gtceu"
+                       }
+                   ],
+    "type":  "cropsgtm:seed_generator",
+    "duration":  160,
+    "category":  "cropsgtm:seed_generator",
+    "tickInputs":  {
+                       "eu":  [
+                                  {
+                                      "content":  30
+                                  }
+                              ]
+                   },
+    "inputs":  {
+                   "item":  [
+                                {
+                                    "content":  {
+                                                    "type":  "gtceu:nbt_predicate",
+                                                    "item":  "cropsgtm:generic_seed",
+                                                    "count":  1,
+                                                    "nbt":  "{CustomModelData:8,crop:\"cropsgtm:garnydinia\",ga:1b,gr:1b,re:1b,scan:1b}",
+                                                    "predicate":  {
+                                                                      "type":  "equals",
+                                                                      "key":  "crop",
+                                                                      "value":  "cropsgtm:garnydinia",
+                                                                      "inverted":  false
+                                                                  }
+                                                }
+                                },
+                                {
+                                    "content":  [
+                                                    {
+                                                        "item":  "gtceu:red_garnet_ore"
+                                                    },
+                                                    {
+                                                        "item":  "gtceu:raw_red_garnet_block"
+                                                    },
+                                                    {
+                                                        "item":  "gtceu:red_garnet_block"
+                                                    },
+                                                    {
+                                                        "item":  "gtceu:garnet_sand_ore"
+                                                    },
+                                                    {
+                                                        "item":  "gtceu:raw_garnet_sand_block"
+                                                    },
+                                                    {
+                                                        "item":  "gtceu:yellow_garnet_ore"
+                                                    },
+                                                    {
+                                                        "item":  "gtceu:raw_yellow_garnet_block"
+                                                    },
+                                                    {
+                                                        "item":  "gtceu:yellow_garnet_block"
+                                                    }
+                                                ]
+                                }
+                            ],
+                   "fluid":  [
+                                 {
+                                     "content":  {
+                                                     "amount":  108,
+                                                     "value":  [
+                                                                   {
+                                                                       "tag":  "forge:enriched_fertilizer"
+                                                                   }
+                                                               ]
+                                                 }
+                                 }
+                             ]
+               },
+    "outputs":  {
+                    "item":  [
+                                 {
+                                     "content":  {
+                                                     "type":  "gtceu:nbt_predicate",
+                                                     "item":  "cropsgtm:generic_seed",
+                                                     "count":  1,
+                                                     "nbt":  "{CustomModelData:8,crop:\"cropsgtm:garnydinia\",ga:1b,gr:1b,re:1b,scan:1b}",
+                                                     "predicate":  {
+                                                                       "type":  "equals",
+                                                                       "key":  "crop",
+                                                                       "value":  "cropsgtm:garnydinia",
+                                                                       "inverted":  false
+                                                                   }
+                                                 }
+                                 }
+                             ]
+                }
+}

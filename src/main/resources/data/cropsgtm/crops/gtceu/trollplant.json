@@ -1,0 +1,38 @@
+{
+    "id":  "cropsgtm:trollplant",
+    "machine_breeding_only": true,
+    "seed_shape": "troll",
+    "tier":  6,
+    "drop_rounds":  0.735091890625,
+    "growth_duration":  4800,
+    "colors":  [
+                   "#000000",
+                   "#ffffff"
+               ],
+    "sprite":  {
+                   "base":  "cropsgtm:block/crops/gtceu/trollplant/",
+                   "min":  1,
+                   "max":  8
+               },
+    "soil":  "brick",
+    "drops":  [
+                  {
+                      "gt":  "gem",
+                      "material":  "red_garnet",
+                      "chance":  6250
+                  },
+                  {
+                      "gt": "dust",
+                      "material":  "plutonium_241",
+                      "chance":  1250
+                  },
+                  {
+                      "item":  "gtceu:plant_ball",
+                      "chance":  2500
+                  }
+              ],
+    "liked_biomes":  [
+                         "forge:is_swamp",
+                         "forge:is_spooky"
+                     ]
+}

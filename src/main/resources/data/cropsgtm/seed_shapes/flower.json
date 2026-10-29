@@ -1,0 +1,6 @@
+{
+    "id":  "flower",
+    "model_data":  4,
+    "dark_texture":  "cropsgtm:item/genericseed/flower1",
+    "light_texture":  "cropsgtm:item/genericseed/flower2"
+}

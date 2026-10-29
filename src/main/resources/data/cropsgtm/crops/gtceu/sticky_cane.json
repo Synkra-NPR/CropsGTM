@@ -1,0 +1,33 @@
+{
+    "id":  "cropsgtm:sticky_cane",
+    "seed_shape": "grains",
+    "tier":  4,
+    "drop_rounds":  0.81450625,
+    "growth_duration":  200,
+    "colors":  [
+                   "#8db560",
+                   "#d9d891"
+               ],
+    "sprite":  {
+                   "base":  "cropsgtm:block/crops/gtceu/stickycane/",
+                   "min":  1,
+                   "max":  4
+               },
+    "soil":  "sugarcane",
+    "drops":  [
+                  {
+                      "item":  "gtceu:sticky_resin",
+                      "chance":  10000
+                  }
+              ],
+    "liked_biomes":  [
+                         "forge:is_wet",
+                         "forge:is_hot",
+                         "forge:is_sandy"
+                     ],
+    "mutation_pools":  [
+                           "green",
+                           "reed",
+                           "sticky"
+                       ]
+}

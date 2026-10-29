@@ -1,0 +1,13 @@
+{
+  "id": "cropsgtm:purpleTulip",
+  "tier": 2,
+  "drop_rounds": 0.9025,
+  "growth_duration": 600,
+  "colors": ["#8230B2", "#A453CE"],
+  "seed_shape": "flower",
+  "soil": "dirtGrass",
+  "drops": [
+    { "item": "minecraft:purple_dye", "chance": 10000 }
+  ],
+  "liked_biomes": ["forge:is_wet", "forge:is_plains"]
+}

@@ -1,0 +1,41 @@
+{
+    "id":  "cropsgtm:diareed",
+    "seed_shape": "grains",
+    "tier":  12,
+    "drop_rounds":  0.540360087663,
+    "growth_duration":  10800,
+    "colors":  [
+                   "#34bfa8",
+                   "#8cf4e2"
+               ],
+    "sprite":  {
+                   "base":  "cropsgtm:block/crops/gtceu/diareed/",
+                   "min":  1,
+                   "max":  4
+               },
+    "soil":  "stone",
+    "growth_requirements":  [
+                                {
+                                    "type":  "sub_soil",
+                                    "id":  "diamond"
+                                }
+                            ],
+    "drops":  [
+                  {
+                      "item":  "cropsgtm:diareed",
+                      "chance":  10000
+                  }
+              ],
+    "liked_biomes":  [
+                         "forge:is_cold",
+                         "forge:is_sparse"
+                     ],
+    "mutation_pools":  [
+                           "blue",
+                           "reed",
+                           "crystal",
+                           "fire",
+                           "shiny",
+                           "coal"
+                       ]
+}

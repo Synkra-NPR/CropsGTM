@@ -1,0 +1,5 @@
+{
+  "output": "cropsgtm:olivia",
+  "parents": ["cropsgtm:endStoneLily", "cropsgtm:evilOre"],
+  "machine_only": true
+}

@@ -1,0 +1,37 @@
+{
+    "id":  "cropsgtm:necrobloom",
+    "seed_shape": "flower",
+    "tier":  3,
+    "drop_rounds":  0.857375,
+    "growth_duration":  1800,
+    "colors":  [
+                   "#1d1225",
+                   "#4d4d4d"
+               ],
+    "sprite":  {
+                   "base":  "cropsgtm:block/crops/core/necrobloom/",
+                   "min":  1,
+                   "max":  4
+               },
+    "soil":  "farmland",
+    "drops":  [
+                  {
+                      "item":  "cropsgtm:poison_powder",
+                      "chance":  9500
+                  },
+                  {
+                      "item":  "minecraft:purple_dye",
+                      "chance":  500
+                  }
+              ],
+    "liked_biomes":  [
+                         "cropsgtm:is_dead",
+                         "forge:is_wasteland"
+                     ],
+    "mutation_pools":  [
+                           "purple",
+                           "flower",
+                           "poison",
+                           "danger"
+                       ]
+}

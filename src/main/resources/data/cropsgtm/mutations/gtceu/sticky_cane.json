@@ -1,0 +1,7 @@
+{
+    "output":  "cropsgtm:sticky_cane",
+    "parents":  [
+                    "cropsgtm:bonsaiJungle",
+                    "cropsgtm:sugarCane"
+                ]
+}

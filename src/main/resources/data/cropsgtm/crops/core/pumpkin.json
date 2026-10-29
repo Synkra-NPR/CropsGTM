@@ -1,0 +1,19 @@
+{
+  "id": "cropsgtm:pumpkin",
+  "lang_key": "block.minecraft.pumpkin",
+  "creator": "Notch",
+  "tier": 2,
+  "drop_rounds": 0.9025,
+  "growth_duration": 1000,
+  "colors": ["#CAB16E", "#C8D4AA"],
+  "soil": "farmland",
+  "growth_requirements": [
+    { "type": "min_light", "level": 9 }
+  ],
+  "drops": [
+    { "item": "minecraft:pumpkin", "count": 1, "chance": 10000 }
+  ],
+  "alternate_seeds": ["minecraft:pumpkin_seeds"],
+  "liked_biomes": ["forge:is_plains", "forge:is_wet"],
+  "mutation_pools": ["orange", "stem", "food"]
+}

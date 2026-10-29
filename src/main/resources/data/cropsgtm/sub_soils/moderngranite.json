@@ -1,0 +1,7 @@
+{
+    "id":  "modernGranite",
+    "blocks":  [
+                   "minecraft:granite",
+                   "minecraft:polished_granite"
+               ]
+}

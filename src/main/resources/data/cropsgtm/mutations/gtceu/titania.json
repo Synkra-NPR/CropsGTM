@@ -1,0 +1,8 @@
+{
+    "output":  "cropsgtm:titania",
+    "parents":  [
+                    "cropsgtm:bauxia",
+                    "cropsgtm:redstraw"
+                ],
+    "machine_only":  true
+}

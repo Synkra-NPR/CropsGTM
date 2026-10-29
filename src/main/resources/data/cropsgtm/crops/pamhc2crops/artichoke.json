@@ -1,0 +1,43 @@
+{
+    "id":  "cropsgtm:artichoke",
+    "lang_key":  "cropsgtm_pam.crop.artichoke",
+    "seed_shape":  "pam",
+    "tier":  2,
+    "drop_rounds":  0.9025,
+    "growth_duration":  650,
+    "colors":  [
+                   "#354B29",
+                   "#6D9B54"
+               ],
+    "soil":  "farmland",
+    "growth_requirements":  [
+                                {
+                                    "type":  "min_light",
+                                    "level":  9
+                                }
+                            ],
+    "drops":  [
+                  {
+                      "item":  "pamhc2crops:artichokeitem",
+                      "chance":  10000
+                  }
+              ],
+    "alternate_seeds":  [
+                            "pamhc2crops:artichokeseeditem"
+                        ],
+    "liked_biomes":  [
+                         "forge:is_wet",
+                         "forge:is_cold"
+                     ],
+    "mutation_pools":  [
+                           "green",
+                           "leafy",
+                           "pam1",
+                           "pam3"
+                       ],
+    "sprites":  [
+                    "pamhc2crops:block/artichoke_stage_0",
+                    "pamhc2crops:block/artichoke_stage_1",
+                    "pamhc2crops:block/artichoke_stage_3"
+                ]
+}

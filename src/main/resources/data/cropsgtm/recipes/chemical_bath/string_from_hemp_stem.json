@@ -1,0 +1,62 @@
+{
+  "type": "gtceu:chemical_bath",
+  "duration": 20,
+  "category": "gtceu:chemical_bath",
+  "tickInputs": {
+    "eu": [
+      {
+        "content": 7
+      }
+    ]
+  },
+  "inputs": {
+    "item": [
+      {
+        "content": {
+          "type": "gtceu:sized",
+          "count": 1,
+          "ingredient": {
+            "item": "cropsgtm:hemp_stem"
+          }
+        }
+      }
+    ],
+    "fluid": [
+      {
+        "content": {
+          "amount": 100,
+          "value": [
+            {
+              "tag": "forge:water"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "outputs": {
+    "item": [
+      {
+        "content": {
+          "type": "gtceu:sized",
+          "count": 6,
+          "ingredient": {
+            "item": "minecraft:string"
+          }
+        }
+      }
+    ]
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "gtceu"
+    },
+    {
+      "type": "cropsgtm:crop_exists",
+      "crops": [
+        "cropsgtm:hemp"
+      ]
+    }
+  ]
+}

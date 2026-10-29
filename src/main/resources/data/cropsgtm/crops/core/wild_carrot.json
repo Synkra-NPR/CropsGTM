@@ -1,0 +1,36 @@
+{
+    "id":  "cropsgtm:wild_carrot",
+    "tier":  2,
+    "drop_rounds":  0.9025,
+    "growth_duration":  450,
+    "colors":  [
+                   "#96927e",
+                   "#d9d2b7"
+               ],
+    "soil":  "farmland",
+    "growth_requirements":  [
+                                {
+                                    "type":  "min_light",
+                                    "value":  9
+                                }
+                            ],
+    "drops":  [
+                  {
+                      "item":  "minecraft:carrot",
+                      "chance":  10000
+                  }
+              ],
+    "liked_biomes":  [
+                         "forge:is_plains",
+                         "forge:is_hot",
+                         "forge:is_sandy"
+                     ],
+    "mutation_pools":  [
+                           "white",
+                           "root",
+                           "food"
+                       ],
+    "sprites":  [
+                    "cropsgtm:block/crops/core/wildcarrot/3"
+                ]
+}

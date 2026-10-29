@@ -1,0 +1,7 @@
+{
+    "output":  "cropsgtm:glowheat",
+    "parents":  [
+                    "cropsgtm:glowflower",
+                    "cropsgtm:wheat"
+                ]
+}

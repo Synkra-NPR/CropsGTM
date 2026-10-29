@@ -1,0 +1,55 @@
+{
+  "type": "gtceu:distillery",
+  "duration": 16,
+  "category": "gtceu:distillery",
+  "tickInputs": {
+    "eu": [
+      {
+        "content": 45
+      }
+    ]
+  },
+  "inputs": {
+    "item": [
+      {
+        "content": {
+          "type": "gtceu:circuit",
+          "configuration": 2
+        },
+        "chance": 0
+      }
+    ],
+    "fluid": [
+      {
+        "content": {
+          "amount": 100,
+          "value": [
+            {
+              "tag": "forge:sugar_whine"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "outputs": {
+    "fluid": [
+      {
+        "content": {
+          "amount": 30,
+          "value": [
+            {
+              "fluid": "minecraft:water"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "gtceu"
+    }
+  ]
+}

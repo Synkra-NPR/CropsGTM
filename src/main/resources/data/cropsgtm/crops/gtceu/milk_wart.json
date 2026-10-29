@@ -1,0 +1,33 @@
+{
+    "id":  "cropsgtm:milk_wart",
+    "seed_shape": "spore",
+    "tier":  6,
+    "drop_rounds":  0.735091890625,
+    "growth_duration":  2400,
+    "colors":  [
+                   "#a8a8a8",
+                   "#ececec"
+               ],
+    "sprite":  {
+                   "base":  "cropsgtm:block/crops/core/milkwart/",
+                   "min":  1,
+                   "max":  4
+               },
+    "soil":  "farmland",
+    "drops":  [
+                  {
+                      "item":  "cropsgtm:milk_wart",
+                      "chance":  10000
+                  }
+              ],
+    "liked_biomes":  [
+                         "forge:is_plains",
+                         "forge:is_lush"
+                     ],
+    "mutation_pools":  [
+                           "white",
+                           "food",
+                           "cow",
+                           "healing"
+                       ]
+}

@@ -1,0 +1,37 @@
+{
+    "id":  "cropsgtm:scheelinium",
+    "machine_breeding_only": true,
+    "tier":  12,
+    "drop_rounds":  0.540360087663,
+    "growth_duration":  2400,
+    "colors":  [
+                   "#313ca3",
+                   "#232c9e"
+               ],
+    "sprite":  {
+                   "base":  "cropsgtm:block/crops/gtceu/scheelinium/",
+                   "min":  1,
+                   "max":  4
+               },
+    "soil":  "stone",
+    "growth_requirements":  [
+                                {
+                                    "type":  "sub_soil",
+                                    "id":  "tungsten"
+                                },
+                                {
+                                    "type":  "machine_only"
+                                }
+                            ],
+    "drops":  [
+                  {
+                      "item":  "cropsgtm:scheelinium_leaf",
+                      "chance":  10000
+                  }
+              ],
+    "liked_biomes":  [
+                         "minecraft:is_ocean",
+                         "forge:is_wet",
+                         "forge:is_cold"
+                     ]
+}

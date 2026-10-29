@@ -1,0 +1,252 @@
+{
+  "values": [
+    {
+      "id": "cropsgtm:industrial_farm_casing",
+      "required": false
+    },
+    {
+      "id": "cropsgtm:seed_bed_mv",
+      "required": false
+    },
+    {
+      "id": "cropsgtm:seed_bed_hv",
+      "required": false
+    },
+    {
+      "id": "cropsgtm:seed_bed_ev",
+      "required": false
+    },
+    {
+      "id": "cropsgtm:seed_bed_iv",
+      "required": false
+    },
+    {
+      "id": "cropsgtm:seed_bed_luv",
+      "required": false
+    },
+    {
+      "id": "cropsgtm:seed_bed_zpm",
+      "required": false
+    },
+    {
+      "id": "cropsgtm:seed_bed_uv",
+      "required": false
+    },
+    {
+      "id": "cropsgtm:seed_bed_uhv",
+      "required": false
+    },
+    {
+      "id": "cropsgtm:seed_bed_uev",
+      "required": false
+    },
+    {
+      "id": "cropsgtm:seed_bed_uiv",
+      "required": false
+    },
+    {
+      "id": "cropsgtm:seed_bed_uxv",
+      "required": false
+    },
+    {
+      "id": "cropsgtm:fertilizer_unit_mv",
+      "required": false
+    },
+    {
+      "id": "cropsgtm:fertilizer_unit_hv",
+      "required": false
+    },
+    {
+      "id": "cropsgtm:fertilizer_unit_ev",
+      "required": false
+    },
+    {
+      "id": "cropsgtm:fertilizer_unit_iv",
+      "required": false
+    },
+    {
+      "id": "cropsgtm:fertilizer_unit_luv",
+      "required": false
+    },
+    {
+      "id": "cropsgtm:fertilizer_unit_zpm",
+      "required": false
+    },
+    {
+      "id": "cropsgtm:fertilizer_unit_uv",
+      "required": false
+    },
+    {
+      "id": "cropsgtm:fertilizer_unit_uhv",
+      "required": false
+    },
+    {
+      "id": "cropsgtm:fertilizer_unit_uev",
+      "required": false
+    },
+    {
+      "id": "cropsgtm:fertilizer_unit_uiv",
+      "required": false
+    },
+    {
+      "id": "cropsgtm:fertilizer_unit_uxv",
+      "required": false
+    },
+    {
+      "id": "cropsgtm:growth_acceleration_unit_mv",
+      "required": false
+    },
+    {
+      "id": "cropsgtm:growth_acceleration_unit_hv",
+      "required": false
+    },
+    {
+      "id": "cropsgtm:growth_acceleration_unit_ev",
+      "required": false
+    },
+    {
+      "id": "cropsgtm:growth_acceleration_unit_iv",
+      "required": false
+    },
+    {
+      "id": "cropsgtm:growth_acceleration_unit_luv",
+      "required": false
+    },
+    {
+      "id": "cropsgtm:growth_acceleration_unit_zpm",
+      "required": false
+    },
+    {
+      "id": "cropsgtm:growth_acceleration_unit_uv",
+      "required": false
+    },
+    {
+      "id": "cropsgtm:growth_acceleration_unit_uhv",
+      "required": false
+    },
+    {
+      "id": "cropsgtm:growth_acceleration_unit_uev",
+      "required": false
+    },
+    {
+      "id": "cropsgtm:growth_acceleration_unit_uiv",
+      "required": false
+    },
+    {
+      "id": "cropsgtm:growth_acceleration_unit_uxv",
+      "required": false
+    },
+    {
+      "id": "cropsgtm:advanced_harvesting_unit_mv",
+      "required": false
+    },
+    {
+      "id": "cropsgtm:advanced_harvesting_unit_hv",
+      "required": false
+    },
+    {
+      "id": "cropsgtm:advanced_harvesting_unit_ev",
+      "required": false
+    },
+    {
+      "id": "cropsgtm:advanced_harvesting_unit_iv",
+      "required": false
+    },
+    {
+      "id": "cropsgtm:advanced_harvesting_unit_luv",
+      "required": false
+    },
+    {
+      "id": "cropsgtm:advanced_harvesting_unit_zpm",
+      "required": false
+    },
+    {
+      "id": "cropsgtm:advanced_harvesting_unit_uv",
+      "required": false
+    },
+    {
+      "id": "cropsgtm:advanced_harvesting_unit_uhv",
+      "required": false
+    },
+    {
+      "id": "cropsgtm:advanced_harvesting_unit_uev",
+      "required": false
+    },
+    {
+      "id": "cropsgtm:advanced_harvesting_unit_uiv",
+      "required": false
+    },
+    {
+      "id": "cropsgtm:advanced_harvesting_unit_uxv",
+      "required": false
+    },
+    {
+      "id": "cropsgtm:environmental_enhancement_unit_mv",
+      "required": false
+    },
+    {
+      "id": "cropsgtm:environmental_enhancement_unit_hv",
+      "required": false
+    },
+    {
+      "id": "cropsgtm:environmental_enhancement_unit_ev",
+      "required": false
+    },
+    {
+      "id": "cropsgtm:environmental_enhancement_unit_iv",
+      "required": false
+    },
+    {
+      "id": "cropsgtm:environmental_enhancement_unit_luv",
+      "required": false
+    },
+    {
+      "id": "cropsgtm:environmental_enhancement_unit_zpm",
+      "required": false
+    },
+    {
+      "id": "cropsgtm:environmental_enhancement_unit_uv",
+      "required": false
+    },
+    {
+      "id": "cropsgtm:environmental_enhancement_unit_uhv",
+      "required": false
+    },
+    {
+      "id": "cropsgtm:environmental_enhancement_unit_uev",
+      "required": false
+    },
+    {
+      "id": "cropsgtm:environmental_enhancement_unit_uiv",
+      "required": false
+    },
+    {
+      "id": "cropsgtm:environmental_enhancement_unit_uxv",
+      "required": false
+    },
+    {
+      "id": "cropsgtm:overclocked_growth_acceleration_unit_zpm",
+      "required": false
+    },
+    {
+      "id": "cropsgtm:overclocked_growth_acceleration_unit_uv",
+      "required": false
+    },
+    {
+      "id": "cropsgtm:overclocked_growth_acceleration_unit_uhv",
+      "required": false
+    },
+    {
+      "id": "cropsgtm:overclocked_growth_acceleration_unit_uev",
+      "required": false
+    },
+    {
+      "id": "cropsgtm:overclocked_growth_acceleration_unit_uiv",
+      "required": false
+    },
+    {
+      "id": "cropsgtm:overclocked_growth_acceleration_unit_uxv",
+      "required": false
+    }
+  ]
+}

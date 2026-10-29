@@ -1,0 +1,15 @@
+{
+  "id": "cropsgtm:slimeplant",
+  "creator": "Neowulf",
+  "tier": 6,
+  "drop_rounds": 0.735091890625,
+  "growth_duration": 1200,
+  "colors": ["#5A3F1E", "#9DF28A"],
+  "seed_shape": "bonsai",
+  "soil": "dirtGrass",
+  "drops": [
+    { "item": "minecraft:slime_ball", "chance": 10000 }
+  ],
+  "liked_biomes": ["forge:is_wet", "forge:is_swamp"],
+  "mutation_pools": ["green", "tree", "evil", "leafy", "sticky", "ingredient"]
+}

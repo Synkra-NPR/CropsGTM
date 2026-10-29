@@ -1,0 +1,6 @@
+{
+    "id":  "farmersdelight",
+    "model_data":  10,
+    "dark_texture":  "cropsgtm:item/genericseed/farmersdelight1",
+    "light_texture":  "cropsgtm:item/genericseed/farmersdelight2"
+}

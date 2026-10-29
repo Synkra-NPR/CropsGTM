@@ -1,0 +1,92 @@
+{
+    "conditions":  [
+                       {
+                           "type":  "cropsgtm:crop_exists",
+                           "crop":  "cropsgtm:lazulia"
+                       },
+                       {
+                           "type":  "forge:mod_loaded",
+                           "modid":  "gtceu"
+                       }
+                   ],
+    "type":  "cropsgtm:seed_generator",
+    "duration":  160,
+    "category":  "cropsgtm:seed_generator",
+    "tickInputs":  {
+                       "eu":  [
+                                  {
+                                      "content":  30
+                                  }
+                              ]
+                   },
+    "inputs":  {
+                   "item":  [
+                                {
+                                    "content":  {
+                                                    "type":  "gtceu:nbt_predicate",
+                                                    "item":  "cropsgtm:generic_seed",
+                                                    "count":  1,
+                                                    "nbt":  "{CustomModelData:8,crop:\"cropsgtm:lazulia\",ga:1b,gr:1b,re:1b,scan:1b}",
+                                                    "predicate":  {
+                                                                      "type":  "equals",
+                                                                      "key":  "crop",
+                                                                      "value":  "cropsgtm:lazulia",
+                                                                      "inverted":  false
+                                                                  }
+                                                }
+                                },
+                                {
+                                    "content":  [
+                                                    {
+                                                        "item":  "minecraft:lapis_block"
+                                                    },
+                                                    {
+                                                        "item":  "minecraft:deepslate_lapis_ore"
+                                                    },
+                                                    {
+                                                        "item":  "minecraft:lapis_ore"
+                                                    },
+                                                    {
+                                                        "item":  "gtceu:lapis_ore"
+                                                    },
+                                                    {
+                                                        "item":  "gtceu:raw_lapis_block"
+                                                    },
+                                                    {
+                                                        "item":  "minecraft:lapis_block"
+                                                    }
+                                                ]
+                                }
+                            ],
+                   "fluid":  [
+                                 {
+                                     "content":  {
+                                                     "amount":  108,
+                                                     "value":  [
+                                                                   {
+                                                                       "tag":  "forge:enriched_fertilizer"
+                                                                   }
+                                                               ]
+                                                 }
+                                 }
+                             ]
+               },
+    "outputs":  {
+                    "item":  [
+                                 {
+                                     "content":  {
+                                                     "type":  "gtceu:nbt_predicate",
+                                                     "item":  "cropsgtm:generic_seed",
+                                                     "count":  1,
+                                                     "nbt":  "{CustomModelData:8,crop:\"cropsgtm:lazulia\",ga:1b,gr:1b,re:1b,scan:1b}",
+                                                     "predicate":  {
+                                                                       "type":  "equals",
+                                                                       "key":  "crop",
+                                                                       "value":  "cropsgtm:lazulia",
+                                                                       "inverted":  false
+                                                                   }
+                                                 }
+                                 }
+                             ]
+                }
+}

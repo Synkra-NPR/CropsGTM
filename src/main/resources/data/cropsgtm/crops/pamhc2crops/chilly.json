@@ -1,0 +1,43 @@
+{
+    "id":  "cropsgtm:chilly",
+    "tier":  4,
+    "drop_rounds":  0.81450625,
+    "growth_duration":  800,
+    "colors":  [
+                   "#83090b",
+                   "#c8462a"
+               ],
+    "soil":  "farmland",
+    "growth_requirements":  [
+                                {
+                                    "type":  "min_light",
+                                    "level":  9
+                                }
+                            ],
+    "drops":  [
+                  {
+                      "item":  "pamhc2crops:chilipepperitem",
+                      "chance":  10000,
+                      "required":  false
+                  }
+              ],
+    "liked_biomes":  [
+                         "forge:is_hot",
+                         "forge:is_lush"
+                     ],
+    "mutation_pools":  [
+                           "red",
+                           "fire",
+                           "pam1",
+                           "pam3"
+                       ],
+    "seed_shape":  "pam",
+    "alternate_seeds":  [
+                            "pamhc2crops:chilipepperseeditem"
+                        ],
+    "sprite":  {
+                   "base":  "cropsgtm:block/crops/gtceu/chilly/",
+                   "min":  1,
+                   "max":  4
+               }
+}

@@ -1,0 +1,18 @@
+{
+  "id": "cropsgtm:graniteLily",
+  "creator": "bartimaeusnek",
+  "tier": 1,
+  "drop_rounds": 0.95,
+  "colors": ["#82675B", "#BA9583"],
+  "soil": "stone",
+  "render_shape": "X",
+  "sprite": { "base": "cropsgtm:block/crops/core/stonelilies/granite/", "min": 1, "max": 4 },
+  "growth_requirements": [
+    { "type": "sub_soil", "id": "moderngranite" }
+  ],
+  "drops": [
+    { "item": "minecraft:granite", "count": 1, "chance": 10000 }
+  ],
+  "liked_biomes": ["minecraft:is_mountain", "minecraft:is_hill"],
+  "mutation_pools": ["red", "stone"]
+}

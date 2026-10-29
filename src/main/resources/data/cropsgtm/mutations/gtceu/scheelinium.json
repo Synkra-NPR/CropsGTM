@@ -1,0 +1,9 @@
+{
+    "output":  "cropsgtm:scheelinium",
+    "parents":  [
+                    "cropsgtm:titania",
+                    "cropsgtm:pyrolusium",
+                    "cropsgtm:endStoneLily"
+                ],
+    "machine_only":  true
+}

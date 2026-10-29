@@ -1,0 +1,21 @@
+{
+  "id": "cropsgtm:melon",
+  "lang_key": "block.minecraft.melon",
+  "creator": "Notch",
+  "tier": 2,
+  "drop_rounds": 0.9025,
+  "growth_duration": 1200,
+  "colors": ["#2A220B", "#615535"],
+  "seed_shape": "grains",
+  "soil": "farmland",
+  "growth_requirements": [
+    { "type": "min_light", "level": 9 }
+  ],
+  "drops": [
+    { "item": "minecraft:melon_slice", "count": 4, "chance": 6666 },
+    { "item": "minecraft:melon", "count": 1, "chance": 3333 }
+  ],
+  "alternate_seeds": ["minecraft:melon_seeds"],
+  "liked_biomes": ["forge:is_wet", "forge:is_lush"],
+  "mutation_pools": ["green", "stem", "food", "healing", "ingredient"]
+}

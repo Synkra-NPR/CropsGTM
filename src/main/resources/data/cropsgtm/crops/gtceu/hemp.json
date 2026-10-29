@@ -1,0 +1,32 @@
+{
+    "id":  "cropsgtm:hemp",
+    "tier":  5,
+    "drop_rounds":  0.7737809375,
+    "growth_duration":  800,
+    "colors":  [
+                   "#275600",
+                   "#bbb49d"
+               ],
+    "sprite":  {
+                   "base":  "cropsgtm:block/crops/core/hemp/",
+                   "min":  1,
+                   "max":  5
+               },
+    "soil":  "farmland",
+    "drops":  [
+                  {
+                      "item":  "cropsgtm:hemp_stem",
+                      "chance":  10000
+                  }
+              ],
+    "liked_biomes":  [
+                         "forge:is_dry",
+                         "forge:is_sandy"
+                     ],
+    "mutation_pools":  [
+                           "green",
+                           "stem",
+                           "addictive",
+                           "silk"
+                       ]
+}

@@ -1,0 +1,9 @@
+{
+    "output":  "cropsgtm:transformium",
+    "parents":  [
+                    "cropsgtm:trollplant",
+                    "cropsgtm:bauxia",
+                    "cropsgtm:titania"
+                ],
+    "machine_only":  true
+}

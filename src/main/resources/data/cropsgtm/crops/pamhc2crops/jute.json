@@ -1,0 +1,44 @@
+{
+    "id":  "cropsgtm:jute",
+    "lang_key":  "cropsgtm_pam.crop.jute",
+    "seed_shape":  "pam",
+    "tier":  4,
+    "drop_rounds":  0.81450625,
+    "growth_duration":  1000,
+    "colors":  [
+                   "#766133",
+                   "#F4C96A"
+               ],
+    "soil":  "farmland",
+    "growth_requirements":  [
+                                {
+                                    "type":  "min_light",
+                                    "level":  9
+                                }
+                            ],
+    "drops":  [
+                  {
+                      "item":  "pamhc2crops:juteitem",
+                      "chance":  10000
+                  }
+              ],
+    "alternate_seeds":  [
+                            "pamhc2crops:juteseeditem"
+                        ],
+    "liked_biomes":  [
+                         "forge:is_hot",
+                         "forge:is_dry"
+                     ],
+    "mutation_pools":  [
+                           "white",
+                           "stem",
+                           "silk",
+                           "pam1",
+                           "pam2"
+                       ],
+    "sprites":  [
+                    "pamhc2crops:block/jute_stage_0",
+                    "pamhc2crops:block/jute_stage_1",
+                    "pamhc2crops:block/jute_stage_3"
+                ]
+}

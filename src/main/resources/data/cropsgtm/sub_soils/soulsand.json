@@ -1,0 +1,7 @@
+{
+    "id":  "soulSand",
+    "blocks":  [
+                   "minecraft:soul_sand",
+                   "minecraft:soul_soil"
+               ]
+}

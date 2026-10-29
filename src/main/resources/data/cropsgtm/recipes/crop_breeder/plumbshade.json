@@ -1,0 +1,130 @@
+{
+    "conditions":  [
+                       {
+                           "type":  "cropsgtm:crop_exists",
+                           "crop":  "cropsgtm:azureBluet"
+                       },
+                       {
+                           "type":  "cropsgtm:crop_exists",
+                           "crop":  "cropsgtm:blackGraniteLily"
+                       },
+                       {
+                           "type":  "cropsgtm:crop_exists",
+                           "crop":  "cropsgtm:malaxia"
+                       },
+                       {
+                           "type":  "cropsgtm:crop_exists",
+                           "crop":  "cropsgtm:plumbshade"
+                       },
+                       {
+                           "type":  "forge:mod_loaded",
+                           "modid":  "gtceu"
+                       }
+                   ],
+    "type":  "cropsgtm:crop_breeder",
+    "duration":  400,
+    "category":  "cropsgtm:crop_breeder",
+    "tickInputs":  {
+                       "eu":  [
+                                  {
+                                      "content":  30
+                                  }
+                              ]
+                   },
+    "inputs":  {
+                   "item":  [
+                                {
+                                    "content":  {
+                                                    "type":  "gtceu:nbt_predicate",
+                                                    "item":  "cropsgtm:generic_seed",
+                                                    "count":  1,
+                                                    "nbt":  "{CustomModelData:4,crop:\"cropsgtm:azureBluet\",ga:1b,gr:1b,re:1b,scan:1b}",
+                                                    "predicate":  {
+                                                                      "type":  "equals",
+                                                                      "key":  "crop",
+                                                                      "value":  "cropsgtm:azureBluet",
+                                                                      "inverted":  false
+                                                                  }
+                                                }
+                                },
+                                {
+                                    "content":  {
+                                                    "type":  "gtceu:nbt_predicate",
+                                                    "item":  "cropsgtm:generic_seed",
+                                                    "count":  1,
+                                                    "nbt":  "{CustomModelData:8,crop:\"cropsgtm:malaxia\",ga:1b,gr:1b,re:1b,scan:1b}",
+                                                    "predicate":  {
+                                                                      "type":  "equals",
+                                                                      "key":  "crop",
+                                                                      "value":  "cropsgtm:malaxia",
+                                                                      "inverted":  false
+                                                                  }
+                                                }
+                                },
+                                {
+                                    "content":  {
+                                                    "type":  "gtceu:nbt_predicate",
+                                                    "item":  "cropsgtm:generic_seed",
+                                                    "count":  1,
+                                                    "nbt":  "{CustomModelData:8,crop:\"cropsgtm:blackGraniteLily\",ga:1b,gr:1b,re:1b,scan:1b}",
+                                                    "predicate":  {
+                                                                      "type":  "equals",
+                                                                      "key":  "crop",
+                                                                      "value":  "cropsgtm:blackGraniteLily",
+                                                                      "inverted":  false
+                                                                  }
+                                                }
+                                },
+                                {
+                                    "content":  [
+                                                    {
+                                                        "item":  "gtceu:galena_ore"
+                                                    },
+                                                    {
+                                                        "item":  "gtceu:raw_galena_block"
+                                                    },
+                                                    {
+                                                        "item":  "gtceu:lead_ore"
+                                                    },
+                                                    {
+                                                        "item":  "gtceu:raw_lead_block"
+                                                    },
+                                                    {
+                                                        "item":  "gtceu:lead_block"
+                                                    }
+                                                ]
+                                }
+                            ],
+                   "fluid":  [
+                                 {
+                                     "content":  {
+                                                     "amount":  1080,
+                                                     "value":  [
+                                                                   {
+                                                                       "tag":  "forge:enriched_fertilizer"
+                                                                   }
+                                                               ]
+                                                 }
+                                 }
+                             ]
+               },
+    "outputs":  {
+                    "item":  [
+                                 {
+                                     "content":  {
+                                                     "type":  "gtceu:nbt_predicate",
+                                                     "item":  "cropsgtm:generic_seed",
+                                                     "count":  1,
+                                                     "nbt":  "{CustomModelData:8,crop:\"cropsgtm:plumbshade\",ga:1b,gr:1b,re:1b,scan:1b}",
+                                                     "predicate":  {
+                                                                       "type":  "equals",
+                                                                       "key":  "crop",
+                                                                       "value":  "cropsgtm:plumbshade",
+                                                                       "inverted":  false
+                                                                   }
+                                                 },
+                                     "chance":  4000
+                                 }
+                             ]
+                }
+}

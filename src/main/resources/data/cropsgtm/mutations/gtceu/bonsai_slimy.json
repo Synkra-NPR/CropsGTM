@@ -1,0 +1,9 @@
+{
+    "output":  "cropsgtm:bonsai_slimy",
+    "parents":  [
+                    "cropsgtm:slimeplant",
+                    "cropsgtm:bonsaiJungle",
+                    "cropsgtm:bonsaiRubber"
+                ],
+    "machine_only":  true
+}

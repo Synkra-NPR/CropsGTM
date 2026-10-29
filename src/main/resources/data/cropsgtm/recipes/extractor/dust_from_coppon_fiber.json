@@ -1,0 +1,47 @@
+{
+  "type": "gtceu:extractor",
+  "duration": 75,
+  "category": "gtceu:extractor",
+  "tickInputs": {
+    "eu": [
+      {
+        "content": 7
+      }
+    ]
+  },
+  "inputs": {
+    "item": [
+      {
+        "content": {
+          "type": "gtceu:sized",
+          "count": 9,
+          "ingredient": {
+            "item": "cropsgtm:coppon_fiber"
+          }
+        }
+      }
+    ]
+  },
+  "outputs": {
+    "item": [
+      {
+        "content": {
+          "item": "gtceu:copper_dust"
+        },
+        "chance": 5000
+      }
+    ]
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "gtceu"
+    },
+    {
+      "type": "cropsgtm:crop_exists",
+      "crops": [
+        "cropsgtm:coppon"
+      ]
+    }
+  ]
+}

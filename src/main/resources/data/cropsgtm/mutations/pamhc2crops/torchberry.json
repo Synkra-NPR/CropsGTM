@@ -1,0 +1,7 @@
+{
+    "output":  "cropsgtm:torchberry",
+    "parents":  [
+                    "cropsgtm:glowflower",
+                    "cropsgtm:bop_berry"
+                ]
+}

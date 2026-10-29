@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "side": "cropsgtm:block/industrialfarm/sides/9",
+    "top": "cropsgtm:block/industrialfarm/seedbed",
+    "bottom": "cropsgtm:block/industrialfarm/sides/9"
+  }
+}

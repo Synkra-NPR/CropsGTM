@@ -1,0 +1,43 @@
+{
+    "id":  "cropsgtm:cauliflower",
+    "lang_key":  "cropsgtm_pam.crop.cauliflower",
+    "seed_shape":  "pam",
+    "tier":  3,
+    "drop_rounds":  0.857375,
+    "growth_duration":  850,
+    "colors":  [
+                   "#4D673A",
+                   "#9FD477"
+               ],
+    "soil":  "farmland",
+    "growth_requirements":  [
+                                {
+                                    "type":  "min_light",
+                                    "level":  9
+                                }
+                            ],
+    "drops":  [
+                  {
+                      "item":  "pamhc2crops:caulifloweritem",
+                      "chance":  10000
+                  }
+              ],
+    "alternate_seeds":  [
+                            "pamhc2crops:cauliflowerseeditem"
+                        ],
+    "liked_biomes":  [
+                         "forge:is_cold",
+                         "forge:is_wet"
+                     ],
+    "mutation_pools":  [
+                           "green",
+                           "leafy",
+                           "pam1",
+                           "pam3"
+                       ],
+    "sprites":  [
+                    "pamhc2crops:block/cauliflower_stage_0",
+                    "pamhc2crops:block/cauliflower_stage_1",
+                    "pamhc2crops:block/cauliflower_stage_3"
+                ]
+}

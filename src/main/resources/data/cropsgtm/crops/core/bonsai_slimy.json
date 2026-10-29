@@ -1,0 +1,16 @@
+{
+  "id": "cropsgtm:bonsai_slimy",
+  "machine_breeding_only": true,
+  "tier": 1,
+  "drop_rounds": 0.95,
+  "growth_duration": 1600,
+  "colors": ["#27c74d", "#96eeed"],
+  "seed_shape": "bonsai",
+  "render_shape": "X",
+  "sprite": { "base": "cropsgtm:block/crops/core/bonsaislimy/", "min": 1, "max": 3 },
+  "soil": "slimyDirt",
+  "drops": [
+    { "item": "minecraft:slime_ball", "count": 4, "chance": 6000 }
+  ],
+  "liked_biomes": ["forge:is_wet", "forge:is_swamp"]
+}

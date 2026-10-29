@@ -1,0 +1,7 @@
+{
+    "output":  "cropsgtm:salty_root",
+    "parents":  [
+                    "cropsgtm:sugar_beet",
+                    "cropsgtm:canola"
+                ]
+}

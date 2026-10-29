@@ -1,0 +1,7 @@
+{
+    "output":  "cropsgtm:glowflower",
+    "parents":  [
+                    "cropsgtm:netherStoneLily",
+                    "cropsgtm:dandelion"
+                ]
+}

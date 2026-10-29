@@ -1,0 +1,14 @@
+{
+  "id": "cropsgtm:tearstalks",
+  "creator": "Neowulf",
+  "tier": 8,
+  "drop_rounds": 0.663420431289062,
+  "growth_duration": 4800,
+  "colors": ["#BFBFBF", "#F7F7F7"],
+  "seed_shape": "grains",
+  "drops": [
+    { "item": "minecraft:ghast_tear", "chance": 6666 }
+  ],
+  "liked_biomes": ["minecraft:is_nether", "forge:is_spooky"],
+  "mutation_pools": ["white", "nether", "stem", "evil", "healing", "ingredient"]
+}

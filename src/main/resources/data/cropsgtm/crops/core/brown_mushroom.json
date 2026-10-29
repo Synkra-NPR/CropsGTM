@@ -1,0 +1,19 @@
+{
+  "id": "cropsgtm:brownMushroom",
+  "creator": "Notch",
+  "tier": 1,
+  "drop_rounds": 0.95,
+  "growth_duration": 400,
+  "colors": ["#8F4E1B", "#CC9978"],
+  "seed_shape": "spore",
+  "soil": "mushroom",
+  "growth_requirements": [
+    { "type": "max_light", "level": 9 }
+  ],
+  "drops": [
+    { "item": "minecraft:brown_mushroom", "chance": 10000 }
+  ],
+  "alternate_seeds": ["minecraft:brown_mushroom"],
+  "liked_biomes": ["forge:is_mushroom", "forge:is_wet", "forge:is_swamp"],
+  "mutation_pools": ["brown", "mushroom", "food"]
+}

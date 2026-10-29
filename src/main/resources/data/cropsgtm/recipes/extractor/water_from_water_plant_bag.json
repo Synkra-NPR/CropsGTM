@@ -1,0 +1,55 @@
+{
+  "type": "gtceu:extractor",
+  "duration": 128,
+  "category": "gtceu:extractor",
+  "tickInputs": {
+    "eu": [
+      {
+        "content": 4
+      }
+    ]
+  },
+  "inputs": {
+    "item": [
+      {
+        "content": {
+          "type": "gtceu:sized",
+          "count": 1,
+          "ingredient": {
+            "item": "legendarysurvivaloverhaul:water_plant_bag"
+          }
+        }
+      }
+    ]
+  },
+  "outputs": {
+    "fluid": [
+      {
+        "content": {
+          "amount": 1000,
+          "value": [
+            {
+              "fluid": "minecraft:water"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "gtceu"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "legendarysurvivaloverhaul"
+    },
+    {
+      "type": "cropsgtm:crop_exists",
+      "crops": [
+        "cropsgtm:water_plant"
+      ]
+    }
+  ]
+}

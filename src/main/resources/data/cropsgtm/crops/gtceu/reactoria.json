@@ -1,0 +1,41 @@
+{
+    "id":  "cropsgtm:reactoria",
+    "machine_breeding_only": true,
+    "seed_shape": "grains",
+    "tier":  12,
+    "drop_rounds":  0.540360087663,
+    "growth_duration":  4800,
+    "colors":  [
+                   "#565301",
+                   "#989309"
+               ],
+    "sprite":  {
+                   "base":  "cropsgtm:block/crops/gtceu/reactoria/",
+                   "min":  1,
+                   "max":  4
+               },
+    "soil":  "stone",
+    "growth_requirements":  [
+                                {
+                                    "type":  "sub_soil",
+                                    "id":  "uranium"
+                                },
+                                {
+                                    "type":  "machine_only"
+                                }
+                            ],
+    "drops":  [
+                  {
+                      "item":  "cropsgtm:reactoria_leaf",
+                      "chance":  7500
+                  },
+                  {
+                      "item":  "cropsgtm:reactoria_stem",
+                      "chance":  2500
+                  }
+              ],
+    "liked_biomes":  [
+                         "forge:is_cold",
+                         "forge:is_hot"
+                     ]
+}

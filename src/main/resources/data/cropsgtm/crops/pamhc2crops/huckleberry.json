@@ -1,0 +1,47 @@
+{
+    "id":  "cropsgtm:huckleberry",
+    "tier":  2,
+    "drop_rounds":  0.9025,
+    "growth_duration":  200,
+    "colors":  [
+                   "#0e0116",
+                   "#2a1736"
+               ],
+    "soil":  "farmland",
+    "growth_requirements":  [
+                                {
+                                    "type":  "min_light",
+                                    "level":  9
+                                }
+                            ],
+    "drops":  [
+                  {
+                      "item":  "pamhc2crops:huckleberryitem",
+                      "chance":  10000,
+                      "required":  false
+                  }
+              ],
+    "liked_biomes":  [
+                         "minecraft:is_mountain",
+                         "minecraft:is_hill",
+                         "forge:is_plains",
+                         "forge:is_cold"
+                     ],
+    "mutation_pools":  [
+                           "purple",
+                           "bush",
+                           "leafy",
+                           "berry",
+                           "pam1",
+                           "pam2"
+                       ],
+    "seed_shape":  "pam",
+    "alternate_seeds":  [
+                            "pamhc2crops:huckleberryseeditem"
+                        ],
+    "sprite":  {
+                   "base":  "cropsgtm:block/crops/gtceu/huckleberry/",
+                   "min":  1,
+                   "max":  3
+               }
+}

@@ -1,0 +1,18 @@
+{
+  "id": "cropsgtm:sandLily",
+  "creator": "bartimaeusnek",
+  "tier": 1,
+  "drop_rounds": 0.95,
+  "colors": ["#87836B", "#C4BD97"],
+  "soil": "stone",
+  "render_shape": "X",
+  "sprite": { "base": "cropsgtm:block/crops/core/stonelilies/sand/", "min": 1, "max": 4 },
+  "growth_requirements": [
+    { "type": "sub_soil", "id": "sand" }
+  ],
+  "drops": [
+    { "item": "minecraft:sand", "count": 4, "chance": 10000 }
+  ],
+  "liked_biomes": ["forge:is_sandy", "forge:is_dry", "forge:is_hot"],
+  "mutation_pools": ["yellow", "stone"]
+}

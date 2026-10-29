@@ -1,0 +1,43 @@
+{
+    "id":  "cropsgtm:sorghum",
+    "lang_key":  "cropsgtm_pam.crop.sorghum",
+    "seed_shape":  "pam",
+    "tier":  2,
+    "drop_rounds":  0.9025,
+    "growth_duration":  700,
+    "colors":  [
+                   "#6F4928",
+                   "#E59753"
+               ],
+    "soil":  "farmland",
+    "growth_requirements":  [
+                                {
+                                    "type":  "min_light",
+                                    "level":  9
+                                }
+                            ],
+    "drops":  [
+                  {
+                      "item":  "pamhc2crops:sorghumitem",
+                      "chance":  10000
+                  }
+              ],
+    "alternate_seeds":  [
+                            "pamhc2crops:sorghumseeditem"
+                        ],
+    "liked_biomes":  [
+                         "forge:is_plains",
+                         "forge:is_dry"
+                     ],
+    "mutation_pools":  [
+                           "yellow",
+                           "wheat",
+                           "pam2",
+                           "pam3"
+                       ],
+    "sprites":  [
+                    "pamhc2crops:block/sorghum_stage_0",
+                    "pamhc2crops:block/sorghum_stage_1",
+                    "pamhc2crops:block/sorghum_stage_3"
+                ]
+}

@@ -1,0 +1,34 @@
+{
+    "id":  "cropsgtm:liveroot",
+    "tier":  8,
+    "drop_rounds":  0.663420431289,
+    "growth_duration":  4800,
+    "colors":  [
+                   "#877b00",
+                   "#b9da49"
+               ],
+    "sprite":  {
+                   "base":  "cropsgtm:block/crops/twilightforest/liveroot/",
+                   "min":  1,
+                   "max":  4
+               },
+    "soil":  "farmland",
+    "drops":  [
+                  {
+                      "item":  "twilightforest:liveroot",
+                      "chance":  10000,
+                      "required":  false
+                  }
+              ],
+    "liked_biomes":  [
+                         "forge:is_spooky",
+                         "forge:is_dense"
+                     ],
+    "mutation_pools":  [
+                           "brown",
+                           "twilightForest",
+                           "root",
+                           "tendrilly",
+                           "wood"
+                       ]
+}

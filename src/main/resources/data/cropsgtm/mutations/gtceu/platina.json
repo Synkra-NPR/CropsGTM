@@ -1,0 +1,8 @@
+{
+    "output":  "cropsgtm:platina",
+    "parents":  [
+                    "cropsgtm:diareed",
+                    "cropsgtm:rubyne"
+                ],
+    "machine_only":  true
+}

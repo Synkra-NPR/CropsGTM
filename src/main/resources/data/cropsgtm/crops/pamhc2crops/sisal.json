@@ -1,0 +1,44 @@
+{
+    "id":  "cropsgtm:sisal",
+    "lang_key":  "cropsgtm_pam.crop.sisal",
+    "seed_shape":  "pam",
+    "tier":  4,
+    "drop_rounds":  0.81450625,
+    "growth_duration":  1000,
+    "colors":  [
+                   "#364715",
+                   "#6F922C"
+               ],
+    "soil":  "farmland",
+    "growth_requirements":  [
+                                {
+                                    "type":  "min_light",
+                                    "level":  9
+                                }
+                            ],
+    "drops":  [
+                  {
+                      "item":  "pamhc2crops:sisalitem",
+                      "chance":  10000
+                  }
+              ],
+    "alternate_seeds":  [
+                            "pamhc2crops:sisalseeditem"
+                        ],
+    "liked_biomes":  [
+                         "forge:is_hot",
+                         "forge:is_dry"
+                     ],
+    "mutation_pools":  [
+                           "white",
+                           "stem",
+                           "silk",
+                           "pam2",
+                           "pam3"
+                       ],
+    "sprites":  [
+                    "pamhc2crops:block/sisal_stage_0",
+                    "pamhc2crops:block/sisal_stage_1",
+                    "pamhc2crops:block/sisal_stage_3"
+                ]
+}

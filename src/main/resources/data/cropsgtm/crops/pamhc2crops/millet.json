@@ -1,0 +1,43 @@
+{
+    "id":  "cropsgtm:millet",
+    "lang_key":  "cropsgtm_pam.crop.millet",
+    "seed_shape":  "pam",
+    "tier":  2,
+    "drop_rounds":  0.9025,
+    "growth_duration":  700,
+    "colors":  [
+                   "#59572B",
+                   "#B8B45A"
+               ],
+    "soil":  "farmland",
+    "growth_requirements":  [
+                                {
+                                    "type":  "min_light",
+                                    "level":  9
+                                }
+                            ],
+    "drops":  [
+                  {
+                      "item":  "pamhc2crops:milletitem",
+                      "chance":  10000
+                  }
+              ],
+    "alternate_seeds":  [
+                            "pamhc2crops:milletseeditem"
+                        ],
+    "liked_biomes":  [
+                         "forge:is_plains",
+                         "forge:is_dry"
+                     ],
+    "mutation_pools":  [
+                           "yellow",
+                           "wheat",
+                           "pam1",
+                           "pam2"
+                       ],
+    "sprites":  [
+                    "pamhc2crops:block/millet_stage_0",
+                    "pamhc2crops:block/millet_stage_1",
+                    "pamhc2crops:block/millet_stage_3"
+                ]
+}

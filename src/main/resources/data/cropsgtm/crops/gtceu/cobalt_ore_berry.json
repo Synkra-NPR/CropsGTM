@@ -1,0 +1,41 @@
+{
+    "id":  "cropsgtm:cobalt_ore_berry",
+    "seed_shape": "oreberry",
+    "tier":  5,
+    "drop_rounds":  0.7737809375,
+    "growth_duration":  6000,
+    "colors":  [
+                   "#3737ad",
+                   "#5050fa"
+               ],
+    "sprite":  {
+                   "base":  "cropsgtm:block/crops/core/oreberries/cobalt/",
+                   "min":  1,
+                   "max":  4
+               },
+    "soil":  "stone",
+    "growth_requirements":  [
+                                {
+                                    "type":  "sub_soil",
+                                    "id":  "cobalt"
+                                }
+                            ],
+    "drops":  [
+                  {
+                      "gt": "dustTiny",
+                      "material":  "cobalt",
+                      "chance":  10000
+                  }
+              ],
+    "liked_biomes":  [
+                         "minecraft:is_nether",
+                         "forge:is_dry"
+                     ],
+    "mutation_pools":  [
+                           "blue",
+                           "nether",
+                           "oreBerry",
+                           "danger",
+                           "metal"
+                       ]
+}

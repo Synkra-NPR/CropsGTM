@@ -1,0 +1,8 @@
+{
+    "output":  "cropsgtm:oil_berry",
+    "parents":  [
+                    "cropsgtm:soulSandLily",
+                    "cropsgtm:withereed"
+                ],
+    "machine_only":  true
+}

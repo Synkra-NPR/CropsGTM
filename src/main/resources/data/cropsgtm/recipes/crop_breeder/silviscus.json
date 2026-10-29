@@ -1,0 +1,124 @@
+{
+    "conditions":  [
+                       {
+                           "type":  "cropsgtm:crop_exists",
+                           "crop":  "cropsgtm:cassitine"
+                       },
+                       {
+                           "type":  "cropsgtm:crop_exists",
+                           "crop":  "cropsgtm:malaxia"
+                       },
+                       {
+                           "type":  "cropsgtm:crop_exists",
+                           "crop":  "cropsgtm:marbleLily"
+                       },
+                       {
+                           "type":  "cropsgtm:crop_exists",
+                           "crop":  "cropsgtm:silviscus"
+                       },
+                       {
+                           "type":  "forge:mod_loaded",
+                           "modid":  "gtceu"
+                       }
+                   ],
+    "type":  "cropsgtm:crop_breeder",
+    "duration":  400,
+    "category":  "cropsgtm:crop_breeder",
+    "tickInputs":  {
+                       "eu":  [
+                                  {
+                                      "content":  30
+                                  }
+                              ]
+                   },
+    "inputs":  {
+                   "item":  [
+                                {
+                                    "content":  {
+                                                    "type":  "gtceu:nbt_predicate",
+                                                    "item":  "cropsgtm:generic_seed",
+                                                    "count":  1,
+                                                    "nbt":  "{CustomModelData:8,crop:\"cropsgtm:cassitine\",ga:1b,gr:1b,re:1b,scan:1b}",
+                                                    "predicate":  {
+                                                                      "type":  "equals",
+                                                                      "key":  "crop",
+                                                                      "value":  "cropsgtm:cassitine",
+                                                                      "inverted":  false
+                                                                  }
+                                                }
+                                },
+                                {
+                                    "content":  {
+                                                    "type":  "gtceu:nbt_predicate",
+                                                    "item":  "cropsgtm:generic_seed",
+                                                    "count":  1,
+                                                    "nbt":  "{CustomModelData:8,crop:\"cropsgtm:malaxia\",ga:1b,gr:1b,re:1b,scan:1b}",
+                                                    "predicate":  {
+                                                                      "type":  "equals",
+                                                                      "key":  "crop",
+                                                                      "value":  "cropsgtm:malaxia",
+                                                                      "inverted":  false
+                                                                  }
+                                                }
+                                },
+                                {
+                                    "content":  {
+                                                    "type":  "gtceu:nbt_predicate",
+                                                    "item":  "cropsgtm:generic_seed",
+                                                    "count":  1,
+                                                    "nbt":  "{CustomModelData:8,crop:\"cropsgtm:marbleLily\",ga:1b,gr:1b,re:1b,scan:1b}",
+                                                    "predicate":  {
+                                                                      "type":  "equals",
+                                                                      "key":  "crop",
+                                                                      "value":  "cropsgtm:marbleLily",
+                                                                      "inverted":  false
+                                                                  }
+                                                }
+                                },
+                                {
+                                    "content":  [
+                                                    {
+                                                        "item":  "gtceu:silver_ore"
+                                                    },
+                                                    {
+                                                        "item":  "gtceu:raw_silver_block"
+                                                    },
+                                                    {
+                                                        "item":  "gtceu:silver_block"
+                                                    }
+                                                ]
+                                }
+                            ],
+                   "fluid":  [
+                                 {
+                                     "content":  {
+                                                     "amount":  1368,
+                                                     "value":  [
+                                                                   {
+                                                                       "tag":  "forge:enriched_fertilizer"
+                                                                   }
+                                                               ]
+                                                 }
+                                 }
+                             ]
+               },
+    "outputs":  {
+                    "item":  [
+                                 {
+                                     "content":  {
+                                                     "type":  "gtceu:nbt_predicate",
+                                                     "item":  "cropsgtm:generic_seed",
+                                                     "count":  1,
+                                                     "nbt":  "{CustomModelData:8,crop:\"cropsgtm:silviscus\",ga:1b,gr:1b,re:1b,scan:1b}",
+                                                     "predicate":  {
+                                                                       "type":  "equals",
+                                                                       "key":  "crop",
+                                                                       "value":  "cropsgtm:silviscus",
+                                                                       "inverted":  false
+                                                                   }
+                                                 },
+                                     "chance":  4000
+                                 }
+                             ]
+                }
+}

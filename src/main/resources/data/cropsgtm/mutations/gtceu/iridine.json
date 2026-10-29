@@ -1,0 +1,8 @@
+{
+    "output":  "cropsgtm:iridine",
+    "parents":  [
+                    "cropsgtm:scheelinium",
+                    "cropsgtm:platina"
+                ],
+    "machine_only":  true
+}

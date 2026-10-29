@@ -1,0 +1,18 @@
+{
+  "id": "cropsgtm:allium",
+  "lang_key": "block.minecraft.allium",
+  "creator": "Notch",
+  "tier": 2,
+  "drop_rounds": 0.9025,
+  "growth_duration": 600,
+  "colors": ["#6B2166", "#DB7AD5"],
+  "seed_shape": "flower",
+  "soil": "dirtGrass",
+  "drops": [
+    { "item": "minecraft:magenta_dye", "chance": 7500 },
+    { "item": "minecraft:allium", "chance": 2500 }
+  ],
+  "alternate_seeds": ["minecraft:allium"],
+  "liked_biomes": ["forge:is_dry", "forge:is_sandy", "forge:is_sparse"],
+  "mutation_pools": ["purple", "root", "flower"]
+}

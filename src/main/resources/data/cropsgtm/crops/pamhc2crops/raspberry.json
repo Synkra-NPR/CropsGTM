@@ -1,0 +1,31 @@
+{
+    "id":  "cropsgtm:raspberry",
+    "tier":  2,
+    "drop_rounds":  0.9025,
+    "growth_duration":  200,
+    "colors":  [
+                   "#a23131",
+                   "#c54f4f"
+               ],
+    "soil":  "farmland",
+    "drops":  [
+                  {
+                      "item":  "pamhc2crops:raspberryitem",
+                      "chance":  10000,
+                      "required":  false
+                  }
+              ],
+    "liked_biomes":  [
+                         "forge:is_plains",
+                         "forge:is_dry"
+                     ],
+    "seed_shape":  "pam",
+    "alternate_seeds":  [
+                            "pamhc2crops:raspberryseeditem"
+                        ],
+    "sprite":  {
+                   "base":  "cropsgtm:block/crops/gtceu/raspberry/",
+                   "min":  1,
+                   "max":  3
+               }
+}

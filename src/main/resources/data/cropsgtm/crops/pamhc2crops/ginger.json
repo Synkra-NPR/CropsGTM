@@ -1,0 +1,43 @@
+{
+    "id":  "cropsgtm:ginger",
+    "lang_key":  "cropsgtm_pam.crop.ginger",
+    "seed_shape":  "pam",
+    "tier":  2,
+    "drop_rounds":  0.9025,
+    "growth_duration":  650,
+    "colors":  [
+                   "#66563E",
+                   "#D2B280"
+               ],
+    "soil":  "farmland",
+    "growth_requirements":  [
+                                {
+                                    "type":  "min_light",
+                                    "level":  9
+                                }
+                            ],
+    "drops":  [
+                  {
+                      "item":  "pamhc2crops:gingeritem",
+                      "chance":  10000
+                  }
+              ],
+    "alternate_seeds":  [
+                            "pamhc2crops:gingerseeditem"
+                        ],
+    "liked_biomes":  [
+                         "forge:is_plains",
+                         "forge:is_cold"
+                     ],
+    "mutation_pools":  [
+                           "brown",
+                           "root",
+                           "pam1",
+                           "pam2"
+                       ],
+    "sprites":  [
+                    "pamhc2crops:block/ginger_stage_0",
+                    "pamhc2crops:block/ginger_stage_1",
+                    "pamhc2crops:block/ginger_stage_3"
+                ]
+}

@@ -1,0 +1,18 @@
+{
+  "id": "cropsgtm:olivia",
+  "machine_breeding_only": true,
+  "tier": 2,
+  "drop_rounds": 0.9025,
+  "growth_duration": 400,
+  "machine_breeding_tier": 2,
+  "colors": ["#79CD79", "#96FF96"],
+  "soil": "stone",
+  "growth_requirements": [
+    { "type": "sub_soil", "id": "olivine" }
+  ],
+  "drops": [
+    { "gt": "dust", "material": "olivine", "chance": 7500 },
+    { "gt": "gem", "material": "olivine", "chance": 2500 }
+  ],
+  "liked_biomes": ["minecraft:is_hill", "forge:is_dry"]
+}

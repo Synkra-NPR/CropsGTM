@@ -1,0 +1,42 @@
+{
+    "id":  "cropsgtm:sun_fern",
+    "tier":  3,
+    "drop_rounds":  0.857375,
+    "growth_duration":  900,
+    "colors":  [
+                   "#b06a1e",
+                   "#ffd27a"
+               ],
+    "sprites":  [
+                    "legendarysurvivaloverhaul:block/sun_fern_0",
+                    "legendarysurvivaloverhaul:block/sun_fern_1",
+                    "legendarysurvivaloverhaul:block/sun_fern_2",
+                    "legendarysurvivaloverhaul:block/sun_fern_3"
+                ],
+    "soil":  "farmland",
+    "growth_requirements":  [
+                                {
+                                    "type":  "min_light",
+                                    "level":  9
+                                }
+                            ],
+    "drops":  [
+                  {
+                      "item":  "legendarysurvivaloverhaul:sun_fern_leaf",
+                      "chance":  10000
+                  }
+              ],
+    "alternate_seeds":  [
+                            "legendarysurvivaloverhaul:sun_fern_seeds"
+                        ],
+    "liked_biomes":  [
+                         "forge:is_hot",
+                         "forge:is_dry"
+                     ],
+    "mutation_pools":  [
+                           "yellow",
+                           "green",
+                           "leafy",
+                           "fire"
+                       ]
+}

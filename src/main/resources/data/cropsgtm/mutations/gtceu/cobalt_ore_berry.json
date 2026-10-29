@@ -1,0 +1,8 @@
+{
+    "output":  "cropsgtm:cobalt_ore_berry",
+    "parents":  [
+                    "cropsgtm:netherStoneLily",
+                    "cropsgtm:lazulia",
+                    "cropsgtm:gold_ore_berry"
+                ]
+}

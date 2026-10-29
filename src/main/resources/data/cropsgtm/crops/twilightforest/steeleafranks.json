@@ -1,0 +1,45 @@
+{
+    "id":  "cropsgtm:steeleafranks",
+    "tier":  10,
+    "drop_rounds":  0.598736939238,
+    "growth_duration":  6000,
+    "colors":  [
+                   "#163916",
+                   "#327f32"
+               ],
+    "sprite":  {
+                   "base":  "cropsgtm:block/crops/twilightforest/steeleafranks/",
+                   "min":  1,
+                   "max":  4
+               },
+    "soil":  "stone",
+    "growth_requirements":  [
+                                {
+                                    "type":  "sub_soil",
+                                    "id":  "steeleaf"
+                                }
+                            ],
+    "drops":  [
+                  {
+                      "item":  "twilightforest:steeleaf_ingot",
+                      "chance":  2500,
+                      "required":  false
+                  },
+                  {
+                      "gt": "dust",
+                      "material":  "steel",
+                      "chance":  2500
+                  }
+              ],
+    "liked_biomes":  [
+                         "forge:is_spooky",
+                         "cropsgtm:is_dead"
+                     ],
+    "mutation_pools":  [
+                           "green",
+                           "twilightForest",
+                           "metal",
+                           "tendrilly",
+                           "iron"
+                       ]
+}

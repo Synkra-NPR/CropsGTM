@@ -1,0 +1,7 @@
+{
+    "output":  "cropsgtm:diareed",
+    "parents":  [
+                    "cropsgtm:withereed",
+                    "cropsgtm:evilOre"
+                ]
+}

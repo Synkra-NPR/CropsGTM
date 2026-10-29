@@ -1,0 +1,56 @@
+{
+  "type": "gtceu:distillation_tower",
+  "duration": 80,
+  "category": "gtceu:distillation_tower",
+  "tickInputs": {
+    "eu": [
+      {
+        "content": 180
+      }
+    ]
+  },
+  "inputs": {
+    "fluid": [
+      {
+        "content": {
+          "amount": 1000,
+          "value": [
+            {
+              "tag": "forge:sugar_whine"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "outputs": {
+    "fluid": [
+      {
+        "content": {
+          "amount": 700,
+          "value": [
+            {
+              "fluid": "gtceu:ethanol"
+            }
+          ]
+        }
+      },
+      {
+        "content": {
+          "amount": 300,
+          "value": [
+            {
+              "fluid": "minecraft:water"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "gtceu"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "side": "cropsgtm:block/industrialfarm/sides/5",
+    "top": "cropsgtm:block/industrialfarm/fertilizerunit/5",
+    "bottom": "cropsgtm:block/industrialfarm/sides/5"
+  }
+}

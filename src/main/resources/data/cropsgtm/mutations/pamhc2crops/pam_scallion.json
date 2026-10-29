@@ -1,0 +1,7 @@
+{
+    "output":  "cropsgtm:scallion",
+    "parents":  [
+                    "cropsgtm:potato",
+                    "cropsgtm:sugar_beet"
+                ]
+}

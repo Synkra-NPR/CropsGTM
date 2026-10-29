@@ -1,0 +1,18 @@
+{
+  "id": "cropsgtm:enderbloom",
+  "creator": "RichardG",
+  "tier": 10,
+  "drop_rounds": 0.598736939238379,
+  "growth_duration": 3000,
+  "machine_breeding_tier": 3,
+  "colors": ["#085245", "#1B7B6B"],
+  "growth_requirements": [
+    { "type": "sub_soil", "id": "endstone" }
+  ],
+  "drops": [
+    { "gt": "dust", "material": "ender_pearl", "chance": 6250 },
+    { "item": "minecraft:ender_pearl", "chance": 3750 }
+  ],
+  "liked_biomes": ["minecraft:is_end", "forge:is_cold"],
+  "mutation_pools": ["black", "flower", "void", "alien", "magic"]
+}

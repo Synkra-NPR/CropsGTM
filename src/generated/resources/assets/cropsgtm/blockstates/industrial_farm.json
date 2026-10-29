@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "cropsgtm:block/machine/industrial_farm",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "cropsgtm:block/machine/industrial_farm"
+    },
+    "facing=south": {
+      "model": "cropsgtm:block/machine/industrial_farm",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "cropsgtm:block/machine/industrial_farm",
+      "y": 270
+    }
+  }
+}

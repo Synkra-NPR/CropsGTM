@@ -1,0 +1,103 @@
+{
+    "conditions":  [
+                       {
+                           "type":  "cropsgtm:crop_exists",
+                           "crop":  "cropsgtm:andesiteLily"
+                       },
+                       {
+                           "type":  "cropsgtm:crop_exists",
+                           "crop":  "cropsgtm:clayLily"
+                       },
+                       {
+                           "type":  "cropsgtm:crop_exists",
+                           "crop":  "cropsgtm:stoneLily"
+                       },
+                       {
+                           "type":  "forge:mod_loaded",
+                           "modid":  "gtceu"
+                       }
+                   ],
+    "type":  "cropsgtm:crop_breeder",
+    "duration":  400,
+    "category":  "cropsgtm:crop_breeder",
+    "tickInputs":  {
+                       "eu":  [
+                                  {
+                                      "content":  30
+                                  }
+                              ]
+                   },
+    "inputs":  {
+                   "item":  [
+                                {
+                                    "content":  {
+                                                    "type":  "gtceu:nbt_predicate",
+                                                    "item":  "cropsgtm:generic_seed",
+                                                    "count":  1,
+                                                    "nbt":  "{CustomModelData:8,crop:\"cropsgtm:stoneLily\",ga:1b,gr:1b,re:1b,scan:1b}",
+                                                    "predicate":  {
+                                                                      "type":  "equals",
+                                                                      "key":  "crop",
+                                                                      "value":  "cropsgtm:stoneLily",
+                                                                      "inverted":  false
+                                                                  }
+                                                }
+                                },
+                                {
+                                    "content":  {
+                                                    "type":  "gtceu:nbt_predicate",
+                                                    "item":  "cropsgtm:generic_seed",
+                                                    "count":  1,
+                                                    "nbt":  "{CustomModelData:8,crop:\"cropsgtm:clayLily\",ga:1b,gr:1b,re:1b,scan:1b}",
+                                                    "predicate":  {
+                                                                      "type":  "equals",
+                                                                      "key":  "crop",
+                                                                      "value":  "cropsgtm:clayLily",
+                                                                      "inverted":  false
+                                                                  }
+                                                }
+                                },
+                                {
+                                    "content":  [
+                                                    {
+                                                        "item":  "minecraft:polished_andesite"
+                                                    },
+                                                    {
+                                                        "item":  "minecraft:andesite"
+                                                    }
+                                                ]
+                                }
+                            ],
+                   "fluid":  [
+                                 {
+                                     "content":  {
+                                                     "amount":  360,
+                                                     "value":  [
+                                                                   {
+                                                                       "tag":  "forge:enriched_fertilizer"
+                                                                   }
+                                                               ]
+                                                 }
+                                 }
+                             ]
+               },
+    "outputs":  {
+                    "item":  [
+                                 {
+                                     "content":  {
+                                                     "type":  "gtceu:nbt_predicate",
+                                                     "item":  "cropsgtm:generic_seed",
+                                                     "count":  1,
+                                                     "nbt":  "{CustomModelData:8,crop:\"cropsgtm:andesiteLily\",ga:1b,gr:1b,re:1b,scan:1b}",
+                                                     "predicate":  {
+                                                                       "type":  "equals",
+                                                                       "key":  "crop",
+                                                                       "value":  "cropsgtm:andesiteLily",
+                                                                       "inverted":  false
+                                                                   }
+                                                 },
+                                     "chance":  4000
+                                 }
+                             ]
+                }
+}

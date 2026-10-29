@@ -1,0 +1,35 @@
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# 运行目录与日志
+run/
+runs/
+logs/
+*.log
+
+# IDE
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+.classpath
+.project
+.settings/
+bin/
+*.launch
+.vscode/
+
+# 工具与临时产物
+.trae/
+.screenshots/
+*.hprof
+hs_err_pid*
+backup_java_*/
+.git_backup_*/
+
+# 系统
+.DS_Store
+Thumbs.db

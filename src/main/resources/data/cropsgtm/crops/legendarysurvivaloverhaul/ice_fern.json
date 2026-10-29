@@ -1,0 +1,41 @@
+{
+    "id":  "cropsgtm:ice_fern",
+    "tier":  3,
+    "drop_rounds":  0.857375,
+    "growth_duration":  900,
+    "colors":  [
+                   "#3d7fa6",
+                   "#c3ecff"
+               ],
+    "sprites":  [
+                    "legendarysurvivaloverhaul:block/ice_fern_0",
+                    "legendarysurvivaloverhaul:block/ice_fern_1",
+                    "legendarysurvivaloverhaul:block/ice_fern_2",
+                    "legendarysurvivaloverhaul:block/ice_fern_3"
+                ],
+    "soil":  "farmland",
+    "growth_requirements":  [
+                                {
+                                    "type":  "min_light",
+                                    "level":  9
+                                }
+                            ],
+    "drops":  [
+                  {
+                      "item":  "legendarysurvivaloverhaul:ice_fern_leaf",
+                      "chance":  10000
+                  }
+              ],
+    "alternate_seeds":  [
+                            "legendarysurvivaloverhaul:ice_fern_seeds"
+                        ],
+    "liked_biomes":  [
+                         "forge:is_cold",
+                         "forge:is_wet"
+                     ],
+    "mutation_pools":  [
+                           "blue",
+                           "green",
+                           "leafy"
+                       ]
+}

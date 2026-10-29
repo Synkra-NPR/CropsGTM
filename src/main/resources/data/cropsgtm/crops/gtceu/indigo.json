@@ -1,0 +1,31 @@
+{
+    "id":  "cropsgtm:indigo",
+    "seed_shape": "flower",
+    "tier":  2,
+    "drop_rounds":  0.9025,
+    "growth_duration":  1200,
+    "colors":  [
+                   "#6446bd",
+                   "#a285ef"
+               ],
+    "sprite":  {
+                   "base":  "cropsgtm:block/crops/core/indigo/",
+                   "min":  1,
+                   "max":  4
+               },
+    "soil":  "dirtGrass",
+    "drops":  [
+                  {
+                      "item":  "cropsgtm:indigo_blossom",
+                      "chance":  10000
+                  }
+              ],
+    "liked_biomes":  [
+                         "forge:is_wet",
+                         "forge:is_lush"
+                     ],
+    "mutation_pools":  [
+                           "blue",
+                           "flower"
+                       ]
+}

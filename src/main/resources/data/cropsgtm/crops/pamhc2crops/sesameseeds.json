@@ -1,0 +1,43 @@
+{
+    "id":  "cropsgtm:sesameseeds",
+    "lang_key":  "cropsgtm_pam.crop.sesameseeds",
+    "seed_shape":  "pam",
+    "tier":  2,
+    "drop_rounds":  0.9025,
+    "growth_duration":  700,
+    "colors":  [
+                   "#87887A",
+                   "#FFFFFB"
+               ],
+    "soil":  "farmland",
+    "growth_requirements":  [
+                                {
+                                    "type":  "min_light",
+                                    "level":  9
+                                }
+                            ],
+    "drops":  [
+                  {
+                      "item":  "pamhc2crops:sesameseedsitem",
+                      "chance":  10000
+                  }
+              ],
+    "alternate_seeds":  [
+                            "pamhc2crops:sesameseedsseeditem"
+                        ],
+    "liked_biomes":  [
+                         "forge:is_plains",
+                         "forge:is_dry"
+                     ],
+    "mutation_pools":  [
+                           "yellow",
+                           "wheat",
+                           "pam2",
+                           "pam3"
+                       ],
+    "sprites":  [
+                    "pamhc2crops:block/sesameseeds_stage_0",
+                    "pamhc2crops:block/sesameseeds_stage_1",
+                    "pamhc2crops:block/sesameseeds_stage_3"
+                ]
+}

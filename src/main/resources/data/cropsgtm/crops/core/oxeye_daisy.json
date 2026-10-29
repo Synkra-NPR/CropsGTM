@@ -1,0 +1,18 @@
+{
+  "id": "cropsgtm:oxeyeDaisy",
+  "lang_key": "block.minecraft.oxeye_daisy",
+  "creator": "Notch",
+  "tier": 2,
+  "drop_rounds": 0.9025,
+  "growth_duration": 600,
+  "colors": ["#3D3D4C", "#C8C8C8"],
+  "seed_shape": "flower",
+  "soil": "dirtGrass",
+  "drops": [
+    { "item": "minecraft:light_gray_dye", "chance": 7500 },
+    { "item": "minecraft:oxeye_daisy", "chance": 2500 }
+  ],
+  "alternate_seeds": ["minecraft:oxeye_daisy"],
+  "liked_biomes": ["forge:is_plains", "forge:is_lush", "minecraft:is_forest"],
+  "mutation_pools": ["white", "flower"]
+}

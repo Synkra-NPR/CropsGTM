@@ -1,0 +1,8 @@
+{
+    "output":  "cropsgtm:garnydinia",
+    "parents":  [
+                    "cropsgtm:diareed",
+                    "cropsgtm:redstraw"
+                ],
+    "machine_only":  true
+}

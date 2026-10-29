@@ -1,0 +1,4 @@
+{
+  "output": "cropsgtm:azureBluet",
+  "parents": ["cropsgtm:poppy", "cropsgtm:potato"]
+}

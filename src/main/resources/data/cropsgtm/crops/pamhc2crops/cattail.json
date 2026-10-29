@@ -1,0 +1,43 @@
+{
+    "id":  "cropsgtm:cattail",
+    "lang_key":  "cropsgtm_pam.crop.cattail",
+    "seed_shape":  "pam",
+    "tier":  4,
+    "drop_rounds":  0.81450625,
+    "growth_duration":  900,
+    "colors":  [
+                   "#2F270E",
+                   "#61511C"
+               ],
+    "soil":  "farmland",
+    "growth_requirements":  [
+                                {
+                                    "type":  "min_light",
+                                    "level":  9
+                                }
+                            ],
+    "drops":  [
+                  {
+                      "item":  "pamhc2crops:cattailitem",
+                      "chance":  10000
+                  }
+              ],
+    "alternate_seeds":  [
+                            "pamhc2crops:cattailseeditem"
+                        ],
+    "liked_biomes":  [
+                         "forge:is_hot",
+                         "forge:is_dry"
+                     ],
+    "mutation_pools":  [
+                           "green",
+                           "leafy",
+                           "pam1",
+                           "pam3"
+                       ],
+    "sprites":  [
+                    "pamhc2crops:block/cattail_stage_0",
+                    "pamhc2crops:block/cattail_stage_1",
+                    "pamhc2crops:block/cattail_stage_3"
+                ]
+}

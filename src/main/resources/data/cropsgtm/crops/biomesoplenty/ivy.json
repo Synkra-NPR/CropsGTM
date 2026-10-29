@@ -1,0 +1,38 @@
+{
+    "id":  "cropsgtm:ivy",
+    "seed_shape": "flower",
+    "tier":  2,
+    "drop_rounds":  0.9025,
+    "growth_duration":  450,
+    "colors":  [
+                   "#1b4509",
+                   "#338011"
+               ],
+    "sprite":  {
+                   "base":  "cropsgtm:block/crops/biomesoplenty/ivy/",
+                   "min":  1,
+                   "max":  4
+               },
+    "soil":  "farmland",
+    "drops":  [
+                  {
+                      "item":  "biomesoplenty:spanish_moss",
+                      "chance":  10000,
+                      "required":  false
+                  }
+              ],
+    "liked_biomes":  [
+                         "minecraft:is_nether",
+                         "minecraft:is_jungle",
+                         "cropsgtm:is_magical",
+                         "forge:is_dense"
+                     ],
+    "mutation_pools":  [
+                           "green",
+                           "flower",
+                           "tendrilly",
+                           "danger",
+                           "poison",
+                           "climbable"
+                       ]
+}

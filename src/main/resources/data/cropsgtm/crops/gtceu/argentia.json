@@ -1,0 +1,39 @@
+{
+    "id":  "cropsgtm:argentia",
+    "tier":  7,
+    "drop_rounds":  0.698337296094,
+    "growth_duration":  1400,
+    "colors":  [
+                   "#b2bec9",
+                   "#fdfefe"
+               ],
+    "sprite":  {
+                   "base":  "cropsgtm:block/crops/gtceu/argentia/",
+                   "min":  1,
+                   "max":  4
+               },
+    "soil":  "stone",
+    "growth_requirements":  [
+                                {
+                                    "type":  "sub_soil",
+                                    "id":  "silver"
+                                }
+                            ],
+    "drops":  [
+                  {
+                      "item":  "cropsgtm:argentia_leaf",
+                      "chance":  10000
+                  }
+              ],
+    "liked_biomes":  [
+                         "minecraft:is_mountain",
+                         "forge:is_hot"
+                     ],
+    "mutation_pools":  [
+                           "white",
+                           "metal",
+                           "shiny",
+                           "tendrilly",
+                           "silver"
+                       ]
+}

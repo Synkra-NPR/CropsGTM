@@ -1,0 +1,43 @@
+{
+    "id":  "cropsgtm:bobs_yer_uncle_ranks",
+    "tier":  6,
+    "drop_rounds":  0.735091890625,
+    "growth_duration":  3000,
+    "colors":  [
+                   "#009529",
+                   "#41f384"
+               ],
+    "sprite":  {
+                   "base":  "cropsgtm:block/crops/gtceu/bobsyeruncleranks/",
+                   "min":  1,
+                   "max":  4
+               },
+    "soil":  "stone",
+    "growth_requirements":  [
+                                {
+                                    "type":  "sub_soil",
+                                    "id":  "emerald"
+                                }
+                            ],
+    "drops":  [
+                  {
+                      "item":  "cropsgtm:bobs_yer_uncle_berry",
+                      "chance":  7500
+                  },
+                  {
+                      "item":  "minecraft:emerald",
+                      "chance":  2500
+                  }
+              ],
+    "liked_biomes":  [
+                         "minecraft:is_mountain",
+                         "minecraft:is_hill"
+                     ],
+    "mutation_pools":  [
+                           "green",
+                           "berry",
+                           "crystal",
+                           "shiny",
+                           "tendrilly"
+                       ]
+}

@@ -1,0 +1,8 @@
+{
+    "id":  "garnetGem",
+    "materials":  [
+                      "gtceu:red_garnet",
+                      "gtceu:yellow_garnet",
+                      "gtceu:garnet_sand"
+                  ]
+}

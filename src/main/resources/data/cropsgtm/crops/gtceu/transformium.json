@@ -1,0 +1,36 @@
+{
+    "id":  "cropsgtm:transformium",
+    "machine_breeding_only": true,
+    "tier":  12,
+    "drop_rounds":  0.540360087663,
+    "growth_duration":  7200,
+    "colors":  [
+                   "#2a0040",
+                   "#6d1566"
+               ],
+    "sprite":  {
+                   "base":  "cropsgtm:block/crops/core/transformium/",
+                   "min":  1,
+                   "max":  4
+               },
+    "soil":  "farmland",
+    "growth_requirements":  [
+                                {
+                                    "type":  "machine_only"
+                                }
+                            ],
+    "drops":  [
+                  {
+                      "item":  "cropsgtm:uua_berry",
+                      "chance":  9000
+                  },
+                  {
+                      "item":  "cropsgtm:uum_berry",
+                      "chance":  1000
+                  }
+              ],
+    "liked_biomes":  [
+                         "minecraft:is_end",
+                         "forge:is_cold"
+                     ]
+}

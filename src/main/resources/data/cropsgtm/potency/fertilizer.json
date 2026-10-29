@@ -1,0 +1,27 @@
+{
+    "type":  "fertilizer",
+    "items":  [
+                  {
+                      "item":  "minecraft:bone_meal",
+                      "potency":  25,
+                      "max_storage":  30
+                  },
+                  {
+                      "item":  "gtceu:fertilizer",
+                      "potency":  100,
+                      "mod":  "gtceu"
+                  }
+              ],
+    "fluids":  [
+                   {
+                       "fluid":  "gtceu:fertilizer",
+                       "potency":  1,
+                       "mod":  "gtceu"
+                   },
+                   {
+                       "fluid":  "gtceu:enriched_fertilizer",
+                       "potency":  10,
+                       "mod":  "gtceu"
+                   }
+               ]
+}

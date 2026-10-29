@@ -1,0 +1,40 @@
+{
+    "id":  "cropsgtm:bop_berry",
+    "tier":  2,
+    "drop_rounds":  0.9025,
+    "growth_duration":  200,
+    "colors":  [
+                   "#b33636",
+                   "#ff4c4c"
+               ],
+    "sprite":  {
+                   "base":  "cropsgtm:block/crops/gtceu/bopberry/",
+                   "min":  1,
+                   "max":  3
+               },
+    "soil":  "farmland",
+    "growth_requirements":  [
+                                {
+                                    "type":  "min_light",
+                                    "level":   9
+                                }
+                            ],
+    "drops":  [
+                  {
+                      "item":  "pamhc2crops:blueberryitem",
+                      "chance":  10000,
+                      "required":  false
+                  }
+              ],
+    "liked_biomes":  [
+                         "minecraft:is_forest",
+                         "forge:is_dense"
+                     ],
+    "mutation_pools":  [
+                           "red",
+                           "berry",
+                           "bush",
+                           "pam1",
+                           "pam3"
+                       ]
+}

@@ -1,0 +1,43 @@
+{
+    "id":  "cropsgtm:alfalfa",
+    "lang_key":  "cropsgtm_pam.crop.alfalfa",
+    "seed_shape":  "pam",
+    "tier":  4,
+    "drop_rounds":  0.81450625,
+    "growth_duration":  900,
+    "colors":  [
+                   "#5C6430",
+                   "#BDCF63"
+               ],
+    "soil":  "farmland",
+    "growth_requirements":  [
+                                {
+                                    "type":  "min_light",
+                                    "level":  9
+                                }
+                            ],
+    "drops":  [
+                  {
+                      "item":  "pamhc2crops:alfalfaitem",
+                      "chance":  10000
+                  }
+              ],
+    "alternate_seeds":  [
+                            "pamhc2crops:alfalfaseeditem"
+                        ],
+    "liked_biomes":  [
+                         "forge:is_hot",
+                         "forge:is_dry"
+                     ],
+    "mutation_pools":  [
+                           "green",
+                           "leafy",
+                           "pam1",
+                           "pam3"
+                       ],
+    "sprites":  [
+                    "pamhc2crops:block/alfalfa_stage_0",
+                    "pamhc2crops:block/alfalfa_stage_1",
+                    "pamhc2crops:block/alfalfa_stage_3"
+                ]
+}

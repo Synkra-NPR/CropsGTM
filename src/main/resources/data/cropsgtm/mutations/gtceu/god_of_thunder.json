@@ -1,0 +1,8 @@
+{
+    "output":  "cropsgtm:god_of_thunder",
+    "parents":  [
+                    "cropsgtm:bobs_yer_uncle_ranks",
+                    "cropsgtm:withereed"
+                ],
+    "machine_only":  true
+}

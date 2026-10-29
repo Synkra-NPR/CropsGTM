@@ -1,0 +1,19 @@
+{
+  "id": "cropsgtm:blueOrchid",
+  "lang_key": "block.minecraft.blue_orchid",
+  "creator": "Notch",
+  "tier": 2,
+  "drop_rounds": 0.9025,
+  "growth_duration": 600,
+  "colors": ["#2F5488", "#8FB9F4"],
+  "seed_shape": "flower",
+  "render_shape": "X",
+  "soil": "dirtGrass",
+  "drops": [
+    { "item": "minecraft:light_blue_dye", "chance": 7500 },
+    { "item": "minecraft:blue_orchid", "chance": 2500 }
+  ],
+  "alternate_seeds": ["minecraft:blue_orchid"],
+  "liked_biomes": ["forge:is_wet", "forge:is_lush", "forge:is_swamp"],
+  "mutation_pools": ["blue", "flower"]
+}

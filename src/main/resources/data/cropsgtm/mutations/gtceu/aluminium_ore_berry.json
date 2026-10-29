@@ -1,0 +1,7 @@
+{
+    "output":  "cropsgtm:aluminium_ore_berry",
+    "parents":  [
+                    "cropsgtm:gold_ore_berry",
+                    "cropsgtm:essence_ore_berry"
+                ]
+}

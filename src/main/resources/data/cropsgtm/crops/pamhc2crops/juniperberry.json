@@ -1,0 +1,44 @@
+{
+    "id":  "cropsgtm:juniperberry",
+    "lang_key":  "cropsgtm_pam.crop.juniperberry",
+    "seed_shape":  "pam",
+    "tier":  3,
+    "drop_rounds":  0.857375,
+    "growth_duration":  800,
+    "colors":  [
+                   "#263F3F",
+                   "#4E8181"
+               ],
+    "soil":  "farmland",
+    "growth_requirements":  [
+                                {
+                                    "type":  "min_light",
+                                    "level":  9
+                                }
+                            ],
+    "drops":  [
+                  {
+                      "item":  "pamhc2crops:juniperberryitem",
+                      "chance":  10000
+                  }
+              ],
+    "alternate_seeds":  [
+                            "pamhc2crops:juniperberryseeditem"
+                        ],
+    "liked_biomes":  [
+                         "forge:is_lush",
+                         "forge:is_wet"
+                     ],
+    "mutation_pools":  [
+                           "red",
+                           "berry",
+                           "bush",
+                           "pam1",
+                           "pam2"
+                       ],
+    "sprites":  [
+                    "pamhc2crops:block/juniperberry_stage_0",
+                    "pamhc2crops:block/juniperberry_stage_1",
+                    "pamhc2crops:block/juniperberry_stage_3"
+                ]
+}

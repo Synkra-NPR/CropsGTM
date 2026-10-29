@@ -1,0 +1,8 @@
+{
+    "output":  "cropsgtm:osmianth",
+    "parents":  [
+                    "cropsgtm:platina",
+                    "cropsgtm:scheelinium"
+                ],
+    "machine_only":  true
+}

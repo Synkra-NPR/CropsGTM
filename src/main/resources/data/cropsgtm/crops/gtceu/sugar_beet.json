@@ -1,0 +1,13 @@
+{
+  "id": "cropsgtm:sugar_beet",
+  "tier": 4,
+  "drop_rounds": 0.81450625,
+  "growth_duration": 450,
+  "colors": ["#b3b3b3", "#fefefe"],
+  "sprite": { "base": "minecraft:block/carrots_stage", "min": 0, "max": 3 },
+  "soil": "farmland",
+  "drops": [
+    { "item": "cropsgtm:sugar_beet", "chance": 10000 }
+  ],
+  "liked_biomes": ["forge:is_cold", "forge:is_wet", "minecraft:is_forest"]
+}

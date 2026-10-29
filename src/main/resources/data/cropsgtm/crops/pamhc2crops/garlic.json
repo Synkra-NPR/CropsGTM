@@ -1,0 +1,43 @@
+{
+    "id":  "cropsgtm:garlic",
+    "lang_key":  "cropsgtm_pam.crop.garlic",
+    "seed_shape":  "pam",
+    "tier":  2,
+    "drop_rounds":  0.9025,
+    "growth_duration":  650,
+    "colors":  [
+                   "#8D8D88",
+                   "#FFFFFF"
+               ],
+    "soil":  "farmland",
+    "growth_requirements":  [
+                                {
+                                    "type":  "min_light",
+                                    "level":  9
+                                }
+                            ],
+    "drops":  [
+                  {
+                      "item":  "pamhc2crops:garlicitem",
+                      "chance":  10000
+                  }
+              ],
+    "alternate_seeds":  [
+                            "pamhc2crops:garlicseeditem"
+                        ],
+    "liked_biomes":  [
+                         "forge:is_plains",
+                         "forge:is_cold"
+                     ],
+    "mutation_pools":  [
+                           "brown",
+                           "root",
+                           "pam1",
+                           "pam2"
+                       ],
+    "sprites":  [
+                    "pamhc2crops:block/garlic_stage_0",
+                    "pamhc2crops:block/garlic_stage_1",
+                    "pamhc2crops:block/garlic_stage_3"
+                ]
+}

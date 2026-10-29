@@ -1,0 +1,8 @@
+{
+    "id":  "titanium",
+    "materials":  [
+                      "gtceu:titanium",
+                      "gtceu:ilmenite",
+                      "gtceu:rutile"
+                  ]
+}

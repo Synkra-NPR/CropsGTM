@@ -1,0 +1,51 @@
+{
+    "id":  "cropsgtm_farmersdelight:rice",
+    "lang_key":  "cropsgtm_farmersdelight.crop.rice",
+    "seed_shape":  "farmersdelight",
+    "required_mods":  [
+                          "farmersdelight"
+                      ],
+    "tier":  2,
+    "drop_rounds":  0.9025,
+    "growth_duration":  600,
+    "colors":  [
+                   "#b9a25b",
+                   "#e8dca8"
+               ],
+    "sprite":  {
+                   "base":  "cropsgtm:block/crops/farmersdelight/rice/",
+                   "min":  1,
+                   "max":  4
+               },
+    "soil":  "farmland",
+    "growth_requirements":  [
+                                {
+                                    "type":  "min_light",
+                                    "level":  9
+                                }
+                            ],
+    "drops":  [
+                  {
+                      "item":  "farmersdelight:rice",
+                      "chance":  10000
+                  },
+                  {
+                      "item":  "farmersdelight:rice_panicle",
+                      "chance":  3000
+                  }
+              ],
+    "alternate_seeds":  [
+                            "farmersdelight:rice"
+                        ],
+    "liked_biomes":  [
+                         "forge:is_wet",
+                         "forge:is_swamp",
+                         "forge:is_lush"
+                     ],
+    "mutation_pools":  [
+                           "yellow",
+                           "wheat",
+                           "food",
+                           "ingredient"
+                       ]
+}

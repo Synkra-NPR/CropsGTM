@@ -1,0 +1,9 @@
+{
+    "id":  "clay",
+    "blocks":  [
+                   "minecraft:clay"
+               ],
+    "tags":  [
+                 "minecraft:terracotta"
+             ]
+}

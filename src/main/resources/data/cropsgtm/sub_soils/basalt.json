@@ -1,0 +1,8 @@
+{
+    "id":  "basalt",
+    "blocks":  [
+                   "minecraft:basalt",
+                   "minecraft:smooth_basalt",
+                   "minecraft:polished_basalt"
+               ]
+}

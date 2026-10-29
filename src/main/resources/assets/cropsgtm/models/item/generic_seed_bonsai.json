@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "cropsgtm:item/genericseed/bonsai1",
+    "layer1": "cropsgtm:item/genericseed/bonsai2"
+  }
+}

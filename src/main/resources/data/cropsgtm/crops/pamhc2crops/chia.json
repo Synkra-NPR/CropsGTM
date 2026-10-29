@@ -1,0 +1,43 @@
+{
+    "id":  "cropsgtm:chia",
+    "lang_key":  "cropsgtm_pam.crop.chia",
+    "seed_shape":  "pam",
+    "tier":  2,
+    "drop_rounds":  0.9025,
+    "growth_duration":  700,
+    "colors":  [
+                   "#4C3A2E",
+                   "#9D7760"
+               ],
+    "soil":  "farmland",
+    "growth_requirements":  [
+                                {
+                                    "type":  "min_light",
+                                    "level":  9
+                                }
+                            ],
+    "drops":  [
+                  {
+                      "item":  "pamhc2crops:chiaitem",
+                      "chance":  10000
+                  }
+              ],
+    "alternate_seeds":  [
+                            "pamhc2crops:chiaseeditem"
+                        ],
+    "liked_biomes":  [
+                         "forge:is_plains",
+                         "forge:is_dry"
+                     ],
+    "mutation_pools":  [
+                           "yellow",
+                           "wheat",
+                           "pam1",
+                           "pam3"
+                       ],
+    "sprites":  [
+                    "pamhc2crops:block/chia_stage_0",
+                    "pamhc2crops:block/chia_stage_1",
+                    "pamhc2crops:block/chia_stage_3"
+                ]
+}

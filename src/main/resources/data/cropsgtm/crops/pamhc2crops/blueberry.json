@@ -1,0 +1,32 @@
+{
+    "id":  "cropsgtm:blueberry",
+    "tier":  2,
+    "drop_rounds":  0.9025,
+    "growth_duration":  200,
+    "colors":  [
+                   "#354085",
+                   "#5262b5"
+               ],
+    "soil":  "farmland",
+    "drops":  [
+                  {
+                      "item":  "pamhc2crops:blueberryitem",
+                      "chance":  10000,
+                      "required":  false
+                  }
+              ],
+    "liked_biomes":  [
+                         "minecraft:is_hill",
+                         "minecraft:is_forest",
+                         "forge:is_lush"
+                     ],
+    "seed_shape":  "pam",
+    "alternate_seeds":  [
+                            "pamhc2crops:blueberryseeditem"
+                        ],
+    "sprite":  {
+                   "base":  "cropsgtm:block/crops/gtceu/blueberry/",
+                   "min":  1,
+                   "max":  3
+               }
+}

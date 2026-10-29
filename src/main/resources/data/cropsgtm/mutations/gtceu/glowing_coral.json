@@ -1,0 +1,7 @@
+{
+    "output":  "cropsgtm:glowing_coral",
+    "parents":  [
+                    "cropsgtm:glowflower",
+                    "cropsgtm:waterLily"
+                ]
+}

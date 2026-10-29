@@ -1,0 +1,42 @@
+{
+    "id":  "cropsgtm:knightmetal_berry",
+    "seed_shape": "oreberry",
+    "tier":  8,
+    "drop_rounds":  0.663420431289,
+    "growth_duration":  5500,
+    "colors":  [
+                   "#90a68a",
+                   "#d2f0c8"
+               ],
+    "sprite":  {
+                   "base":  "cropsgtm:block/crops/twilightforest/oreberries/knightmetal/",
+                   "min":  1,
+                   "max":  4
+               },
+    "soil":  "stone",
+    "growth_requirements":  [
+                                {
+                                    "type":  "sub_soil",
+                                    "id":  "knightmetal"
+                                }
+                            ],
+    "drops":  [
+                  {
+                      "item":  "twilightforest:armor_shard",
+                      "count":  4,
+                      "chance":  10000,
+                      "required":  false
+                  }
+              ],
+    "liked_biomes":  [
+                         "forge:is_spooky",
+                         "cropsgtm:is_dead"
+                     ],
+    "mutation_pools":  [
+                           "gray",
+                           "twilightForest",
+                           "oreBerry",
+                           "danger",
+                           "metal"
+                       ]
+}

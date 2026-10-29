@@ -1,0 +1,7 @@
+{
+    "output":  "cropsgtm:milk_wart",
+    "parents":  [
+                    "cropsgtm:corium",
+                    "cropsgtm:netherWart"
+                ]
+}

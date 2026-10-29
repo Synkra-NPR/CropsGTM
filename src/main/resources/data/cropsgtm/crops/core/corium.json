@@ -1,0 +1,13 @@
+{
+  "id": "cropsgtm:corium",
+  "creator": "Gregorius Techneticies",
+  "tier": 6,
+  "drop_rounds": 0.735091890625,
+  "growth_duration": 800,
+  "colors": ["#542716", "#C65C35"],
+  "drops": [
+    { "item": "minecraft:leather", "chance": 10000 }
+  ],
+  "liked_biomes": ["forge:is_plains", "minecraft:is_forest"],
+  "mutation_pools": ["brown", "mushroom", "cow"]
+}

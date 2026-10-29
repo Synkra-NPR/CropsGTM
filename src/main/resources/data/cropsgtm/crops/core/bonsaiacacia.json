@@ -1,0 +1,40 @@
+{
+    "id":  "cropsgtm:bonsaiAcacia",
+    "creator":  "Notch",
+    "tier":  1,
+    "drop_rounds":  0.95,
+    "growth_duration":  1600,
+    "colors":  [
+                   "#795A0D",
+                   "#71881B"
+               ],
+    "seed_shape":  "bonsai",
+    "render_shape":  "X",
+    "sprite":  {
+                   "base":  "cropsgtm:block/crops/core/bonsaiacacia/",
+                   "min":  1,
+                   "max":  3
+               },
+    "soil":  "dirtGrass",
+    "drops":  [
+                  {
+                      "item":  "minecraft:acacia_sapling",
+                      "count":  1,
+                      "chance":  3000
+                  },
+                  {
+                      "item":  "minecraft:acacia_log",
+                      "count":  10,
+                      "chance":  6000
+                  }
+              ],
+    "alternate_seeds":  [
+                            "minecraft:acacia_sapling"
+                        ],
+    "mutation_pools":  [
+                           "orange",
+                           "tree",
+                           "leafy",
+                           "wood"
+                       ]
+}

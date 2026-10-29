@@ -1,0 +1,37 @@
+{
+    "id":  "cropsgtm:hops",
+    "tier":  5,
+    "drop_rounds":  0.7737809375,
+    "growth_duration":  2400,
+    "colors":  [
+                   "#6b5c0e",
+                   "#86bb00"
+               ],
+    "sprite":  {
+                   "base":  "cropsgtm:block/crops/core/hops/",
+                   "min":  1,
+                   "max":  6
+               },
+    "soil":  "farmland",
+    "growth_requirements":  [
+                                {
+                                    "type":  "min_light",
+                                    "value":  9
+                                }
+                            ],
+    "drops":  [
+                  {
+                      "item":  "cropsgtm:hops",
+                      "chance":  10000
+                  }
+              ],
+    "liked_biomes":  [
+                         "forge:is_plains",
+                         "forge:is_lush"
+                     ],
+    "mutation_pools":  [
+                           "green",
+                           "wheat",
+                           "food"
+                       ]
+}

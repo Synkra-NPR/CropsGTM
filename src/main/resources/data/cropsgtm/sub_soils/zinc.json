@@ -1,0 +1,7 @@
+{
+    "id":  "zinc",
+    "materials":  [
+                      "gtceu:zinc",
+                      "gtceu:sphalerite"
+                  ]
+}

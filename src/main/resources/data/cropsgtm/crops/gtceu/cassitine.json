@@ -1,0 +1,16 @@
+{
+  "id": "cropsgtm:cassitine",
+  "tier": 6,
+  "drop_rounds": 0.735091890625,
+  "growth_duration": 2800,
+  "colors": ["#6C6C6C", "#7F7F7F"],
+  "soil": "stone",
+  "growth_requirements": [
+    { "type": "sub_soil", "id": "tin" }
+  ],
+  "drops": [
+    { "gt": "dustTiny", "material": "tin", "chance": 10000 }
+  ],
+  "liked_biomes": ["forge:is_cold", "forge:is_sparse", "forge:is_dry"],
+  "mutation_pools": ["gray", "bush", "leafy", "metal", "shiny", "tin"]
+}

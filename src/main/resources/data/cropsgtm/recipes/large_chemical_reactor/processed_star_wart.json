@@ -1,0 +1,62 @@
+{
+  "type": "gtceu:large_chemical_reactor",
+  "duration": 192,
+  "category": "gtceu:large_chemical_reactor",
+  "tickInputs": {
+    "eu": [
+      {
+        "content": 1536
+      }
+    ]
+  },
+  "inputs": {
+    "item": [
+      {
+        "content": {
+          "type": "gtceu:sized",
+          "count": 4,
+          "ingredient": {
+            "item": "cropsgtm:star_wart"
+          }
+        }
+      }
+    ],
+    "fluid": [
+      {
+        "content": {
+          "amount": 1536,
+          "value": [
+            {
+              "tag": "forge:phthalic_acid"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "outputs": {
+    "item": [
+      {
+        "content": {
+          "type": "gtceu:sized",
+          "count": 4,
+          "ingredient": {
+            "item": "cropsgtm:processed_star_wart"
+          }
+        }
+      }
+    ]
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "gtceu"
+    },
+    {
+      "type": "cropsgtm:crop_exists",
+      "crops": [
+        "cropsgtm:star_wart"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+    "id":  "cropsgtm:cassava",
+    "lang_key":  "cropsgtm_pam.crop.cassava",
+    "seed_shape":  "pam",
+    "tier":  2,
+    "drop_rounds":  0.9025,
+    "growth_duration":  650,
+    "colors":  [
+                   "#3E2D20",
+                   "#805D41"
+               ],
+    "soil":  "farmland",
+    "growth_requirements":  [
+                                {
+                                    "type":  "min_light",
+                                    "level":  9
+                                }
+                            ],
+    "drops":  [
+                  {
+                      "item":  "pamhc2crops:cassavaitem",
+                      "chance":  10000
+                  }
+              ],
+    "alternate_seeds":  [
+                            "pamhc2crops:cassavaseeditem"
+                        ],
+    "liked_biomes":  [
+                         "forge:is_plains",
+                         "forge:is_cold"
+                     ],
+    "mutation_pools":  [
+                           "brown",
+                           "root",
+                           "pam1",
+                           "pam3"
+                       ],
+    "sprites":  [
+                    "pamhc2crops:block/cassava_stage_0",
+                    "pamhc2crops:block/cassava_stage_1",
+                    "pamhc2crops:block/cassava_stage_3"
+                ]
+}

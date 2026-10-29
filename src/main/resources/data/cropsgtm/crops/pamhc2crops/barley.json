@@ -1,0 +1,43 @@
+{
+    "id":  "cropsgtm:barley",
+    "lang_key":  "cropsgtm_pam.crop.barley",
+    "seed_shape":  "pam",
+    "tier":  2,
+    "drop_rounds":  0.9025,
+    "growth_duration":  700,
+    "colors":  [
+                   "#61643D",
+                   "#C8CF7F"
+               ],
+    "soil":  "farmland",
+    "growth_requirements":  [
+                                {
+                                    "type":  "min_light",
+                                    "level":  9
+                                }
+                            ],
+    "drops":  [
+                  {
+                      "item":  "pamhc2crops:barleyitem",
+                      "chance":  10000
+                  }
+              ],
+    "alternate_seeds":  [
+                            "pamhc2crops:barleyseeditem"
+                        ],
+    "liked_biomes":  [
+                         "forge:is_plains",
+                         "forge:is_dry"
+                     ],
+    "mutation_pools":  [
+                           "yellow",
+                           "wheat",
+                           "pam1",
+                           "pam3"
+                       ],
+    "sprites":  [
+                    "pamhc2crops:block/barley_stage_0",
+                    "pamhc2crops:block/barley_stage_1",
+                    "pamhc2crops:block/barley_stage_3"
+                ]
+}

@@ -1,0 +1,4 @@
+{
+  "output": "cropsgtm:eggPlant",
+  "parents": ["cropsgtm:corium", "cropsgtm:oxeyeDaisy"]
+}

@@ -1,0 +1,7 @@
+{
+    "output":  "cropsgtm_farmersdelight:rice",
+    "parents":  [
+                    "cropsgtm:wheat",
+                    "cropsgtm:sugarCane"
+                ]
+}

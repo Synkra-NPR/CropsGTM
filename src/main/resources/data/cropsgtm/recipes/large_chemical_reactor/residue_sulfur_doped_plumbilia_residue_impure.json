@@ -1,0 +1,77 @@
+{
+  "type": "gtceu:large_chemical_reactor",
+  "duration": 300,
+  "category": "gtceu:large_chemical_reactor",
+  "tickInputs": {
+    "eu": [
+      {
+        "content": 120
+      }
+    ]
+  },
+  "inputs": {
+    "item": [
+      {
+        "content": {
+          "type": "gtceu:sized",
+          "count": 1,
+          "ingredient": {
+            "item": "cropsgtm:sulfur_doped_plumbilia_residue"
+          }
+        }
+      },
+      {
+        "content": {
+          "type": "gtceu:sized",
+          "count": 1,
+          "ingredient": {
+            "type": "forge:nbt",
+            "item": "gtceu:programmed_circuit",
+            "count": 1,
+            "nbt": "{Configuration:2}"
+          }
+        }
+      }
+    ],
+    "fluid": [
+      {
+        "content": {
+          "amount": 384,
+          "value": [
+            {
+              "tag": "forge:sulfuric_acid"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "outputs": {
+    "item": [
+      {
+        "content": {
+          "item": "gtceu:impure_galena_dust"
+        }
+      },
+      {
+        "content": {
+          "item": "gtceu:silver_dust"
+        },
+        "chance": 2500
+      }
+    ]
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "gtceu"
+    },
+    {
+      "type": "cropsgtm:crop_exists",
+      "crops": [
+        "cropsgtm:thiosulfine",
+        "cropsgtm:plumbilia"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+    "id":  "oilSands",
+    "blocks":  [
+                   "minecraft:sand"
+               ]
+}

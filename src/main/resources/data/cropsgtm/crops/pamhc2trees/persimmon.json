@@ -1,0 +1,40 @@
+{
+    "id":  "cropsgtm:persimmon",
+    "seed_shape":  "pamtree",
+    "tier":  4,
+    "drop_rounds":  0.81450625,
+    "growth_duration":  800,
+    "colors":  [
+                   "#D96A1F",
+                   "#F5A05A"
+               ],
+    "render_shape":  "X",
+    "sprites":  [
+                    "cropsgtm:block/crops/pamhc2trees/generic/1",
+                    "cropsgtm:block/crops/pamhc2trees/generic/2",
+                    "pamhc2trees:block/persimmon_sapling"
+                ],
+    "soil":  "dirtGrass",
+    "drops":  [
+                  {
+                      "item":  "pamhc2trees:persimmonitem",
+                      "chance":  10000,
+                      "required":  false
+                  },
+                  {
+                      "item":  "minecraft:jungle_log",
+                      "count":  1,
+                      "chance":  2500,
+                      "required":  false
+                  }
+              ],
+    "alternate_seeds":  [
+                            "pamhc2trees:persimmon_sapling"
+                        ],
+    "liked_biomes":  [
+                         "forge:is_plains"
+                     ],
+    "mutation_pools":  [
+                           "tree"
+                       ]
+}

@@ -1,0 +1,40 @@
+{
+    "id":  "cropsgtm:tamarind",
+    "seed_shape":  "pamtree",
+    "tier":  4,
+    "drop_rounds":  0.81450625,
+    "growth_duration":  800,
+    "colors":  [
+                   "#6B4A22",
+                   "#B98A4F"
+               ],
+    "render_shape":  "X",
+    "sprites":  [
+                    "cropsgtm:block/crops/pamhc2trees/generic/1",
+                    "cropsgtm:block/crops/pamhc2trees/generic/2",
+                    "pamhc2trees:block/tamarind_sapling"
+                ],
+    "soil":  "dirtGrass",
+    "drops":  [
+                  {
+                      "item":  "pamhc2trees:tamarinditem",
+                      "chance":  10000,
+                      "required":  false
+                  },
+                  {
+                      "item":  "minecraft:jungle_log",
+                      "count":  1,
+                      "chance":  2500,
+                      "required":  false
+                  }
+              ],
+    "alternate_seeds":  [
+                            "pamhc2trees:tamarind_sapling"
+                        ],
+    "liked_biomes":  [
+                         "forge:is_plains"
+                     ],
+    "mutation_pools":  [
+                           "tree"
+                       ]
+}

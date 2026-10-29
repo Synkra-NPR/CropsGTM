@@ -1,0 +1,8 @@
+{
+    "output":  "cropsgtm:spidernip",
+    "parents":  [
+                    "cropsgtm:flax",
+                    "cropsgtm:hemp",
+                    "cropsgtm:zomplant"
+                ]
+}

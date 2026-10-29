@@ -1,0 +1,7 @@
+{
+    "output":  "cropsgtm:pam_flax",
+    "parents":  [
+                    "cropsgtm:sugarCane",
+                    "cropsgtm:wheat"
+                ]
+}

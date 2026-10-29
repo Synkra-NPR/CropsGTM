@@ -1,0 +1,43 @@
+{
+    "id":  "cropsgtm:waterchestnut",
+    "lang_key":  "cropsgtm_pam.crop.waterchestnut",
+    "seed_shape":  "pam",
+    "tier":  2,
+    "drop_rounds":  0.9025,
+    "growth_duration":  650,
+    "colors":  [
+                   "#4E3A2C",
+                   "#A1775B"
+               ],
+    "soil":  "farmland",
+    "growth_requirements":  [
+                                {
+                                    "type":  "min_light",
+                                    "level":  9
+                                }
+                            ],
+    "drops":  [
+                  {
+                      "item":  "pamhc2crops:waterchestnutitem",
+                      "chance":  10000
+                  }
+              ],
+    "alternate_seeds":  [
+                            "pamhc2crops:waterchestnutseeditem"
+                        ],
+    "liked_biomes":  [
+                         "forge:is_plains",
+                         "forge:is_cold"
+                     ],
+    "mutation_pools":  [
+                           "brown",
+                           "root",
+                           "pam2",
+                           "pam3"
+                       ],
+    "sprites":  [
+                    "pamhc2crops:block/waterchestnut_stage_0",
+                    "pamhc2crops:block/waterchestnut_stage_1",
+                    "pamhc2crops:block/waterchestnut_stage_3"
+                ]
+}

@@ -1,0 +1,8 @@
+{
+    "output":  "cropsgtm:space_flower",
+    "parents":  [
+                    "cropsgtm:endStoneLily",
+                    "cropsgtm:titania"
+                ],
+    "machine_only":  true
+}

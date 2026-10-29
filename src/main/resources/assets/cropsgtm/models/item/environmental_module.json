@@ -1,0 +1,120 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "cropsgtm:item/environmentalmodule/blank"
+  },
+  "overrides": [
+    {
+      "predicate": {"custom_model_data": 1},
+      "model": "cropsgtm:item/environmental_module/hot"
+    },
+    {
+      "predicate": {"custom_model_data": 2},
+      "model": "cropsgtm:item/environmental_module/cold"
+    },
+    {
+      "predicate": {"custom_model_data": 3},
+      "model": "cropsgtm:item/environmental_module/sparse"
+    },
+    {
+      "predicate": {"custom_model_data": 4},
+      "model": "cropsgtm:item/environmental_module/dense"
+    },
+    {
+      "predicate": {"custom_model_data": 5},
+      "model": "cropsgtm:item/environmental_module/wet"
+    },
+    {
+      "predicate": {"custom_model_data": 6},
+      "model": "cropsgtm:item/environmental_module/dry"
+    },
+    {
+      "predicate": {"custom_model_data": 7},
+      "model": "cropsgtm:item/environmental_module/savanna"
+    },
+    {
+      "predicate": {"custom_model_data": 8},
+      "model": "cropsgtm:item/environmental_module/coniferous"
+    },
+    {
+      "predicate": {"custom_model_data": 9},
+      "model": "cropsgtm:item/environmental_module/jungle"
+    },
+    {
+      "predicate": {"custom_model_data": 10},
+      "model": "cropsgtm:item/environmental_module/spooky"
+    },
+    {
+      "predicate": {"custom_model_data": 11},
+      "model": "cropsgtm:item/environmental_module/dead"
+    },
+    {
+      "predicate": {"custom_model_data": 12},
+      "model": "cropsgtm:item/environmental_module/lush"
+    },
+    {
+      "predicate": {"custom_model_data": 13},
+      "model": "cropsgtm:item/environmental_module/nether"
+    },
+    {
+      "predicate": {"custom_model_data": 14},
+      "model": "cropsgtm:item/environmental_module/end"
+    },
+    {
+      "predicate": {"custom_model_data": 15},
+      "model": "cropsgtm:item/environmental_module/mushroom"
+    },
+    {
+      "predicate": {"custom_model_data": 16},
+      "model": "cropsgtm:item/environmental_module/magical"
+    },
+    {
+      "predicate": {"custom_model_data": 17},
+      "model": "cropsgtm:item/environmental_module/ocean"
+    },
+    {
+      "predicate": {"custom_model_data": 18},
+      "model": "cropsgtm:item/environmental_module/river"
+    },
+    {
+      "predicate": {"custom_model_data": 19},
+      "model": "cropsgtm:item/environmental_module/mesa"
+    },
+    {
+      "predicate": {"custom_model_data": 20},
+      "model": "cropsgtm:item/environmental_module/forest"
+    },
+    {
+      "predicate": {"custom_model_data": 21},
+      "model": "cropsgtm:item/environmental_module/plains"
+    },
+    {
+      "predicate": {"custom_model_data": 22},
+      "model": "cropsgtm:item/environmental_module/mountain"
+    },
+    {
+      "predicate": {"custom_model_data": 23},
+      "model": "cropsgtm:item/environmental_module/hills"
+    },
+    {
+      "predicate": {"custom_model_data": 24},
+      "model": "cropsgtm:item/environmental_module/swamp"
+    },
+    {
+      "predicate": {"custom_model_data": 25},
+      "model": "cropsgtm:item/environmental_module/sandy"
+    },
+    {
+      "predicate": {"custom_model_data": 26},
+      "model": "cropsgtm:item/environmental_module/snowy"
+    },
+    {
+      "predicate": {"custom_model_data": 27},
+      "model": "cropsgtm:item/environmental_module/wasteland"
+    },
+    {
+      "predicate": {"custom_model_data": 28},
+      "model": "cropsgtm:item/environmental_module/beach"
+    }
+  ]
+}

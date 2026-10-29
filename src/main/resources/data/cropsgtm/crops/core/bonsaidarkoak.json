@@ -1,0 +1,42 @@
+{
+    "id":  "cropsgtm:bonsaiDarkOak",
+    "creator":  "Notch",
+    "tier":  1,
+    "drop_rounds":  0.95,
+    "growth_duration":  1600,
+    "colors":  [
+                   "#684C29",
+                   "#459633"
+               ],
+    "seed_shape":  "bonsai",
+    "render_shape":  "X",
+    "sprite":  {
+                   "base":  "cropsgtm:block/crops/core/bonsaidarkoak/",
+                   "min":  1,
+                   "max":  3
+               },
+    "soil":  "dirtGrass",
+    "drops":  [
+                  {
+                      "item":  "minecraft:dark_oak_sapling",
+                      "count":  1,
+                      "chance":  3000
+                  },
+                  {
+                      "item":  "minecraft:dark_oak_log",
+                      "count":  10,
+                      "chance":  6000
+                  }
+              ],
+    "alternate_seeds":  [
+                            "minecraft:dark_oak_sapling"
+                        ],
+    "mutation_pools":  [
+                           "brown",
+                           "tree",
+                           "leafy",
+                           "dark",
+                           "wood",
+                           "food"
+                       ]
+}

@@ -1,0 +1,41 @@
+{
+    "id":  "cropsgtm:coppon",
+    "tier":  6,
+    "drop_rounds":  0.735091890625,
+    "growth_duration":  1200,
+    "colors":  [
+                   "#be7000",
+                   "#d88000"
+               ],
+    "sprite":  {
+                   "base":  "cropsgtm:block/crops/gtceu/coppon/",
+                   "min":  1,
+                   "max":  3
+               },
+    "soil":  "stone",
+    "growth_requirements":  [
+                                {
+                                    "type":  "sub_soil",
+                                    "id":  "copper"
+                                }
+                            ],
+    "drops":  [
+                  {
+                      "item":  "cropsgtm:coppon_fiber",
+                      "chance":  10000
+                  }
+              ],
+    "liked_biomes":  [
+                         "minecraft:is_savanna",
+                         "forge:is_hot",
+                         "forge:is_sandy"
+                     ],
+    "mutation_pools":  [
+                           "orange",
+                           "bush",
+                           "metal",
+                           "shiny",
+                           "cotton",
+                           "copper"
+                       ]
+}

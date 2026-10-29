@@ -1,0 +1,7 @@
+{
+    "output":  "cropsgtm:turnip",
+    "parents":  [
+                    "cropsgtm:potato",
+                    "cropsgtm:bop_berry"
+                ]
+}

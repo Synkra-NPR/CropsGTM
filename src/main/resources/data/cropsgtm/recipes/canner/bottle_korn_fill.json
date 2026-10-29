@@ -1,0 +1,56 @@
+{
+  "type": "gtceu:canner",
+  "duration": 4,
+  "category": "gtceu:canner",
+  "tickInputs": {
+    "eu": [
+      {
+        "content": 1
+      }
+    ]
+  },
+  "inputs": {
+    "item": [
+      {
+        "content": {
+          "type": "gtceu:sized",
+          "count": 1,
+          "ingredient": {
+            "item": "minecraft:glass_bottle"
+          }
+        }
+      }
+    ],
+    "fluid": [
+      {
+        "content": {
+          "amount": 250,
+          "value": [
+            {
+              "tag": "forge:korn"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "outputs": {
+    "item": [
+      {
+        "content": {
+          "type": "gtceu:sized",
+          "count": 1,
+          "ingredient": {
+            "item": "cropsgtm:korn_bottle"
+          }
+        }
+      }
+    ]
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "gtceu"
+    }
+  ]
+}

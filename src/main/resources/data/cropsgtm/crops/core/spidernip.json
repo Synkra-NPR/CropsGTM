@@ -1,0 +1,15 @@
+{
+  "id": "cropsgtm:spidernip",
+  "creator": "Mr. Kenny",
+  "tier": 4,
+  "drop_rounds": 0.81450625,
+  "growth_duration": 2400,
+  "colors": ["#BFBFBF", "#F7F7F7"],
+  "drops": [
+    { "item": "minecraft:string", "chance": 6666 },
+    { "item": "minecraft:spider_eye", "chance": 1667 },
+    { "item": "minecraft:cobweb", "chance": 1667 }
+  ],
+  "liked_biomes": ["forge:is_wet", "forge:is_lush"],
+  "mutation_pools": ["white", "evil", "poison", "addictive", "food", "ingredient", "silk"]
+}

@@ -1,0 +1,25 @@
+{
+  "id": "cropsgtm:garnydinia",
+  "machine_breeding_only": true,
+  "creator": "moronwmachinegun",
+  "tier": 7,
+  "drop_rounds": 0.69833729609375,
+  "growth_duration": 850,
+  "colors": ["#A24141", "#A3A341"],
+  "render_shape": "X",
+  "soil": "stone",
+  "growth_requirements": [
+    { "type": "sub_soil", "id": "garnetgem" }
+  ],
+  "drops": [
+    { "gt": "dust", "material": "red_garnet", "chance": 2250 },
+    { "gt": "dust", "material": "yellow_garnet", "chance": 2250 },
+    { "gt": "gem", "material": "red_garnet", "chance": 2250 },
+    { "gt": "gem", "material": "yellow_garnet", "chance": 2250 },
+    { "gt": "gemExquisite", "material": "red_garnet", "chance": 250 },
+    { "gt": "gemExquisite", "material": "yellow_garnet", "chance": 250 },
+    { "gt": "crushedPurified", "material": "red_garnet", "chance": 250 },
+    { "gt": "crushedPurified", "material": "yellow_garnet", "chance": 250 }
+  ],
+  "liked_biomes": ["minecraft:is_savanna", "forge:is_sandy", "minecraft:is_badlands"]
+}

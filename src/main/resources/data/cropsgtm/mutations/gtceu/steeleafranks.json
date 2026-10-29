@@ -1,0 +1,7 @@
+{
+    "output":  "cropsgtm:steeleafranks",
+    "parents":  [
+                    "cropsgtm:torchberry",
+                    "cropsgtm:knightmetal_berry"
+                ]
+}

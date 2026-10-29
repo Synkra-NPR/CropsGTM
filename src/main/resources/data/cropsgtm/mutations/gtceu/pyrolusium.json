@@ -1,0 +1,7 @@
+{
+    "output":  "cropsgtm:pyrolusium",
+    "parents":  [
+                    "cropsgtm:nickelback",
+                    "cropsgtm:bauxia"
+                ]
+}

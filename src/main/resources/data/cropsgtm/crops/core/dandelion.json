@@ -1,0 +1,18 @@
+{
+  "id": "cropsgtm:dandelion",
+  "lang_key": "block.minecraft.dandelion",
+  "creator": "Notch",
+  "tier": 2,
+  "drop_rounds": 0.9025,
+  "growth_duration": 600,
+  "colors": ["#8E6B13", "#E7E769"],
+  "seed_shape": "flower",
+  "soil": "dirtGrass",
+  "drops": [
+    { "item": "minecraft:yellow_dye", "chance": 7500 },
+    { "item": "minecraft:dandelion", "chance": 2500 }
+  ],
+  "alternate_seeds": ["minecraft:dandelion"],
+  "liked_biomes": ["forge:is_plains", "forge:is_lush", "minecraft:is_forest"],
+  "mutation_pools": ["yellow", "flower"]
+}

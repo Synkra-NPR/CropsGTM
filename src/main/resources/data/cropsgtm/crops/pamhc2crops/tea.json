@@ -1,0 +1,38 @@
+{
+    "id":  "cropsgtm:tea",
+    "tier":  4,
+    "drop_rounds":  0.81450625,
+    "growth_duration":  2400,
+    "colors":  [
+                   "#7c8c58",
+                   "#d8c97d"
+               ],
+    "soil":  "farmland",
+    "drops":  [
+                  {
+                      "item":  "pamhc2crops:tealeafitem",
+                      "chance":  10000,
+                      "required":  false
+                  }
+              ],
+    "liked_biomes":  [
+                         "forge:is_wet",
+                         "minecraft:is_hill",
+                         "forge:is_hot"
+                     ],
+    "mutation_pools":  [
+                           "green",
+                           "leafy",
+                           "pam2",
+                           "pam3"
+                       ],
+    "seed_shape":  "pam",
+    "alternate_seeds":  [
+                            "pamhc2crops:tealeafseeditem"
+                        ],
+    "sprite":  {
+                   "base":  "cropsgtm:block/crops/gtceu/tea/",
+                   "min":  1,
+                   "max":  4
+               }
+}

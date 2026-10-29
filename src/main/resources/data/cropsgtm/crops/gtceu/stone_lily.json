@@ -1,0 +1,18 @@
+{
+  "id": "cropsgtm:stoneLily",
+  "creator": "bartimaeusnek",
+  "tier": 1,
+  "drop_rounds": 0.95,
+  "colors": ["#919191", "#CDCDCD"],
+  "soil": "stone",
+  "render_shape": "X",
+  "sprite": { "base": "cropsgtm:block/crops/core/stonelilies/stone/", "min": 1, "max": 4 },
+  "growth_requirements": [
+    { "type": "sub_soil", "id": "stone" }
+  ],
+  "drops": [
+    { "gt": "dust", "material": "stone", "count": 9, "chance": 10000 }
+  ],
+  "liked_biomes": ["minecraft:is_mountain", "minecraft:is_hill"],
+  "mutation_pools": ["gray", "stone"]
+}

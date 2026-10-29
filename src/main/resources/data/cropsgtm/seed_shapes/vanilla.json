@@ -1,0 +1,6 @@
+{
+    "id":  "vanilla",
+    "model_data":  8,
+    "dark_texture":  "cropsgtm:item/genericseed/vanilla1",
+    "light_texture":  "cropsgtm:item/genericseed/vanilla2"
+}

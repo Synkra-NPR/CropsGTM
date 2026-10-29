@@ -1,0 +1,210 @@
+plugins {
+    id 'java'
+    id 'idea'
+    id 'eclipse'
+    id 'net.minecraftforge.gradle' version '6.0.54'
+    // 与 GregTech Modern 使用同一套格式化配置，保持两份源码的风格一致
+    id 'com.diffplug.spotless' version '8.1.0'
+}
+
+version = mod_version
+group = maven_group
+base { archivesName = archives_base_name }
+
+java {
+    toolchain.languageVersion = JavaLanguageVersion.of(17)
+}
+
+minecraft {
+    mappings channel: 'official', version: minecraft_version
+    copyIdeResources = true
+
+    runs {
+        client {
+            workingDirectory project.file('run')
+            property 'forge.logging.markers', 'REGISTRIES'
+            property 'forge.logging.console.level', 'info'
+            // ModularUI 的 mixin refmap 使用 SRG 名，开发环境是 official 映射，需要运行时重映射
+            property 'mixin.env.remapRefMap', 'true'
+            property 'mixin.env.refMapRemappingFile', "${projectDir}/build/createSrgToMcp/output.srg"
+            mods {
+                "${mod_id}" {
+                    source sourceSets.main
+                }
+            }
+        }
+        server {
+            workingDirectory project.file('run')
+            property 'forge.logging.markers', 'REGISTRIES'
+            property 'forge.logging.console.level', 'info'
+            // ModularUI 的 mixin refmap 使用 SRG 名，开发环境是 official 映射，需要运行时重映射
+            property 'mixin.env.remapRefMap', 'true'
+            property 'mixin.env.refMapRemappingFile', "${projectDir}/build/createSrgToMcp/output.srg"
+            args '--nogui'
+            mods {
+                "${mod_id}" {
+                    source sourceSets.main
+                }
+            }
+        }
+        data {
+            workingDirectory project.file('run')
+            property 'forge.logging.markers', 'REGISTRIES'
+            property 'forge.logging.console.level', 'info'
+            // ModularUI 的 mixin refmap 使用 SRG 名，开发环境是 official 映射，需要运行时重映射
+            property 'mixin.env.remapRefMap', 'true'
+            property 'mixin.env.refMapRemappingFile', "${projectDir}/build/createSrgToMcp/output.srg"
+            args '--mod', mod_id, '--all', '--output', file('src/generated/resources/').getAbsolutePath(),
+                    '--existing', file('src/main/resources/').getAbsolutePath()
+            mods {
+                "${mod_id}" {
+                    source sourceSets.main
+                }
+            }
+        }
+    }
+}
+
+repositories {
+    // 国内镜像优先
+    maven {
+        name = 'Aliyun Public'
+        url = 'https://maven.aliyun.com/repository/public'
+    }
+    maven {
+        name = 'Aliyun Gradle Plugin'
+        url = 'https://maven.aliyun.com/repository/gradle-plugin'
+    }
+    mavenCentral()
+    mavenLocal()
+    maven {
+        name = 'GTCEu Maven'
+        url = 'https://maven.gtceu.com'
+        content {
+            includeGroup 'com.gregtechceu.gtceu'
+        }
+    }
+    maven {
+        name = 'FirstDarkDev'
+        url = 'https://maven.firstdark.dev/snapshots/'
+    }
+    maven {
+        // Registrate
+        url = 'https://maven.tterrag.com/'
+        content { includeGroup 'com.tterrag.registrate' }
+    }
+    maven {
+        name = 'BlameJared'
+        url = 'https://maven.blamejared.com/'
+    }
+    maven {
+        url = 'https://cursemaven.com/'
+        content { includeGroup 'curse.maven' }
+    }
+    maven {
+        name = 'Forge'
+        url = 'https://maven.minecraftforge.net/'
+    }
+    maven {
+        name = 'Modrinth'
+        url = 'https://api.modrinth.com/maven'
+        content { includeGroup 'maven.modrinth' }
+    }
+}
+
+sourceSets {
+    main.resources {
+        srcDir 'src/generated/resources'
+    }
+}
+
+dependencies {
+    minecraft "net.minecraftforge:forge:${minecraft_version}-${forge_version}"
+
+    compileOnly 'org.jetbrains:annotations:26.0.1'
+
+    // GregTech CEu Modern 7.5.3（LDLib2 界面版本），只在编译期必需，运行期是可选集成
+    compileOnly fg.deobf("com.gregtechceu.gtceu:gtceu-${minecraft_version}:${gtceu_version}") { transitive = false }
+    // GTM 内置的 LDLib（lowdragmc）界面库，机器的界面代码在编译期需要
+    compileOnly fg.deobf("com.lowdragmc.ldlib:ldlib-forge-1.20.1:${ldlib_version}") { transitive = false }
+    // GTM 依赖的配置库
+    compileOnly fg.deobf("dev.toma.configuration:configuration-forge-1.20.1:${configuration_version}") { transitive = false }
+    // 开发环境默认带上 GT，便于验证机器与工业农场；使用 -PnoGt 运行即可测试无 GT 环境
+    if (!project.hasProperty("noGt")) {
+        runtimeOnly fg.deobf("com.gregtechceu.gtceu:gtceu-${minecraft_version}:${gtceu_version}") { transitive = false }
+        runtimeOnly fg.deobf("com.lowdragmc.ldlib:ldlib-forge-1.20.1:${ldlib_version}") { transitive = false }
+        runtimeOnly fg.deobf("dev.toma.configuration:configuration-forge-1.20.1:${configuration_version}") { transitive = false }
+    }
+    // GTRegistrate 继承自 Registrate，编译期需要
+    compileOnly fg.deobf("com.tterrag.registrate:Registrate:${registrate_version}") { transitive = false }
+    // Jade、EMI 与 JEI 的集成 API，外部模组不参与打包，仅用于开发期运行验证
+    compileOnly fg.deobf('maven.modrinth:jade:11.6.3') { transitive = false }
+    compileOnly fg.deobf('dev.emi:emi-forge:1.1.24+1.20.1') { transitive = false }
+    compileOnly fg.deobf('mezz.jei:jei-1.20.1-common-api:15.20.0.115') { transitive = false }
+    compileOnly fg.deobf('mezz.jei:jei-1.20.1-forge-api:15.20.0.115') { transitive = false }
+    // 开发环境运行时同样需要 deobf 后的 jar，否则 mixin 中的 SRG 名无法在 official 映射下解析
+    runtimeOnly fg.deobf('maven.modrinth:jade:11.6.3') { transitive = false }
+    runtimeOnly fg.deobf('dev.emi:emi-forge:1.1.24+1.20.1')
+    runtimeOnly fg.deobf('mezz.jei:jei-1.20.1-forge:15.20.0.115') { transitive = false }
+
+    // Pam's HarvestCraft 2 模块，仅用于开发期验证依赖其物品的作物。Crops 与 Trees 的配方引用
+    // Food Core / Food Extended 的物品，四个模块需要一起加载才不会出现缺物品的配方
+    runtimeOnly fg.deobf('curse.maven:pams-harvestcraft-2-crops-361385:4687624') { transitive = false }
+    runtimeOnly fg.deobf('curse.maven:pams-harvestcraft-2-trees-365460:4625518') { transitive = false }
+    runtimeOnly fg.deobf('curse.maven:pams-harvestcraft-2-food-core-372534:5020789') { transitive = false }
+    runtimeOnly fg.deobf('curse.maven:pams-harvestcraft-2-food-extended-402231:4606448') { transitive = false }
+
+    // 农夫乐事，仅用于开发期验证兼容作物与种子剪影
+    runtimeOnly fg.deobf('maven.modrinth:farmers-delight:1.20.1-1.3.4') { transitive = false }
+}
+
+tasks.named('processResources', ProcessResources).configure {
+    // Registrate 生成的语言文件会覆盖手工维护的完整语言文件，这里只保留手写版本
+    filesMatching('assets/cropsgtm/lang/**') {
+        if (it.file.path.replace('\\', '/').contains('/src/generated/')) {
+            it.exclude()
+        }
+    }
+    exclude '.cache/**'
+
+    var replaceProperties = [
+            mod_license      : mod_license,
+            mod_id           : mod_id,
+            version          : version,
+            mod_name         : mod_name,
+            mod_url          : mod_url,
+            mod_author       : mod_author,
+            forge_version    : forge_version.split("\\.")[0],
+            minecraft_version: minecraft_version,
+            gtceu_version    : gtceu_version,
+            gtceu_version_range: gtceu_version_range,
+    ]
+    inputs.properties(replaceProperties)
+
+    filesMatching('META-INF/mods.toml') {
+        expand replaceProperties
+    }
+}
+
+tasks.withType(JavaCompile).configureEach {
+    options.encoding = 'UTF-8'
+    options.release = 17
+    options.compilerArgs << '-Aquiet=true'
+}
+
+// 开发运行前生成 SRG -> official 映射文件，供 mixin.env.refMapRemappingFile 使用
+tasks.matching { it.name == 'runClient' || it.name == 'runServer' || it.name == 'runData' }.configureEach {
+    dependsOn 'createSrgToMcp'
+}
+
+spotless {
+    encoding 'UTF-8'
+
+    java {
+        target 'src/main/java/**/*.java'
+        toggleOffOn()
+        importOrderFile(file('spotless/spotless.importorder'))
+        endWithNewline()
+        eclipse('4.31').configFile(file('spotless/spotless.eclipseformat.xml'))
+    }
+}

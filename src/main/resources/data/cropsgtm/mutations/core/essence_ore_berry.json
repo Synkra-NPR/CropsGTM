@@ -1,0 +1,9 @@
+{
+    "output":  "cropsgtm:essence_ore_berry",
+    "parents":  [
+                    "cropsgtm:creeperweed",
+                    "cropsgtm:zomplant",
+                    "cropsgtm:spidernip",
+                    "cropsgtm:tearstalks"
+                ]
+}

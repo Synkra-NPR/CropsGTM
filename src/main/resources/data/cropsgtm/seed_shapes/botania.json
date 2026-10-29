@@ -1,0 +1,6 @@
+{
+    "id":  "botania",
+    "model_data":  3,
+    "dark_texture":  "cropsgtm:item/genericseed/botania1",
+    "light_texture":  "cropsgtm:item/genericseed/botania2"
+}

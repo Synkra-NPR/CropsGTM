@@ -1,0 +1,7 @@
+{
+    "output":  "cropsgtm:inkbloom",
+    "parents":  [
+                    "cropsgtm:blackberry",
+                    "cropsgtm:goldfish"
+                ]
+}

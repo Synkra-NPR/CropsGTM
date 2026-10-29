@@ -1,0 +1,36 @@
+{
+    "id":  "cropsgtm:titania",
+    "machine_breeding_only": true,
+    "tier":  9,
+    "drop_rounds":  0.630249409725,
+    "growth_duration":  1800,
+    "colors":  [
+                   "#815e8d",
+                   "#dca0f0"
+               ],
+    "sprite":  {
+                   "base":  "cropsgtm:block/crops/gtceu/titania/",
+                   "min":  1,
+                   "max":  4
+               },
+    "soil":  "stone",
+    "growth_requirements":  [
+                                {
+                                    "type":  "sub_soil",
+                                    "id":  "titanium"
+                                },
+                                {
+                                    "type":  "machine_only"
+                                }
+                            ],
+    "drops":  [
+                  {
+                      "item":  "cropsgtm:titania_leaf",
+                      "chance":  10000
+                  }
+              ],
+    "liked_biomes":  [
+                         "forge:is_hot",
+                         "minecraft:is_savanna"
+                     ]
+}

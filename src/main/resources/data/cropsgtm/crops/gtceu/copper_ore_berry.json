@@ -1,0 +1,43 @@
+{
+    "id":  "cropsgtm:copper_ore_berry",
+    "seed_shape": "oreberry",
+    "tier":  5,
+    "drop_rounds":  0.7737809375,
+    "growth_duration":  6000,
+    "colors":  [
+                   "#a84d11",
+                   "#f26f18"
+               ],
+    "sprite":  {
+                   "base":  "cropsgtm:block/crops/core/oreberries/copper/",
+                   "min":  1,
+                   "max":  4
+               },
+    "soil":  "stone",
+    "growth_requirements":  [
+                                {
+                                    "type":  "sub_soil",
+                                    "id":  "copper"
+                                }
+                            ],
+    "drops":  [
+                  {
+                      "gt": "dustTiny",
+                      "material":  "copper",
+                      "chance":  10000
+                  }
+              ],
+    "liked_biomes":  [
+                         "minecraft:is_savanna",
+                         "forge:is_hot",
+                         "forge:is_sandy"
+                     ],
+    "mutation_pools":  [
+                           "orange",
+                           "oreBerry",
+                           "danger",
+                           "metal",
+                           "shiny",
+                           "copper"
+                       ]
+}

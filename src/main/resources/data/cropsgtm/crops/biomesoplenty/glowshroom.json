@@ -1,0 +1,36 @@
+{
+    "id":  "cropsgtm:glowshroom",
+    "seed_shape": "spore",
+    "tier":  3,
+    "drop_rounds":  0.857375,
+    "growth_duration":  600,
+    "colors":  [
+                   "#45ad32",
+                   "#63fa48"
+               ],
+    "sprite":  {
+                   "base":  "cropsgtm:block/crops/biomesoplenty/glowshroom/",
+                   "min":  1,
+                   "max":  5
+               },
+    "soil":  "netherMushroom",
+    "drops":  [
+                  {
+                      "item":  "biomesoplenty:glowshroom",
+                      "chance":  10000,
+                      "required":  false
+                  }
+              ],
+    "liked_biomes":  [
+                         "minecraft:is_nether",
+                         "cropsgtm:is_magical",
+                         "forge:is_mushroom"
+                     ],
+    "mutation_pools":  [
+                           "green",
+                           "nether",
+                           "mushroom",
+                           "light",
+                           "ingredient"
+                       ]
+}

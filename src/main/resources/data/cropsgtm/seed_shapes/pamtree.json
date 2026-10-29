@@ -1,0 +1,6 @@
+{
+    "id":  "pamtree",
+    "model_data": 12,
+    "dark_texture":  "cropsgtm:item/genericseed/pamtree1",
+    "light_texture":  "cropsgtm:item/genericseed/pamtree2"
+}

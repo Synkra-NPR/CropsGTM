@@ -1,0 +1,46 @@
+{
+    "id":  "cropsgtm:coffee",
+    "tier":  7,
+    "drop_rounds":  0.698337296094,
+    "growth_duration":  2800,
+    "colors":  [
+                   "#3d1e00",
+                   "#964f05"
+               ],
+    "soil":  "farmland",
+    "growth_requirements":  [
+                                {
+                                    "type":  "min_light",
+                                    "level":  9
+                                }
+                            ],
+    "drops":  [
+                  {
+                      "item":  "pamhc2crops:coffeebeanitem",
+                      "chance":  10000,
+                      "required":  false
+                  }
+              ],
+    "liked_biomes":  [
+                         "forge:is_hot",
+                         "forge:is_lush",
+                         "forge:is_wet"
+                     ],
+    "mutation_pools":  [
+                           "brown",
+                           "bean",
+                           "leafy",
+                           "addictive",
+                           "pam1",
+                           "pam3"
+                       ],
+    "seed_shape":  "pam",
+    "alternate_seeds":  [
+                            "pamhc2crops:coffeebeanseeditem"
+                        ],
+    "sprite":  {
+                   "base":  "cropsgtm:block/crops/gtceu/coffee/",
+                   "min":  1,
+                   "max":  4
+               }
+}

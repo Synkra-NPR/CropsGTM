@@ -1,0 +1,18 @@
+{
+    "type":  "hydration",
+    "fluids":  [
+                   {
+                       "fluid":  "minecraft:water",
+                       "potency":  1
+                   },
+                   {
+                       "fluid":  "minecraft:flowing_water",
+                       "potency":  1
+                   },
+                   {
+                       "fluid":  "gtceu:distilled_water",
+                       "potency":  2,
+                       "mod":  "gtceu"
+                   }
+               ]
+}

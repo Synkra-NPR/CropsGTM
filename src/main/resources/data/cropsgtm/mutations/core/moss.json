@@ -1,0 +1,7 @@
+{
+    "output":  "cropsgtm:moss",
+    "parents":  [
+                    "cropsgtm:ivy",
+                    "cropsgtm:flowering_vine"
+                ]
+}

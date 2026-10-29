@@ -1,0 +1,46 @@
+{
+    "id":  "cropsgtm:grape",
+    "tier":  4,
+    "drop_rounds":  0.81450625,
+    "growth_duration":  800,
+    "colors":  [
+                   "#4a1041",
+                   "#5d1451"
+               ],
+    "soil":  "farmland",
+    "growth_requirements":  [
+                                {
+                                    "type":  "min_light",
+                                    "level":  9
+                                }
+                            ],
+    "drops":  [
+                  {
+                      "item":  "pamhc2crops:grapeitem",
+                      "chance":  10000,
+                      "required":  false
+                  }
+              ],
+    "liked_biomes":  [
+                         "forge:is_hot",
+                         "forge:is_dry",
+                         "forge:is_sparse"
+                     ],
+    "mutation_pools":  [
+                           "purple",
+                           "climbable",
+                           "leafy",
+                           "tendrilly",
+                           "pam1",
+                           "pam2"
+                       ],
+    "seed_shape":  "pam",
+    "alternate_seeds":  [
+                            "pamhc2crops:grapeseeditem"
+                        ],
+    "sprite":  {
+                   "base":  "cropsgtm:block/crops/gtceu/grape/",
+                   "min":  1,
+                   "max":  4
+               }
+}

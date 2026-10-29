@@ -1,0 +1,39 @@
+{
+    "id":  "cropsgtm:auronia",
+    "tier":  8,
+    "drop_rounds":  0.663420431289,
+    "growth_duration":  3700,
+    "colors":  [
+                   "#aba600",
+                   "#efe913"
+               ],
+    "sprite":  {
+                   "base":  "cropsgtm:block/crops/gtceu/auronia/",
+                   "min":  1,
+                   "max":  4
+               },
+    "soil":  "stone",
+    "growth_requirements":  [
+                                {
+                                    "type":  "sub_soil",
+                                    "id":  "gold"
+                                }
+                            ],
+    "drops":  [
+                  {
+                      "item":  "cropsgtm:auronia_leaf",
+                      "chance":  10000
+                  }
+              ],
+    "liked_biomes":  [
+                         "minecraft:is_badlands",
+                         "forge:is_sandy"
+                     ],
+    "mutation_pools":  [
+                           "yellow",
+                           "dense",
+                           "metal",
+                           "tendrilly",
+                           "gold"
+                       ]
+}

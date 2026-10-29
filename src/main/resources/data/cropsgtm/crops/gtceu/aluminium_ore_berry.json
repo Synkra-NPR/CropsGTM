@@ -1,0 +1,40 @@
+{
+    "id":  "cropsgtm:aluminium_ore_berry",
+    "seed_shape": "oreberry",
+    "tier":  5,
+    "drop_rounds":  0.7737809375,
+    "growth_duration":  6000,
+    "colors":  [
+                   "#5687a3",
+                   "#80c8f0"
+               ],
+    "sprite":  {
+                   "base":  "cropsgtm:block/crops/core/oreberries/aluminium/",
+                   "min":  1,
+                   "max":  4
+               },
+    "soil":  "stone",
+    "growth_requirements":  [
+                                {
+                                    "type":  "sub_soil",
+                                    "id":  "aluminium"
+                                }
+                            ],
+    "drops":  [
+                  {
+                      "gt": "dustTiny",
+                      "material":  "aluminium",
+                      "chance":  10000
+                  }
+              ],
+    "liked_biomes":  [
+                         "forge:is_cold",
+                         "forge:is_dry"
+                     ],
+    "mutation_pools":  [
+                           "white",
+                           "oreBerry",
+                           "danger",
+                           "metal"
+                       ]
+}

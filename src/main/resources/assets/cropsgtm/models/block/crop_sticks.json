@@ -1,0 +1,57 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "particle": "cropsgtm:block/cropsticks",
+    "cropsticks": "cropsgtm:block/cropsticks"
+  },
+  "elements": [
+    {
+      "from": [2, -3, 2],
+      "to": [3, 13, 3],
+      "faces": {
+        "down": { "texture": "#cropsticks", "uv": [0, 0, 16, 16] },
+        "up": { "texture": "#cropsticks", "uv": [0, 0, 16, 16] },
+        "north": { "texture": "#cropsticks", "uv": [0, 0, 16, 16] },
+        "south": { "texture": "#cropsticks", "uv": [0, 0, 16, 16] },
+        "west": { "texture": "#cropsticks", "uv": [0, 0, 16, 16] },
+        "east": { "texture": "#cropsticks", "uv": [0, 0, 16, 16] }
+      }
+    },
+    {
+      "from": [13, -3, 2],
+      "to": [14, 13, 3],
+      "faces": {
+        "down": { "texture": "#cropsticks", "uv": [0, 0, 16, 16] },
+        "up": { "texture": "#cropsticks", "uv": [0, 0, 16, 16] },
+        "north": { "texture": "#cropsticks", "uv": [0, 0, 16, 16] },
+        "south": { "texture": "#cropsticks", "uv": [0, 0, 16, 16] },
+        "west": { "texture": "#cropsticks", "uv": [0, 0, 16, 16] },
+        "east": { "texture": "#cropsticks", "uv": [0, 0, 16, 16] }
+      }
+    },
+    {
+      "from": [13, -3, 13],
+      "to": [14, 13, 14],
+      "faces": {
+        "down": { "texture": "#cropsticks", "uv": [0, 0, 16, 16] },
+        "up": { "texture": "#cropsticks", "uv": [0, 0, 16, 16] },
+        "north": { "texture": "#cropsticks", "uv": [0, 0, 16, 16] },
+        "south": { "texture": "#cropsticks", "uv": [0, 0, 16, 16] },
+        "west": { "texture": "#cropsticks", "uv": [0, 0, 16, 16] },
+        "east": { "texture": "#cropsticks", "uv": [0, 0, 16, 16] }
+      }
+    },
+    {
+      "from": [2, -3, 13],
+      "to": [3, 13, 14],
+      "faces": {
+        "down": { "texture": "#cropsticks", "uv": [0, 0, 16, 16] },
+        "up": { "texture": "#cropsticks", "uv": [0, 0, 16, 16] },
+        "north": { "texture": "#cropsticks", "uv": [0, 0, 16, 16] },
+        "south": { "texture": "#cropsticks", "uv": [0, 0, 16, 16] },
+        "west": { "texture": "#cropsticks", "uv": [0, 0, 16, 16] },
+        "east": { "texture": "#cropsticks", "uv": [0, 0, 16, 16] }
+      }
+    }
+  ]
+}

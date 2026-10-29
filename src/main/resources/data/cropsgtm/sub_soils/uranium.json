@@ -1,0 +1,8 @@
+{
+    "id":  "uranium",
+    "materials":  [
+                      "gtceu:uraninite",
+                      "gtceu:uranium",
+                      "gtceu:uranium_235"
+                  ]
+}

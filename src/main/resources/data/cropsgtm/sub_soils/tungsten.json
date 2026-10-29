@@ -1,0 +1,8 @@
+{
+    "id":  "tungsten",
+    "materials":  [
+                      "gtceu:tungsten",
+                      "gtceu:tungstate",
+                      "gtceu:scheelite"
+                  ]
+}

@@ -1,0 +1,41 @@
+{
+    "id":  "cropsgtm:magebloom",
+    "tier":  5,
+    "drop_rounds":  0.7737809375,
+    "growth_duration":  1500,
+    "colors":  [
+                   "#432c59",
+                   "#c984ff"
+               ],
+    "render_shape":  "HASH",
+    "sprites":  [
+                    "ars_nouveau:block/manabloom/stage1",
+                    "ars_nouveau:block/manabloom/stage2",
+                    "ars_nouveau:block/manabloom/stage3",
+                    "ars_nouveau:block/manabloom/stage4"
+                ],
+    "soil":  "farmland",
+    "growth_requirements":  [
+                                {
+                                    "type":  "min_light",
+                                    "level":  9
+                                }
+                            ],
+    "drops":  [
+                  {
+                      "item":  "ars_nouveau:magebloom",
+                      "chance":  10000
+                  }
+              ],
+    "alternate_seeds":  [
+                            "ars_nouveau:magebloom_crop"
+                        ],
+    "liked_biomes":  [
+                         "cropsgtm:is_magical"
+                     ],
+    "mutation_pools":  [
+                           "magic",
+                           "flower",
+                           "purple"
+                       ]
+}

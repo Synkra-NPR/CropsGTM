@@ -1,0 +1,7 @@
+{
+    "output":  "cropsgtm:bonsaiSpruce",
+    "parents":  [
+                    "cropsgtm:bonsaiOak",
+                    "cropsgtm:pumpkin"
+                ]
+}

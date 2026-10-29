@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "side": "cropsgtm:block/industrialfarm/sides/6",
+    "top": "cropsgtm:block/industrialfarm/environmentalenhancementunit/6",
+    "bottom": "cropsgtm:block/industrialfarm/sides/6"
+  }
+}

@@ -1,0 +1,38 @@
+{
+    "id":  "cropsgtm:space_flower",
+    "machine_breeding_only": true,
+    "seed_shape": "flower",
+    "tier":  13,
+    "drop_rounds":  0.51334208328,
+    "growth_duration":  15000,
+    "colors":  [
+                   "#ff0000",
+                   "#ffc200"
+               ],
+    "sprite":  {
+                   "base":  "cropsgtm:block/crops/core/spaceflower/",
+                   "min":  1,
+                   "max":  4
+               },
+    "soil":  "farmland",
+    "growth_requirements":  [
+                                {
+                                    "type":  "sub_soil",
+                                    "id":  "space"
+                                },
+                                {
+                                    "type":  "machine_only"
+                                }
+                            ],
+    "drops":  [
+                  {
+                      "item":  "cropsgtm:space_flower",
+                      "chance":  10000
+                  }
+              ],
+    "liked_biomes":  [
+                         "forge:is_cold",
+                         "forge:is_dry",
+                         "cropsgtm:is_dead"
+                     ]
+}

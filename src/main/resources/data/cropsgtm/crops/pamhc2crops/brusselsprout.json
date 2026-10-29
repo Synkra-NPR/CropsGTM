@@ -1,0 +1,43 @@
+{
+    "id":  "cropsgtm:brusselsprout",
+    "lang_key":  "cropsgtm_pam.crop.brusselsprout",
+    "seed_shape":  "pam",
+    "tier":  2,
+    "drop_rounds":  0.9025,
+    "growth_duration":  650,
+    "colors":  [
+                   "#42472D",
+                   "#89935D"
+               ],
+    "soil":  "farmland",
+    "growth_requirements":  [
+                                {
+                                    "type":  "min_light",
+                                    "level":  9
+                                }
+                            ],
+    "drops":  [
+                  {
+                      "item":  "pamhc2crops:brusselsproutitem",
+                      "chance":  10000
+                  }
+              ],
+    "alternate_seeds":  [
+                            "pamhc2crops:brusselsproutseeditem"
+                        ],
+    "liked_biomes":  [
+                         "forge:is_wet",
+                         "forge:is_cold"
+                     ],
+    "mutation_pools":  [
+                           "green",
+                           "leafy",
+                           "pam1",
+                           "pam3"
+                       ],
+    "sprites":  [
+                    "pamhc2crops:block/brusselsprout_stage_0",
+                    "pamhc2crops:block/brusselsprout_stage_1",
+                    "pamhc2crops:block/brusselsprout_stage_3"
+                ]
+}

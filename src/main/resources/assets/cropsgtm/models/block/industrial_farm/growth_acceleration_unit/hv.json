@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "side": "cropsgtm:block/industrialfarm/sides/3",
+    "top": "cropsgtm:block/industrialfarm/growthaccelerationunit/3",
+    "bottom": "cropsgtm:block/industrialfarm/sides/3"
+  }
+}

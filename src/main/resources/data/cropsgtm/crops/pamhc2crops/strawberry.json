@@ -1,0 +1,44 @@
+{
+    "id":  "cropsgtm:strawberry",
+    "tier":  2,
+    "drop_rounds":  0.9025,
+    "growth_duration":  200,
+    "colors":  [
+                   "#8f0205",
+                   "#ce0609"
+               ],
+    "soil":  "farmland",
+    "growth_requirements":  [
+                                {
+                                    "type":  "min_light",
+                                    "level":  9
+                                }
+                            ],
+    "drops":  [
+                  {
+                      "item":  "pamhc2crops:strawberryitem",
+                      "chance":  10000,
+                      "required":  false
+                  }
+              ],
+    "liked_biomes":  [
+                         "forge:is_plains",
+                         "forge:is_lush"
+                     ],
+    "mutation_pools":  [
+                           "red",
+                           "berry",
+                           "bush",
+                           "pam2",
+                           "pam3"
+                       ],
+    "seed_shape":  "pam",
+    "alternate_seeds":  [
+                            "pamhc2crops:strawberryseeditem"
+                        ],
+    "sprite":  {
+                   "base":  "cropsgtm:block/crops/gtceu/strawberry/",
+                   "min":  1,
+                   "max":  3
+               }
+}

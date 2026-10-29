@@ -1,0 +1,16 @@
+{
+  "id": "cropsgtm:silviscus",
+  "tier": 8,
+  "drop_rounds": 0.663420431289062,
+  "growth_duration": 3700,
+  "colors": ["#B3B3D0", "#D0D0F1"],
+  "soil": "stone",
+  "growth_requirements": [
+    { "type": "sub_soil", "id": "silver" }
+  ],
+  "drops": [
+    { "gt": "dustTiny", "material": "silver", "chance": 10000 }
+  ],
+  "liked_biomes": ["forge:is_cold", "forge:is_snowy", "forge:is_spooky"],
+  "mutation_pools": ["white", "bush", "leafy", "metal", "silver"]
+}

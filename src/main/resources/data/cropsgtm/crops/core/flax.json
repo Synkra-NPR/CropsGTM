@@ -1,0 +1,14 @@
+{
+  "id": "cropsgtm:flax",
+  "creator": "Eloraam",
+  "tier": 2,
+  "drop_rounds": 0.9025,
+  "growth_duration": 1200,
+  "colors": ["#804D3E", "#B76E5A"],
+  "soil": "farmland",
+  "drops": [
+    { "item": "minecraft:string", "chance": 10000 }
+  ],
+  "liked_biomes": ["forge:is_wet", "minecraft:is_river", "minecraft:is_beach", "forge:is_sandy"],
+  "mutation_pools": ["blue", "wheat", "addictive", "silk"]
+}

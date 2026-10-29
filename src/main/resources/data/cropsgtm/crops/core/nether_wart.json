@@ -1,0 +1,17 @@
+{
+  "id": "cropsgtm:netherWart",
+  "seed_shape": "spore",
+  "lang_key": "item.minecraft.nether_wart",
+  "tier": 5,
+  "drop_rounds": 0.857375,
+  "growth_duration": 2000,
+  "colors": ["#8B1A1A", "#5C0F0F"],
+  "soil": "soulsand",
+  "sprite": { "base": "minecraft:block/nether_wart_stage", "min": 0, "max": 2 },
+  "drops": [
+    { "item": "minecraft:nether_wart", "chance": 10000 }
+  ],
+  "alternate_seeds": ["minecraft:nether_wart"],
+  "liked_biomes": ["minecraft:is_nether", "forge:is_hot"],
+  "mutation_pools": ["red", "nether", "ingredient"]
+}

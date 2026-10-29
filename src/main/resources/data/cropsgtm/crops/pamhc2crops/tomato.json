@@ -1,0 +1,50 @@
+{
+    "id":  "cropsgtm:tomato",
+    "tier":  4,
+    "drop_rounds":  0.81450625,
+    "growth_duration":  800,
+    "colors":  [
+                   "#91101f",
+                   "#e3321f"
+               ],
+    "soil":  "farmland",
+    "growth_requirements":  [
+                                {
+                                    "type":  "min_light",
+                                    "level":  9
+                                }
+                            ],
+    "drops":  [
+                  {
+                      "item":  "pamhc2crops:tomatoitem",
+                      "chance":  7500,
+                      "required":  false
+                  },
+                  {
+                      "item":  "cropsgtm:max_tomato",
+                      "chance":  2500,
+                      "mod":  "gtceu",
+                      "required":  false
+                  }
+              ],
+    "liked_biomes":  [
+                         "forge:is_hot",
+                         "forge:is_wet"
+                     ],
+    "mutation_pools":  [
+                           "red",
+                           "tendrilly",
+                           "leafy",
+                           "pam2",
+                           "pam3"
+                       ],
+    "seed_shape":  "pam",
+    "alternate_seeds":  [
+                            "pamhc2crops:tomatoseeditem"
+                        ],
+    "sprite":  {
+                   "base":  "cropsgtm:block/crops/gtceu/tomato/",
+                   "min":  1,
+                   "max":  4
+               }
+}

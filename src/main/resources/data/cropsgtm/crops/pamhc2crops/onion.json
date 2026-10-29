@@ -1,0 +1,44 @@
+{
+    "id":  "cropsgtm:onion",
+    "tier":  4,
+    "drop_rounds":  0.81450625,
+    "growth_duration":  800,
+    "colors":  [
+                   "#4e1b3f",
+                   "#753c64"
+               ],
+    "soil":  "farmland",
+    "growth_requirements":  [
+                                {
+                                    "type":  "min_light",
+                                    "level":  9
+                                }
+                            ],
+    "drops":  [
+                  {
+                      "item":  "pamhc2crops:onionitem",
+                      "chance":  10000,
+                      "required":  false
+                  }
+              ],
+    "liked_biomes":  [
+                         "forge:is_dry",
+                         "forge:is_sandy",
+                         "forge:is_sparse"
+                     ],
+    "mutation_pools":  [
+                           "brown",
+                           "root",
+                           "pam1",
+                           "pam2"
+                       ],
+    "seed_shape":  "pam",
+    "alternate_seeds":  [
+                            "pamhc2crops:onionseeditem"
+                        ],
+    "sprite":  {
+                   "base":  "cropsgtm:block/crops/gtceu/onion/",
+                   "min":  1,
+                   "max":  4
+               }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "cropsgtm:vine",
+  "creator": "jeb_",
+  "tier": 2,
+  "drop_rounds": 0.9025,
+  "growth_duration": 450,
+  "colors": ["#173A0A", "#2C7310"],
+  "seed_shape": "flower",
+  "soil": "farmland",
+  "sprite": { "min": 1, "max": 3 },
+  "drops": [
+    { "item": "minecraft:vine", "count": 2, "chance": 10000 }
+  ],
+  "alternate_seeds": ["minecraft:vine"],
+  "liked_biomes": ["forge:is_lush", "minecraft:is_jungle", "forge:is_wet"],
+  "mutation_pools": ["green", "climbable", "tendrilly"]
+}

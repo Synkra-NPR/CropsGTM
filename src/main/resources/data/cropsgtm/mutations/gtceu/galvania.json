@@ -1,0 +1,7 @@
+{
+    "output":  "cropsgtm:galvania",
+    "parents":  [
+                    "cropsgtm:tine",
+                    "cropsgtm:ferrofern"
+                ]
+}

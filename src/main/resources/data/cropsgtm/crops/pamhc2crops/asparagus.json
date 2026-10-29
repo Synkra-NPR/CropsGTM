@@ -1,0 +1,43 @@
+{
+    "id":  "cropsgtm:asparagus",
+    "lang_key":  "cropsgtm_pam.crop.asparagus",
+    "seed_shape":  "pam",
+    "tier":  2,
+    "drop_rounds":  0.9025,
+    "growth_duration":  650,
+    "colors":  [
+                   "#2D4A22",
+                   "#5D9846"
+               ],
+    "soil":  "farmland",
+    "growth_requirements":  [
+                                {
+                                    "type":  "min_light",
+                                    "level":  9
+                                }
+                            ],
+    "drops":  [
+                  {
+                      "item":  "pamhc2crops:asparagusitem",
+                      "chance":  10000
+                  }
+              ],
+    "alternate_seeds":  [
+                            "pamhc2crops:asparagusseeditem"
+                        ],
+    "liked_biomes":  [
+                         "forge:is_wet",
+                         "forge:is_cold"
+                     ],
+    "mutation_pools":  [
+                           "green",
+                           "leafy",
+                           "pam1",
+                           "pam3"
+                       ],
+    "sprites":  [
+                    "pamhc2crops:block/asparagus_stage_0",
+                    "pamhc2crops:block/asparagus_stage_1",
+                    "pamhc2crops:block/asparagus_stage_3"
+                ]
+}

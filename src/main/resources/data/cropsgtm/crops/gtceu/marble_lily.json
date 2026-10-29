@@ -1,0 +1,18 @@
+{
+  "id": "cropsgtm:marbleLily",
+  "creator": "bartimaeusnek",
+  "tier": 1,
+  "drop_rounds": 0.95,
+  "colors": ["#C8C8C8", "#F0F0F0"],
+  "soil": "stone",
+  "render_shape": "X",
+  "sprite": { "base": "cropsgtm:block/crops/core/stonelilies/marble/", "min": 1, "max": 4 },
+  "growth_requirements": [
+    { "type": "sub_soil", "id": "marble" }
+  ],
+  "drops": [
+    { "gt": "dust", "material": "marble", "count": 9, "chance": 10000 }
+  ],
+  "liked_biomes": ["minecraft:is_mountain", "minecraft:is_hill"],
+  "mutation_pools": ["white", "stone"]
+}

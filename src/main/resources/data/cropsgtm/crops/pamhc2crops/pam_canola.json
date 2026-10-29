@@ -1,0 +1,44 @@
+{
+    "id":  "cropsgtm:pam_canola",
+    "lang_key":  "cropsgtm_pam.crop.canola",
+    "seed_shape":  "pam",
+    "tier":  4,
+    "drop_rounds":  0.81450625,
+    "growth_duration":  1000,
+    "colors":  [
+                   "#4D5612",
+                   "#9FB125"
+               ],
+    "soil":  "farmland",
+    "growth_requirements":  [
+                                {
+                                    "type":  "min_light",
+                                    "level":  9
+                                }
+                            ],
+    "drops":  [
+                  {
+                      "item":  "pamhc2crops:canolaitem",
+                      "chance":  10000
+                  }
+              ],
+    "alternate_seeds":  [
+                            "pamhc2crops:canolaseeditem"
+                        ],
+    "liked_biomes":  [
+                         "forge:is_hot",
+                         "forge:is_dry"
+                     ],
+    "mutation_pools":  [
+                           "white",
+                           "stem",
+                           "silk",
+                           "pam1",
+                           "pam2"
+                       ],
+    "sprite":  {
+                   "base":  "cropsgtm:block/crops/core/canola/",
+                   "min":  1,
+                   "max":  4
+               }
+}

@@ -1,0 +1,47 @@
+{
+    "id":  "cropsgtm_farmersdelight:onion",
+    "lang_key":  "cropsgtm_farmersdelight.crop.onion",
+    "seed_shape":  "farmersdelight",
+    "required_mods":  [
+                          "farmersdelight"
+                      ],
+    "tier":  3,
+    "drop_rounds":  0.857375,
+    "growth_duration":  700,
+    "colors":  [
+                   "#4e1b3f",
+                   "#753c64"
+               ],
+    "sprite":  {
+                   "base":  "cropsgtm:block/crops/farmersdelight/onion/",
+                   "min":  1,
+                   "max":  4
+               },
+    "soil":  "farmland",
+    "growth_requirements":  [
+                                {
+                                    "type":  "min_light",
+                                    "level":  9
+                                }
+                            ],
+    "drops":  [
+                  {
+                      "item":  "farmersdelight:onion",
+                      "chance":  10000
+                  }
+              ],
+    "alternate_seeds":  [
+                            "farmersdelight:onion"
+                        ],
+    "liked_biomes":  [
+                         "forge:is_dry",
+                         "forge:is_sandy",
+                         "forge:is_sparse"
+                     ],
+    "mutation_pools":  [
+                           "brown",
+                           "root",
+                           "food",
+                           "ingredient"
+                       ]
+}

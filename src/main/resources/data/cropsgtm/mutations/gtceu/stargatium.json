@@ -1,0 +1,8 @@
+{
+    "output":  "cropsgtm:stargatium",
+    "parents":  [
+                    "cropsgtm:iridine",
+                    "cropsgtm:trollplant"
+                ],
+    "machine_only":  true
+}

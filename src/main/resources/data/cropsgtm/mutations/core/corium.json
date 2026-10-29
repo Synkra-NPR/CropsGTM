@@ -1,0 +1,4 @@
+{
+  "output": "cropsgtm:corium",
+  "parents": ["cropsgtm:wheat", "cropsgtm:cocoa"]
+}

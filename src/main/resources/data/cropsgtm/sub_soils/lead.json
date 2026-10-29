@@ -1,0 +1,7 @@
+{
+    "id":  "lead",
+    "materials":  [
+                      "gtceu:lead",
+                      "gtceu:galena"
+                  ]
+}

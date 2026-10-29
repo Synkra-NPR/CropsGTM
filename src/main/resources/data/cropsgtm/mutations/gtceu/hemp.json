@@ -1,0 +1,7 @@
+{
+    "output":  "cropsgtm:hemp",
+    "parents":  [
+                    "cropsgtm:flax",
+                    "cropsgtm:papyrus"
+                ]
+}

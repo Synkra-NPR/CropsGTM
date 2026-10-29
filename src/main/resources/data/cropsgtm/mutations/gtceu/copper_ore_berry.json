@@ -1,0 +1,8 @@
+{
+    "output":  "cropsgtm:copper_ore_berry",
+    "parents":  [
+                    "cropsgtm:malaxia",
+                    "cropsgtm:bop_berry",
+                    "cropsgtm:stoneLily"
+                ]
+}

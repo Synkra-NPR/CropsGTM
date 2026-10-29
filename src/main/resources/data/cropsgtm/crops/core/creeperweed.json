@@ -1,0 +1,13 @@
+{
+  "id": "cropsgtm:creeperweed",
+  "creator": "General Spaz",
+  "tier": 7,
+  "drop_rounds": 0.69833729609375,
+  "growth_duration": 1000,
+  "colors": ["#396B37", "#51984D"],
+  "drops": [
+    { "item": "minecraft:gunpowder", "chance": 10000 }
+  ],
+  "liked_biomes": ["cropsgtm:is_dead", "forge:is_spooky"],
+  "mutation_pools": ["green", "evil", "fire", "tendrilly", "sulfur", "saltpeter", "coal", "ingredient"]
+}

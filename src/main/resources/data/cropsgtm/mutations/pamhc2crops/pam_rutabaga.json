@@ -1,0 +1,7 @@
+{
+    "output":  "cropsgtm:rutabaga",
+    "parents":  [
+                    "cropsgtm:potato",
+                    "cropsgtm:sugar_beet"
+                ]
+}

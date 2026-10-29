@@ -1,0 +1,50 @@
+{
+    "id":  "cropsgtm_farmersdelight:tomato",
+    "lang_key":  "cropsgtm_farmersdelight.crop.tomato",
+    "seed_shape":  "farmersdelight",
+    "required_mods":  [
+                          "farmersdelight"
+                      ],
+    "tier":  4,
+    "drop_rounds":  0.81450625,
+    "growth_duration":  800,
+    "colors":  [
+                   "#91101f",
+                   "#e3321f"
+               ],
+    "sprite":  {
+                   "base":  "cropsgtm:block/crops/farmersdelight/tomato/",
+                   "min":  1,
+                   "max":  4
+               },
+    "soil":  "farmland",
+    "growth_requirements":  [
+                                {
+                                    "type":  "min_light",
+                                    "level":  9
+                                }
+                            ],
+    "drops":  [
+                  {
+                      "item":  "farmersdelight:tomato",
+                      "chance":  10000
+                  },
+                  {
+                      "item":  "farmersdelight:rotten_tomato",
+                      "chance":  500
+                  }
+              ],
+    "alternate_seeds":  [
+                            "farmersdelight:tomato_seeds"
+                        ],
+    "liked_biomes":  [
+                         "forge:is_hot",
+                         "forge:is_wet"
+                     ],
+    "mutation_pools":  [
+                           "red",
+                           "tendrilly",
+                           "food",
+                           "ingredient"
+                       ]
+}

@@ -1,0 +1,9 @@
+{
+    "id":  "netherrack",
+    "blocks":  [
+                   "minecraft:netherrack",
+                   "minecraft:blackstone",
+                   "minecraft:basalt",
+                   "minecraft:nether_bricks"
+               ]
+}

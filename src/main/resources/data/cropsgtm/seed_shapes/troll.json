@@ -1,0 +1,6 @@
+{
+    "id":  "troll",
+    "model_data":  9,
+    "dark_texture":  "cropsgtm:item/genericseed/troll1",
+    "light_texture":  "cropsgtm:item/genericseed/troll2"
+}

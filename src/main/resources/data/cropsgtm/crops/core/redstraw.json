@@ -1,0 +1,21 @@
+{
+  "id": "cropsgtm:redstraw",
+  "creator": "raa1337",
+  "tier": 6,
+  "growth_duration": 1500,
+  "machine_breeding_tier": 2,
+  "drop_rounds": 0.85,
+  "colors": ["#6C4B17", "#D45555"],
+  "soil": "farmland",
+  "sprite": { "min": 1, "max": 7 },
+  "growth_requirements": [
+    { "type": "min_light", "level": 5 },
+    { "type": "max_light", "level": 12 },
+    { "type": "sub_soil", "id": "redstone" }
+  ],
+  "drops": [
+    { "item": "minecraft:redstone", "chance": 10000 }
+  ],
+  "liked_biomes": ["forge:is_plains", "forge:is_hot"],
+  "mutation_pools": ["red", "stone", "wheat", "light", "ingredient"]
+}

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "cropsgtm:block/machine/crop_breeder_opv",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "cropsgtm:block/machine/crop_breeder_opv"
+    },
+    "facing=south": {
+      "model": "cropsgtm:block/machine/crop_breeder_opv",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "cropsgtm:block/machine/crop_breeder_opv",
+      "y": 270
+    }
+  }
+}

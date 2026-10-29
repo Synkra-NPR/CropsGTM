@@ -1,0 +1,7 @@
+{
+    "output":  "cropsgtm:rubyne",
+    "parents":  [
+                    "cropsgtm:redstraw",
+                    "cropsgtm:diareed"
+                ]
+}

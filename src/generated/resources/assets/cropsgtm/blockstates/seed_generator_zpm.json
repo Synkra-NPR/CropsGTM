@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "cropsgtm:block/machine/seed_generator_zpm",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "cropsgtm:block/machine/seed_generator_zpm"
+    },
+    "facing=south": {
+      "model": "cropsgtm:block/machine/seed_generator_zpm",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "cropsgtm:block/machine/seed_generator_zpm",
+      "y": 270
+    }
+  }
+}

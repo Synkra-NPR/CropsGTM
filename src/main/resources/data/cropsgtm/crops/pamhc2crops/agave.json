@@ -1,0 +1,43 @@
+{
+    "id":  "cropsgtm:agave",
+    "lang_key":  "cropsgtm_pam.crop.agave",
+    "seed_shape":  "pam",
+    "tier":  4,
+    "drop_rounds":  0.81450625,
+    "growth_duration":  900,
+    "colors":  [
+                   "#304C18",
+                   "#649D31"
+               ],
+    "soil":  "farmland",
+    "growth_requirements":  [
+                                {
+                                    "type":  "min_light",
+                                    "level":  9
+                                }
+                            ],
+    "drops":  [
+                  {
+                      "item":  "pamhc2crops:agaveitem",
+                      "chance":  10000
+                  }
+              ],
+    "alternate_seeds":  [
+                            "pamhc2crops:agaveseeditem"
+                        ],
+    "liked_biomes":  [
+                         "forge:is_hot",
+                         "forge:is_dry"
+                     ],
+    "mutation_pools":  [
+                           "green",
+                           "leafy",
+                           "pam1",
+                           "pam3"
+                       ],
+    "sprites":  [
+                    "pamhc2crops:block/agave_stage_0",
+                    "pamhc2crops:block/agave_stage_1",
+                    "pamhc2crops:block/agave_stage_3"
+                ]
+}

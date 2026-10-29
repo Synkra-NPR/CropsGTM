@@ -1,0 +1,46 @@
+{
+    "id":  "cropsgtm_farmersdelight:cabbage",
+    "lang_key":  "cropsgtm_farmersdelight.crop.cabbage",
+    "seed_shape":  "farmersdelight",
+    "required_mods":  [
+                          "farmersdelight"
+                      ],
+    "tier":  3,
+    "drop_rounds":  0.857375,
+    "growth_duration":  900,
+    "colors":  [
+                   "#3f6b2a",
+                   "#9ccf63"
+               ],
+    "sprite":  {
+                   "base":  "cropsgtm:block/crops/farmersdelight/cabbage/",
+                   "min":  1,
+                   "max":  4
+               },
+    "soil":  "farmland",
+    "growth_requirements":  [
+                                {
+                                    "type":  "min_light",
+                                    "level":  9
+                                }
+                            ],
+    "drops":  [
+                  {
+                      "item":  "farmersdelight:cabbage",
+                      "chance":  10000
+                  }
+              ],
+    "alternate_seeds":  [
+                            "farmersdelight:cabbage_seeds"
+                        ],
+    "liked_biomes":  [
+                         "forge:is_cold",
+                         "forge:is_wet"
+                     ],
+    "mutation_pools":  [
+                           "green",
+                           "leafy",
+                           "food",
+                           "ingredient"
+                       ]
+}

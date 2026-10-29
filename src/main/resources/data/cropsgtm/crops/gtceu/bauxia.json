@@ -1,0 +1,33 @@
+{
+    "id":  "cropsgtm:bauxia",
+    "machine_breeding_only": true,
+    "tier":  6,
+    "drop_rounds":  0.735091890625,
+    "growth_duration":  1200,
+    "colors":  [
+                   "#460d00",
+                   "#c88e76"
+               ],
+    "sprite":  {
+                   "base":  "cropsgtm:block/crops/gtceu/bauxia/",
+                   "min":  1,
+                   "max":  4
+               },
+    "soil":  "stone",
+    "growth_requirements":  [
+                                {
+                                    "type":  "sub_soil",
+                                    "id": "aluminiumbauxite"
+                                }
+                            ],
+    "drops":  [
+                  {
+                      "item":  "cropsgtm:bauxia_leaf",
+                      "chance":  10000
+                  }
+              ],
+    "liked_biomes":  [
+                         "forge:is_cold",
+                         "forge:is_dry"
+                     ]
+}

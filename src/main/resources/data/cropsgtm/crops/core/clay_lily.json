@@ -1,0 +1,20 @@
+{
+  "id": "cropsgtm:clayLily",
+  "creator": "C0bra5",
+  "tier": 1,
+  "drop_rounds": 0.95,
+  "growth_duration": 850,
+  "machine_breeding_tier": 2,
+  "colors": ["#666B7F", "#A5A9B9"],
+  "soil": "stone",
+  "render_shape": "X",
+  "sprite": { "base": "cropsgtm:block/crops/core/stonelilies/clay/", "min": 1, "max": 4 },
+  "growth_requirements": [
+    { "type": "sub_soil", "id": "clay" }
+  ],
+  "drops": [
+    { "item": "minecraft:clay_ball", "chance": 10000 }
+  ],
+  "liked_biomes": ["forge:is_wet", "minecraft:is_river", "forge:is_swamp"],
+  "mutation_pools": ["gray", "water", "stone"]
+}

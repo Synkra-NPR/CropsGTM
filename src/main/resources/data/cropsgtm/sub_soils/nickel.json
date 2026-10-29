@@ -1,0 +1,7 @@
+{
+    "id":  "nickel",
+    "materials":  [
+                      "gtceu:nickel",
+                      "gtceu:garnierite"
+                  ]
+}

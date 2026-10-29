@@ -1,0 +1,18 @@
+{
+  "id": "cropsgtm:cactus",
+  "seed_shape": "grains",
+  "lang_key": "block.minecraft.cactus",
+  "tier": 3,
+  "drop_rounds": 0.9025,
+  "growth_duration": 450,
+  "colors": ["#3C7A3C", "#1F4F1F"],
+  "soil": "sand",
+  "entity_damage": 1.0,
+  "sprite": { "min": 1, "max": 3 },
+  "drops": [
+    { "item": "minecraft:cactus", "chance": 10000 }
+  ],
+  "alternate_seeds": ["minecraft:cactus"],
+  "liked_biomes": ["forge:is_sandy", "forge:is_hot", "forge:is_dry"],
+  "mutation_pools": ["green", "cactus", "danger"]
+}

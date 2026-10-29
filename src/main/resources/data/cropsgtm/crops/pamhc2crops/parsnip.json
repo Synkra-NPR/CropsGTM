@@ -1,0 +1,43 @@
+{
+    "id":  "cropsgtm:parsnip",
+    "lang_key":  "cropsgtm_pam.crop.parsnip",
+    "seed_shape":  "pam",
+    "tier":  2,
+    "drop_rounds":  0.9025,
+    "growth_duration":  650,
+    "colors":  [
+                   "#6E7660",
+                   "#E3F3C6"
+               ],
+    "soil":  "farmland",
+    "growth_requirements":  [
+                                {
+                                    "type":  "min_light",
+                                    "level":  9
+                                }
+                            ],
+    "drops":  [
+                  {
+                      "item":  "pamhc2crops:parsnipitem",
+                      "chance":  10000
+                  }
+              ],
+    "alternate_seeds":  [
+                            "pamhc2crops:parsnipseeditem"
+                        ],
+    "liked_biomes":  [
+                         "forge:is_plains",
+                         "forge:is_cold"
+                     ],
+    "mutation_pools":  [
+                           "brown",
+                           "root",
+                           "pam1",
+                           "pam2"
+                       ],
+    "sprites":  [
+                    "pamhc2crops:block/parsnip_stage_0",
+                    "pamhc2crops:block/parsnip_stage_1",
+                    "pamhc2crops:block/parsnip_stage_3"
+                ]
+}

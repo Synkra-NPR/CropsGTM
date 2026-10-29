@@ -1,0 +1,14 @@
+{
+  "id": "cropsgtm:zomplant",
+  "tier": 3,
+  "drop_rounds": 0.857375,
+  "growth_duration": 1800,
+  "colors": ["#3A6529", "#679056"],
+  "render_shape": "X",
+  "drops": [
+    { "item": "minecraft:rotten_flesh", "chance": 9950 },
+    { "item": "minecraft:zombie_head", "chance": 50 }
+  ],
+  "liked_biomes": ["cropsgtm:is_dead", "forge:is_wasteland"],
+  "mutation_pools": ["brown", "evil", "poison", "undead", "food"]
+}

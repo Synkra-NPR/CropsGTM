@@ -1,0 +1,43 @@
+{
+    "id":  "cropsgtm:kohlrabi",
+    "lang_key":  "cropsgtm_pam.crop.kohlrabi",
+    "seed_shape":  "pam",
+    "tier":  3,
+    "drop_rounds":  0.857375,
+    "growth_duration":  850,
+    "colors":  [
+                   "#5C7148",
+                   "#BDE994"
+               ],
+    "soil":  "farmland",
+    "growth_requirements":  [
+                                {
+                                    "type":  "min_light",
+                                    "level":  9
+                                }
+                            ],
+    "drops":  [
+                  {
+                      "item":  "pamhc2crops:kohlrabiitem",
+                      "chance":  10000
+                  }
+              ],
+    "alternate_seeds":  [
+                            "pamhc2crops:kohlrabiseeditem"
+                        ],
+    "liked_biomes":  [
+                         "forge:is_cold",
+                         "forge:is_wet"
+                     ],
+    "mutation_pools":  [
+                           "green",
+                           "leafy",
+                           "pam1",
+                           "pam2"
+                       ],
+    "sprites":  [
+                    "pamhc2crops:block/kohlrabi_stage_0",
+                    "pamhc2crops:block/kohlrabi_stage_1",
+                    "pamhc2crops:block/kohlrabi_stage_3"
+                ]
+}

@@ -1,0 +1,7 @@
+{
+    "id":  "slimyDirt",
+    "include":  [
+                    "dirtGrass",
+                    "slimy"
+                ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "cropsgtm:sugarCane",
+  "seed_shape": "grains",
+  "lang_key": "block.minecraft.sugar_cane",
+  "tier": 2,
+  "drop_rounds": 0.95,
+  "growth_duration": 400,
+  "colors": ["#9BCB68", "#6E9A44"],
+  "soil": "sugarcane",
+  "sprite": { "min": 1, "max": 3 },
+  "drops": [
+    { "item": "minecraft:sugar_cane", "chance": 10000 }
+  ],
+  "alternate_seeds": ["minecraft:sugar_cane"],
+  "liked_biomes": ["forge:is_swamp", "forge:is_wet", "minecraft:is_jungle"],
+  "mutation_pools": ["green", "reed", "food"]
+}

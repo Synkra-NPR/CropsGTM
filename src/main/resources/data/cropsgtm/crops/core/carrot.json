@@ -1,0 +1,19 @@
+{
+  "id": "cropsgtm:carrot",
+  "lang_key": "item.minecraft.carrot",
+  "tier": 2,
+  "drop_rounds": 0.95,
+  "growth_duration": 800,
+  "colors": ["#FF8C00", "#2E8B2E"],
+  "soil": "farmland",
+  "sprite": { "base": "minecraft:block/carrots_stage", "min": 0, "max": 3 },
+  "growth_requirements": [
+    { "type": "min_light", "level": 9 }
+  ],
+  "drops": [
+    { "item": "minecraft:carrot", "chance": 10000 }
+  ],
+  "alternate_seeds": ["minecraft:carrot"],
+  "liked_biomes": ["forge:is_plains", "minecraft:is_forest"],
+  "mutation_pools": ["orange", "root", "food", "ingredient"]
+}

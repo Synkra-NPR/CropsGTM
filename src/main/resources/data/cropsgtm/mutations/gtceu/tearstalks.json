@@ -1,0 +1,8 @@
+{
+    "output":  "cropsgtm:tearstalks",
+    "parents":  [
+                    "cropsgtm:goldfish",
+                    "cropsgtm:soulSandLily",
+                    "cropsgtm:netherStoneLily"
+                ]
+}

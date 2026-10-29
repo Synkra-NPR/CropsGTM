@@ -1,0 +1,8 @@
+{
+    "output":  "cropsgtm:micadia",
+    "parents":  [
+                    "cropsgtm:tine",
+                    "cropsgtm:bauxia"
+                ],
+    "machine_only":  true
+}

@@ -1,0 +1,7 @@
+{
+    "output":  "cropsgtm:liveroot",
+    "parents":  [
+                    "cropsgtm:torchberry",
+                    "cropsgtm:bonsaiDarkOak"
+                ]
+}

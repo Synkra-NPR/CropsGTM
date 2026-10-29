@@ -1,0 +1,9 @@
+{
+    "output":  "cropsgtm:star_wart",
+    "parents":  [
+                    "cropsgtm:withereed",
+                    "cropsgtm:titania",
+                    "cropsgtm:god_of_thunder"
+                ],
+    "machine_only":  true
+}

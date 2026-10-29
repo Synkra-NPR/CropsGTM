@@ -1,0 +1,6 @@
+{
+    "id":  "oreberry",
+    "model_data":  1,
+    "dark_texture":  "cropsgtm:item/genericseed/oreberry1",
+    "light_texture":  "cropsgtm:item/genericseed/oreberry2"
+}

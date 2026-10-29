@@ -1,0 +1,8 @@
+{
+    "output":  "cropsgtm:bauxia",
+    "parents":  [
+                    "cropsgtm:galvania",
+                    "cropsgtm:nickelback"
+                ],
+    "machine_only":  true
+}

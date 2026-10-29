@@ -1,0 +1,41 @@
+{
+    "id":  "cropsgtm:iron_ore_berry",
+    "seed_shape": "oreberry",
+    "tier":  5,
+    "drop_rounds":  0.7737809375,
+    "growth_duration":  6000,
+    "colors":  [
+                   "#7d7d7d",
+                   "#c8c8c8"
+               ],
+    "sprite":  {
+                   "base":  "cropsgtm:block/crops/core/oreberries/iron/",
+                   "min":  1,
+                   "max":  4
+               },
+    "soil":  "stone",
+    "growth_requirements":  [
+                                {
+                                    "type":  "sub_soil",
+                                    "id":  "iron"
+                                }
+                            ],
+    "drops":  [
+                  {
+                      "gt": "dustTiny",
+                      "material":  "iron",
+                      "chance":  10000
+                  }
+              ],
+    "liked_biomes":  [
+                         "minecraft:is_mountain",
+                         "minecraft:is_hill"
+                     ],
+    "mutation_pools":  [
+                           "gray",
+                           "oreBerry",
+                           "danger",
+                           "metal",
+                           "iron"
+                       ]
+}

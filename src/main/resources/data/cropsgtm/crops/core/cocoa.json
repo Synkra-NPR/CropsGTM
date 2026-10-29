@@ -1,0 +1,19 @@
+{
+  "id": "cropsgtm:cocoa",
+  "lang_key": "block.minecraft.cocoa",
+  "creator": "Notch",
+  "tier": 3,
+  "drop_rounds": 0.857375,
+  "growth_duration": 1700,
+  "colors": ["#734120", "#976746"],
+  "soil": "farmland",
+  "growth_requirements": [
+    { "type": "min_light", "level": 9 }
+  ],
+  "drops": [
+    { "item": "minecraft:cocoa_beans", "chance": 10000 }
+  ],
+  "alternate_seeds": ["minecraft:cocoa_beans"],
+  "liked_biomes": ["minecraft:is_jungle", "forge:is_wet", "forge:is_dense", "forge:is_lush"],
+  "mutation_pools": ["brown", "bean", "tree", "leafy", "addictive", "food"]
+}

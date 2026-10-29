@@ -1,0 +1,12 @@
+{
+  "id": "cropsgtm:weed",
+  "creator": "The Evil One",
+  "tier": 1,
+  "drop_rounds": 0.95,
+  "colors": ["#00C800", "#00C800"],
+  "behavior": "weed",
+  "soil": "global",
+  "hide_from_nei": true,
+  "starts_spreading_weeds_at": 0,
+  "drops": []
+}

@@ -1,0 +1,11 @@
+{
+    "id":  "coal",
+    "materials":  [
+                      "gtceu:coal"
+                  ],
+    "blocks":  [
+                   "minecraft:coal_block",
+                   "minecraft:coal_ore",
+                   "minecraft:deepslate_coal_ore"
+               ]
+}

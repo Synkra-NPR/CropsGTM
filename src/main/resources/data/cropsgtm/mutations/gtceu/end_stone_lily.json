@@ -1,0 +1,4 @@
+{
+  "output": "cropsgtm:endStoneLily",
+  "parents": ["cropsgtm:stoneLily", "cropsgtm:enderbloom"]
+}

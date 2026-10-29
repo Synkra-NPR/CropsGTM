@@ -1,0 +1,9 @@
+{
+    "id":  "oil",
+    "include":  [
+                    "sand",
+                    "gravel",
+                    "soulsand",
+                    "oilSands"
+                ]
+}

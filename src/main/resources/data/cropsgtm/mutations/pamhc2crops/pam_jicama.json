@@ -1,0 +1,7 @@
+{
+    "output":  "cropsgtm:jicama",
+    "parents":  [
+                    "cropsgtm:potato",
+                    "cropsgtm:sugar_beet"
+                ]
+}

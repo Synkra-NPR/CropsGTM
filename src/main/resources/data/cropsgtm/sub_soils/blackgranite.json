@@ -1,0 +1,10 @@
+{
+    "id":  "blackGranite",
+    "blocks":  [
+                   "minecraft:granite",
+                   "minecraft:polished_granite"
+               ],
+    "materials":  [
+                      "gtceu:granite"
+                  ]
+}

@@ -1,0 +1,77 @@
+{
+  "type": "gtceu:sifter",
+  "duration": 200,
+  "category": "gtceu:sifter",
+  "tickInputs": {
+    "eu": [
+      {
+        "content": 15
+      }
+    ]
+  },
+  "inputs": {
+    "item": [
+      {
+        "content": {
+          "type": "gtceu:sized",
+          "count": 1,
+          "ingredient": {
+            "item": "cropsgtm:processed_star_wart"
+          }
+        }
+      }
+    ]
+  },
+  "outputs": {
+    "item": [
+      {
+        "content": {
+          "item": "minecraft:nether_star"
+        },
+        "chance": 100
+      },
+      {
+        "content": {
+          "item": "minecraft:nether_star"
+        },
+        "chance": 400
+      },
+      {
+        "content": {
+          "item": "minecraft:nether_star"
+        },
+        "chance": 1500
+      },
+      {
+        "content": {
+          "item": "minecraft:nether_star"
+        },
+        "chance": 2000
+      },
+      {
+        "content": {
+          "item": "minecraft:nether_star"
+        },
+        "chance": 4000
+      },
+      {
+        "content": {
+          "item": "gtceu:nether_star_dust"
+        },
+        "chance": 5000
+      }
+    ]
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "gtceu"
+    },
+    {
+      "type": "cropsgtm:crop_exists",
+      "crops": [
+        "cropsgtm:star_wart"
+      ]
+    }
+  ]
+}

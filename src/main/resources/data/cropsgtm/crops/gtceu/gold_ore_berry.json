@@ -1,0 +1,42 @@
+{
+    "id":  "cropsgtm:gold_ore_berry",
+    "seed_shape": "oreberry",
+    "tier":  5,
+    "drop_rounds":  0.7737809375,
+    "growth_duration":  6000,
+    "colors":  [
+                   "#b3b315",
+                   "#ffff1e"
+               ],
+    "sprite":  {
+                   "base":  "cropsgtm:block/crops/core/oreberries/gold/",
+                   "min":  1,
+                   "max":  4
+               },
+    "soil":  "stone",
+    "growth_requirements":  [
+                                {
+                                    "type":  "sub_soil",
+                                    "id":  "gold"
+                                }
+                            ],
+    "drops":  [
+                  {
+                      "gt": "dustTiny",
+                      "material":  "gold",
+                      "chance":  10000
+                  }
+              ],
+    "liked_biomes":  [
+                         "minecraft:is_badlands",
+                         "forge:is_sandy"
+                     ],
+    "mutation_pools":  [
+                           "yellow",
+                           "oreBerry",
+                           "dense",
+                           "danger",
+                           "metal",
+                           "gold"
+                       ]
+}

@@ -1,0 +1,43 @@
+{
+    "id":  "cropsgtm:zucchini",
+    "lang_key":  "cropsgtm_pam.crop.zucchini",
+    "seed_shape":  "pam",
+    "tier":  3,
+    "drop_rounds":  0.857375,
+    "growth_duration":  800,
+    "colors":  [
+                   "#32491B",
+                   "#689637"
+               ],
+    "soil":  "farmland",
+    "growth_requirements":  [
+                                {
+                                    "type":  "min_light",
+                                    "level":  9
+                                }
+                            ],
+    "drops":  [
+                  {
+                      "item":  "pamhc2crops:zucchiniitem",
+                      "chance":  10000
+                  }
+              ],
+    "alternate_seeds":  [
+                            "pamhc2crops:zucchiniseeditem"
+                        ],
+    "liked_biomes":  [
+                         "forge:is_hot",
+                         "forge:is_wet"
+                     ],
+    "mutation_pools":  [
+                           "green",
+                           "tendrilly",
+                           "pam2",
+                           "pam3"
+                       ],
+    "sprites":  [
+                    "pamhc2crops:block/zucchini_stage_0",
+                    "pamhc2crops:block/zucchini_stage_1",
+                    "pamhc2crops:block/zucchini_stage_3"
+                ]
+}

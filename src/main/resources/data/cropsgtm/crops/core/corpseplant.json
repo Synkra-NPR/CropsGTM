@@ -1,0 +1,15 @@
+{
+  "id": "cropsgtm:corpseplant",
+  "creator": "Mr. Kenny",
+  "tier": 5,
+  "drop_rounds": 0.7737809375,
+  "growth_duration": 800,
+  "colors": ["#551515", "#E32F2F"],
+  "drops": [
+    { "item": "minecraft:bone_meal", "chance": 6250 },
+    { "item": "minecraft:rotten_flesh", "chance": 2500 },
+    { "item": "minecraft:bone", "chance": 1250 }
+  ],
+  "liked_biomes": ["cropsgtm:is_dead", "forge:is_spooky"],
+  "mutation_pools": ["brown", "bush", "evil", "poison", "undead", "addictive", "food"]
+}

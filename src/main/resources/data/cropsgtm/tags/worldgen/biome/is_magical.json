@@ -1,0 +1,24 @@
+{
+  "values": [
+    "minecraft:dark_forest",
+    "minecraft:flower_forest",
+    "minecraft:cherry_grove",
+    { "id": "biomesoplenty:auroral_garden", "required": false },
+    { "id": "biomesoplenty:fungal_jungle", "required": false },
+    { "id": "biomesoplenty:jade_cliffs", "required": false },
+    { "id": "biomesoplenty:mystic_grove", "required": false },
+    { "id": "biomesoplenty:snowblossom_grove", "required": false },
+    { "id": "biomesoplenty:crystalline_chasm", "required": false },
+    { "id": "biomeswevegone:enchanted_tangle", "required": false },
+    { "id": "biomeswevegone:forgotten_forest", "required": false },
+    { "id": "biomeswevegone:skyris_vale", "required": false },
+    { "id": "biomeswevegone:weeping_witch_forest", "required": false },
+    { "id": "twilightforest:enchanted_forest", "required": false },
+    { "id": "ars_nouveau:archwood_forest", "required": false },
+    { "id": "aether:skyroot_forest", "required": false },
+    { "id": "aether:skyroot_grove", "required": false },
+    { "id": "aether:skyroot_meadow", "required": false },
+    { "id": "aether:skyroot_woodland", "required": false },
+    { "id": "alexscaves:candy_cavity", "required": false }
+  ]
+}

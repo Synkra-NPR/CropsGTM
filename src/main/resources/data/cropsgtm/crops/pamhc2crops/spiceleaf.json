@@ -1,0 +1,43 @@
+{
+    "id":  "cropsgtm:spiceleaf",
+    "lang_key":  "cropsgtm_pam.crop.spiceleaf",
+    "seed_shape":  "pam",
+    "tier":  4,
+    "drop_rounds":  0.81450625,
+    "growth_duration":  900,
+    "colors":  [
+                   "#242E16",
+                   "#4A602D"
+               ],
+    "soil":  "farmland",
+    "growth_requirements":  [
+                                {
+                                    "type":  "min_light",
+                                    "level":  9
+                                }
+                            ],
+    "drops":  [
+                  {
+                      "item":  "pamhc2crops:spiceleafitem",
+                      "chance":  10000
+                  }
+              ],
+    "alternate_seeds":  [
+                            "pamhc2crops:spiceleafseeditem"
+                        ],
+    "liked_biomes":  [
+                         "forge:is_hot",
+                         "forge:is_dry"
+                     ],
+    "mutation_pools":  [
+                           "green",
+                           "leafy",
+                           "pam2",
+                           "pam3"
+                       ],
+    "sprites":  [
+                    "pamhc2crops:block/spiceleaf_stage_0",
+                    "pamhc2crops:block/spiceleaf_stage_1",
+                    "pamhc2crops:block/spiceleaf_stage_3"
+                ]
+}

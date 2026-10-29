@@ -1,0 +1,9 @@
+{
+    "output":  "cropsgtm:trollplant",
+    "parents":  [
+                    "cropsgtm:goldfish",
+                    "cropsgtm:reactoria",
+                    "cropsgtm:fertilia"
+                ],
+    "machine_only":  true
+}

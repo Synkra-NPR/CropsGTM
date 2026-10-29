@@ -1,0 +1,19 @@
+{
+  "id": "cropsgtm:rubyne",
+  "tier": 8,
+  "drop_rounds": 0.663420431289062,
+  "growth_duration": 1200,
+  "machine_breeding_tier": 2,
+  "colors": ["#931212", "#A64747"],
+  "render_shape": "X",
+  "soil": "stone",
+  "growth_requirements": [
+    { "type": "sub_soil", "id": "ruby" }
+  ],
+  "drops": [
+    { "gt": "dust", "material": "ruby", "chance": 7500 },
+    { "gt": "gem", "material": "ruby", "chance": 2500 }
+  ],
+  "liked_biomes": ["minecraft:is_mountain", "minecraft:is_river", "forge:is_cold"],
+  "mutation_pools": ["red", "crystal", "shiny"]
+}

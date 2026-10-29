@@ -1,0 +1,10 @@
+{
+    "type":  "weed_ex",
+    "fluids":  [
+                   {
+                       "fluid":  "gtceu:weed_ex",
+                       "potency":  5,
+                       "mod":  "gtceu"
+                   }
+               ]
+}

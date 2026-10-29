@@ -1,0 +1,7 @@
+{
+    "output":  "cropsgtm:thiosulfine",
+    "parents":  [
+                    "cropsgtm:galvania",
+                    "cropsgtm:plumbilia"
+                ]
+}

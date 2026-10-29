@@ -1,0 +1,7 @@
+{
+    "output":  "cropsgtm_farmersdelight:onion",
+    "parents":  [
+                    "cropsgtm:potato",
+                    "cropsgtm:sugar_beet"
+                ]
+}

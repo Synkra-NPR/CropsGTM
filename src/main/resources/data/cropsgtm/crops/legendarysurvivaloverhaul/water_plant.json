@@ -1,0 +1,48 @@
+{
+    "id":  "cropsgtm:water_plant",
+    "tier":  4,
+    "drop_rounds":  1.5,
+    "growth_duration":  700,
+    "colors":  [
+                   "#1f6e5a",
+                   "#8fe0cf"
+               ],
+    "render_shape":  "X",
+    "sprites":  [
+                    "legendarysurvivaloverhaul:block/water_plant_bottom_0",
+                    "legendarysurvivaloverhaul:block/water_plant_bottom_1",
+                    "legendarysurvivaloverhaul:block/water_plant_bottom_2",
+                    "legendarysurvivaloverhaul:block/water_plant_bottom_3",
+                    "legendarysurvivaloverhaul:block/water_plant_bottom_4",
+                    "legendarysurvivaloverhaul:block/water_plant_bottom_5",
+                    "legendarysurvivaloverhaul:block/water_plant_bottom_6",
+                    "legendarysurvivaloverhaul:block/water_plant_bottom_7"
+                ],
+    "soil":  "sugarcane",
+    "growth_requirements":  [
+                                {
+                                    "type":  "min_light",
+                                    "level":  9
+                                }
+                            ],
+    "drops":  [
+                  {
+                      "item":  "legendarysurvivaloverhaul:water_plant_bag",
+                      "count":  2,
+                      "chance":  10000
+                  }
+              ],
+    "alternate_seeds":  [
+                            "legendarysurvivaloverhaul:water_plant_seeds"
+                        ],
+    "liked_biomes":  [
+                         "forge:is_hot",
+                         "forge:is_wet"
+                     ],
+    "mutation_pools":  [
+                           "water",
+                           "green",
+                           "leafy",
+                           "tendrilly"
+                       ]
+}

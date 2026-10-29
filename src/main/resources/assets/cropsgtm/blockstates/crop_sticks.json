@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "cropsgtm:block/crop_sticks"
+    }
+  }
+}

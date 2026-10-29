@@ -1,0 +1,4 @@
+{
+  "output": "cropsgtm:waterLily",
+  "parents": ["cropsgtm:vine", "cropsgtm:sugarCane"]
+}

@@ -1,0 +1,6 @@
+{
+    "id":  "bonsai",
+    "model_data":  2,
+    "dark_texture":  "cropsgtm:item/genericseed/bonsai1",
+    "light_texture":  "cropsgtm:item/genericseed/bonsai2"
+}

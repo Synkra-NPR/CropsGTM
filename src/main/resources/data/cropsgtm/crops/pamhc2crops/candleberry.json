@@ -1,0 +1,44 @@
+{
+    "id":  "cropsgtm:candleberry",
+    "lang_key":  "cropsgtm_pam.crop.candleberry",
+    "seed_shape":  "pam",
+    "tier":  3,
+    "drop_rounds":  0.857375,
+    "growth_duration":  800,
+    "colors":  [
+                   "#2D4B1E",
+                   "#5D9B3D"
+               ],
+    "soil":  "farmland",
+    "growth_requirements":  [
+                                {
+                                    "type":  "min_light",
+                                    "level":  9
+                                }
+                            ],
+    "drops":  [
+                  {
+                      "item":  "pamhc2crops:candleberryitem",
+                      "chance":  10000
+                  }
+              ],
+    "alternate_seeds":  [
+                            "pamhc2crops:candleberryseeditem"
+                        ],
+    "liked_biomes":  [
+                         "forge:is_lush",
+                         "forge:is_wet"
+                     ],
+    "mutation_pools":  [
+                           "red",
+                           "berry",
+                           "bush",
+                           "pam1",
+                           "pam3"
+                       ],
+    "sprites":  [
+                    "pamhc2crops:block/candleberry_stage_0",
+                    "pamhc2crops:block/candleberry_stage_1",
+                    "pamhc2crops:block/candleberry_stage_3"
+                ]
+}

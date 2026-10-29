@@ -1,0 +1,9 @@
+{
+    "id":  "sand",
+    "blocks":  [
+                   "minecraft:sand"
+               ],
+    "tags":  [
+                 "minecraft:sand"
+             ]
+}

@@ -1,0 +1,43 @@
+{
+    "id":  "cropsgtm:chickpea",
+    "lang_key":  "cropsgtm_pam.crop.chickpea",
+    "seed_shape":  "pam",
+    "tier":  3,
+    "drop_rounds":  0.857375,
+    "growth_duration":  800,
+    "colors":  [
+                   "#685D38",
+                   "#D7C073"
+               ],
+    "soil":  "farmland",
+    "growth_requirements":  [
+                                {
+                                    "type":  "min_light",
+                                    "level":  9
+                                }
+                            ],
+    "drops":  [
+                  {
+                      "item":  "pamhc2crops:chickpeaitem",
+                      "chance":  10000
+                  }
+              ],
+    "alternate_seeds":  [
+                            "pamhc2crops:chickpeaseeditem"
+                        ],
+    "liked_biomes":  [
+                         "forge:is_hot",
+                         "forge:is_wet"
+                     ],
+    "mutation_pools":  [
+                           "green",
+                           "tendrilly",
+                           "pam1",
+                           "pam3"
+                       ],
+    "sprites":  [
+                    "pamhc2crops:block/chickpea_stage_0",
+                    "pamhc2crops:block/chickpea_stage_1",
+                    "pamhc2crops:block/chickpea_stage_3"
+                ]
+}

@@ -1,0 +1,6 @@
+{
+    "id":  "pam",
+    "model_data":  11,
+    "dark_texture":  "cropsgtm:item/genericseed/pam1",
+    "light_texture":  "cropsgtm:item/genericseed/pam2"
+}

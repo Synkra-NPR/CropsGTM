@@ -1,0 +1,43 @@
+{
+    "id":  "cropsgtm:sweetpotato",
+    "lang_key":  "cropsgtm_pam.crop.sweetpotato",
+    "seed_shape":  "pam",
+    "tier":  2,
+    "drop_rounds":  0.9025,
+    "growth_duration":  650,
+    "colors":  [
+                   "#4E260C",
+                   "#A14E1A"
+               ],
+    "soil":  "farmland",
+    "growth_requirements":  [
+                                {
+                                    "type":  "min_light",
+                                    "level":  9
+                                }
+                            ],
+    "drops":  [
+                  {
+                      "item":  "pamhc2crops:sweetpotatoitem",
+                      "chance":  10000
+                  }
+              ],
+    "alternate_seeds":  [
+                            "pamhc2crops:sweetpotatoseeditem"
+                        ],
+    "liked_biomes":  [
+                         "forge:is_plains",
+                         "forge:is_cold"
+                     ],
+    "mutation_pools":  [
+                           "brown",
+                           "root",
+                           "pam2",
+                           "pam3"
+                       ],
+    "sprites":  [
+                    "pamhc2crops:block/sweetpotato_stage_0",
+                    "pamhc2crops:block/sweetpotato_stage_1",
+                    "pamhc2crops:block/sweetpotato_stage_3"
+                ]
+}

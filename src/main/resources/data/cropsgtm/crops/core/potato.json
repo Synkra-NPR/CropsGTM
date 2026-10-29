@@ -1,0 +1,19 @@
+{
+  "id": "cropsgtm:potato",
+  "lang_key": "item.minecraft.potato",
+  "tier": 1,
+  "drop_rounds": 0.95,
+  "growth_duration": 800,
+  "colors": ["#E0C56B", "#8B6B2E"],
+  "soil": "farmland",
+  "sprite": { "base": "minecraft:block/potatoes_stage", "min": 0, "max": 3 },
+  "growth_requirements": [
+    { "type": "min_light", "level": 9 }
+  ],
+  "drops": [
+    { "item": "minecraft:potato", "chance": 10000 }
+  ],
+  "alternate_seeds": ["minecraft:potato"],
+  "liked_biomes": ["forge:is_plains", "forge:is_cold"],
+  "mutation_pools": ["yellow", "root", "food"]
+}

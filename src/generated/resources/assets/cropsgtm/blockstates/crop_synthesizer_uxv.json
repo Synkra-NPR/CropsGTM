@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "cropsgtm:block/machine/crop_synthesizer_uxv",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "cropsgtm:block/machine/crop_synthesizer_uxv"
+    },
+    "facing=south": {
+      "model": "cropsgtm:block/machine/crop_synthesizer_uxv",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "cropsgtm:block/machine/crop_synthesizer_uxv",
+      "y": 270
+    }
+  }
+}

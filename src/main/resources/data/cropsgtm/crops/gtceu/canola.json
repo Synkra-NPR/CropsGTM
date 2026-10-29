@@ -1,0 +1,33 @@
+{
+    "id":  "cropsgtm:canola",
+    "tier":  4,
+    "drop_rounds":  0.81450625,
+    "growth_duration":  900,
+    "colors":  [
+                   "#627f40",
+                   "#6e8e48"
+               ],
+    "sprite":  {
+                   "base":  "cropsgtm:block/crops/core/canola/",
+                   "min":  1,
+                   "max":  4
+               },
+    "soil":  "farmland",
+    "drops":  [
+                  {
+                      "item":  "cropsgtm:canola_flower",
+                      "chance":  10000
+                  }
+              ],
+    "liked_biomes":  [
+                         "forge:is_cold",
+                         "forge:is_plains",
+                         "forge:is_sparse"
+                     ],
+    "mutation_pools":  [
+                           "yellow",
+                           "wheat",
+                           "food",
+                           "oil"
+                       ]
+}

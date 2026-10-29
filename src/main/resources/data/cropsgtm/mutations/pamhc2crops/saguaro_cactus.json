@@ -1,0 +1,7 @@
+{
+    "output":  "cropsgtm:saguaro_cactus",
+    "parents":  [
+                    "cropsgtm:cactus",
+                    "cropsgtm:sandLily"
+                ]
+}

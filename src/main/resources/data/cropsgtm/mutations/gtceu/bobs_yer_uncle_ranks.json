@@ -1,0 +1,7 @@
+{
+    "output":  "cropsgtm:bobs_yer_uncle_ranks",
+    "parents":  [
+                    "cropsgtm:diareed",
+                    "cropsgtm:olivia"
+                ]
+}

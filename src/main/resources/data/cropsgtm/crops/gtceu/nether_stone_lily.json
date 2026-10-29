@@ -1,0 +1,18 @@
+{
+  "id": "cropsgtm:netherStoneLily",
+  "creator": "bartimaeusnek",
+  "tier": 1,
+  "drop_rounds": 0.95,
+  "colors": ["#911717", "#C21F1F"],
+  "soil": "stone",
+  "render_shape": "X",
+  "sprite": { "base": "cropsgtm:block/crops/core/stonelilies/netherstone/", "min": 1, "max": 4 },
+  "growth_requirements": [
+    { "type": "sub_soil", "id": "netherrack" }
+  ],
+  "drops": [
+    { "gt": "dust", "material": "netherrack", "count": 9, "chance": 10000 }
+  ],
+  "liked_biomes": ["minecraft:is_nether", "forge:is_hot", "forge:is_dry"],
+  "mutation_pools": ["red", "nether", "stone"]
+}

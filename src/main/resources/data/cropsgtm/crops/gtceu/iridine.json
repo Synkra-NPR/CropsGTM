@@ -1,0 +1,37 @@
+{
+    "id":  "cropsgtm:iridine",
+    "machine_breeding_only": true,
+    "seed_shape": "flower",
+    "tier":  12,
+    "drop_rounds":  0.540360087663,
+    "growth_duration":  7200,
+    "colors":  [
+                   "#b3b3b3",
+                   "#e8e8e8"
+               ],
+    "sprite":  {
+                   "base":  "cropsgtm:block/crops/gtceu/iridine/",
+                   "min":  1,
+                   "max":  4
+               },
+    "soil":  "stone",
+    "growth_requirements":  [
+                                {
+                                    "type":  "sub_soil",
+                                    "id":  "iridium"
+                                },
+                                {
+                                    "type":  "machine_only"
+                                }
+                            ],
+    "drops":  [
+                  {
+                      "item":  "cropsgtm:iridine_flower",
+                      "chance":  10000
+                  }
+              ],
+    "liked_biomes":  [
+                         "forge:is_snowy",
+                         "forge:is_cold"
+                     ]
+}

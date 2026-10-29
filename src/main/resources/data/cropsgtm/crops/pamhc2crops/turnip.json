@@ -1,0 +1,42 @@
+{
+    "id":  "cropsgtm:turnip",
+    "tier":  2,
+    "drop_rounds":  0.9025,
+    "growth_duration":  450,
+    "colors":  [
+                   "#321f1c",
+                   "#6c3e32"
+               ],
+    "soil":  "farmland",
+    "growth_requirements":  [
+                                {
+                                    "type":  "min_light",
+                                    "level":  9
+                                }
+                            ],
+    "drops":  [
+                  {
+                      "item":  "pamhc2crops:turnipitem",
+                      "chance":  10000,
+                      "required":  false
+                  }
+              ],
+    "liked_biomes":  [
+                         "forge:is_plains",
+                         "forge:is_wet",
+                         "forge:is_cold"
+                     ],
+    "mutation_pools":  [
+                           "purple",
+                           "root",
+                           "pam2",
+                           "pam3"
+                       ],
+    "seed_shape":  "pam",
+    "alternate_seeds":  [
+                            "pamhc2crops:turnipseeditem"
+                        ],
+    "sprites":  [
+                    "cropsgtm:block/crops/gtceu/turnip/3"
+                ]
+}

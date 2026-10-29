@@ -1,0 +1,7 @@
+{
+    "output":  "cropsgtm:hops",
+    "parents":  [
+                    "cropsgtm:hemp",
+                    "cropsgtm:dandelion"
+                ]
+}

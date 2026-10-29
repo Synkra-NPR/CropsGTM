@@ -1,0 +1,8 @@
+{
+    "id":  "iron",
+    "materials":  [
+                      "gtceu:iron",
+                      "gtceu:magnetite",
+                      "gtceu:hematite"
+                  ]
+}

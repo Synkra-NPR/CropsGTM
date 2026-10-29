@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "cropsgtm:block/industrial_farm/fertilizer_unit/uhv"
+    }
+  }
+}

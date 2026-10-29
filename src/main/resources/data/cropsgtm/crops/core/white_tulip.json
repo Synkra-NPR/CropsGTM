@@ -1,0 +1,18 @@
+{
+  "id": "cropsgtm:whiteTulip",
+  "lang_key": "block.minecraft.white_tulip",
+  "creator": "Notch",
+  "tier": 2,
+  "drop_rounds": 0.9025,
+  "growth_duration": 600,
+  "colors": ["#3D3D4C", "#D9D9D9"],
+  "seed_shape": "flower",
+  "soil": "dirtGrass",
+  "drops": [
+    { "item": "minecraft:light_gray_dye", "chance": 7500 },
+    { "item": "minecraft:white_tulip", "chance": 2500 }
+  ],
+  "alternate_seeds": ["minecraft:white_tulip"],
+  "liked_biomes": ["forge:is_plains", "forge:is_lush", "forge:is_cold"],
+  "mutation_pools": ["white", "flower", "tulip"]
+}

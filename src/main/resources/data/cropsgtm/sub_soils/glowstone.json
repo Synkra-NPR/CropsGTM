@@ -1,0 +1,9 @@
+{
+    "id":  "glowstone",
+    "materials":  [
+                      "gtceu:glowstone"
+                  ],
+    "blocks":  [
+                   "minecraft:glowstone"
+               ]
+}

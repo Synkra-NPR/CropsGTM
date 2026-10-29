@@ -1,0 +1,8 @@
+{
+    "output":  "cropsgtm:creeperweed",
+    "parents":  [
+                    "cropsgtm:netherStoneLily",
+                    "cropsgtm:withereed",
+                    "cropsgtm:salty_root"
+                ]
+}

@@ -1,0 +1,72 @@
+{
+  "parent": "minecraft:block/block",
+  "loader": "gtceu:machine",
+  "machine": "cropsgtm:crop_breeder_uxv",
+  "replaceable_textures": [
+    "bottom",
+    "top",
+    "side"
+  ],
+  "variants": {
+    "recipe_logic_status=idle": {
+      "model": {
+        "parent": "gtceu:block/machine/template/sided/sided",
+        "textures": {
+          "bottom": "cropsgtm:block/machine/casing/uxv/bottom",
+          "overlay_back": "cropsgtm:block/machines/crop_breeder/overlay_back",
+          "overlay_bottom": "cropsgtm:block/machines/crop_breeder/overlay_bottom",
+          "overlay_front": "cropsgtm:block/machines/crop_breeder/overlay_front",
+          "overlay_side": "cropsgtm:block/machines/crop_breeder/overlay_side",
+          "overlay_top": "cropsgtm:block/machines/crop_breeder/overlay_top",
+          "side": "cropsgtm:block/machine/casing/uxv/side",
+          "top": "cropsgtm:block/machine/casing/uxv/top"
+        }
+      }
+    },
+    "recipe_logic_status=suspend": {
+      "model": {
+        "parent": "gtceu:block/machine/template/sided/sided",
+        "textures": {
+          "bottom": "cropsgtm:block/machine/casing/uxv/bottom",
+          "overlay_back": "cropsgtm:block/machines/crop_breeder/overlay_back",
+          "overlay_bottom": "cropsgtm:block/machines/crop_breeder/overlay_bottom",
+          "overlay_front": "cropsgtm:block/machines/crop_breeder/overlay_front",
+          "overlay_side": "cropsgtm:block/machines/crop_breeder/overlay_side",
+          "overlay_top": "cropsgtm:block/machines/crop_breeder/overlay_top",
+          "side": "cropsgtm:block/machine/casing/uxv/side",
+          "top": "cropsgtm:block/machine/casing/uxv/top"
+        }
+      }
+    },
+    "recipe_logic_status=waiting": {
+      "model": {
+        "parent": "gtceu:block/machine/template/sided/sided",
+        "textures": {
+          "bottom": "cropsgtm:block/machine/casing/uxv/bottom",
+          "overlay_back": "cropsgtm:block/machines/crop_breeder/overlay_back",
+          "overlay_bottom": "cropsgtm:block/machines/crop_breeder/overlay_bottom",
+          "overlay_front": "cropsgtm:block/machines/crop_breeder/overlay_front",
+          "overlay_side": "cropsgtm:block/machines/crop_breeder/overlay_side",
+          "overlay_top": "cropsgtm:block/machines/crop_breeder/overlay_top",
+          "side": "cropsgtm:block/machine/casing/uxv/side",
+          "top": "cropsgtm:block/machine/casing/uxv/top"
+        }
+      }
+    },
+    "recipe_logic_status=working": {
+      "model": {
+        "parent": "gtceu:block/machine/template/sided/sided",
+        "textures": {
+          "bottom": "cropsgtm:block/machine/casing/uxv/bottom",
+          "overlay_back": "cropsgtm:block/machines/crop_breeder/overlay_back",
+          "overlay_bottom": "cropsgtm:block/machines/crop_breeder/overlay_bottom",
+          "overlay_front": "cropsgtm:block/machines/crop_breeder/overlay_front",
+          "overlay_side": "cropsgtm:block/machines/crop_breeder/overlay_side",
+          "overlay_top": "cropsgtm:block/machines/crop_breeder/overlay_top",
+          "side": "cropsgtm:block/machine/casing/uxv/side",
+          "top": "cropsgtm:block/machine/casing/uxv/top"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+    "id":  "cropsgtm:pam_papyrus",
+    "lang_key":  "cropsgtm_pam.crop.papyrus",
+    "seed_shape":  "pam",
+    "tier":  4,
+    "drop_rounds":  0.81450625,
+    "growth_duration":  1000,
+    "colors":  [
+                   "#40451D",
+                   "#858F3B"
+               ],
+    "soil":  "farmland",
+    "growth_requirements":  [
+                                {
+                                    "type":  "min_light",
+                                    "level":  9
+                                }
+                            ],
+    "drops":  [
+                  {
+                      "item":  "pamhc2crops:papyrusitem",
+                      "chance":  10000
+                  }
+              ],
+    "alternate_seeds":  [
+                            "pamhc2crops:papyrusseeditem"
+                        ],
+    "liked_biomes":  [
+                         "forge:is_hot",
+                         "forge:is_dry"
+                     ],
+    "mutation_pools":  [
+                           "white",
+                           "stem",
+                           "silk",
+                           "pam1",
+                           "pam2"
+                       ],
+    "sprite":  {
+                   "base":  "cropsgtm:block/crops/core/papyrus/",
+                   "min":  1,
+                   "max":  3
+               }
+}

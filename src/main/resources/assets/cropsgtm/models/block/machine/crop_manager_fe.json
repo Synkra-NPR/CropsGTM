@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "cropsgtm:block/machine/crop_manager_fe"
+  }
+}

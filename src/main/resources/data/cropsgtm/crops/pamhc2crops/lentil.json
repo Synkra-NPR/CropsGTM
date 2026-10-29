@@ -1,0 +1,43 @@
+{
+    "id":  "cropsgtm:lentil",
+    "lang_key":  "cropsgtm_pam.crop.lentil",
+    "seed_shape":  "pam",
+    "tier":  3,
+    "drop_rounds":  0.857375,
+    "growth_duration":  800,
+    "colors":  [
+                   "#3B4B0E",
+                   "#7A9B1C"
+               ],
+    "soil":  "farmland",
+    "growth_requirements":  [
+                                {
+                                    "type":  "min_light",
+                                    "level":  9
+                                }
+                            ],
+    "drops":  [
+                  {
+                      "item":  "pamhc2crops:lentilitem",
+                      "chance":  10000
+                  }
+              ],
+    "alternate_seeds":  [
+                            "pamhc2crops:lentilseeditem"
+                        ],
+    "liked_biomes":  [
+                         "forge:is_hot",
+                         "forge:is_wet"
+                     ],
+    "mutation_pools":  [
+                           "green",
+                           "tendrilly",
+                           "pam1",
+                           "pam2"
+                       ],
+    "sprites":  [
+                    "pamhc2crops:block/lentil_stage_0",
+                    "pamhc2crops:block/lentil_stage_1",
+                    "pamhc2crops:block/lentil_stage_3"
+                ]
+}

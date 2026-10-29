@@ -1,0 +1,7 @@
+{
+    "id":  "modernAndesite",
+    "blocks":  [
+                   "minecraft:andesite",
+                   "minecraft:polished_andesite"
+               ]
+}

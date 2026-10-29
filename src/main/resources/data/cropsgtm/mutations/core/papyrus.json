@@ -1,0 +1,7 @@
+{
+    "output":  "cropsgtm:papyrus",
+    "parents":  [
+                    "cropsgtm:corium",
+                    "cropsgtm:bonsaiBirch"
+                ]
+}

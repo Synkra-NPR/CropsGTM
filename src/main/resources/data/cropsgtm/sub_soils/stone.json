@@ -1,0 +1,9 @@
+{
+    "id":  "stone",
+    "blocks":  [
+                   "minecraft:stone",
+                   "minecraft:cobblestone",
+                   "minecraft:stone_bricks",
+                   "minecraft:mossy_cobblestone"
+               ]
+}

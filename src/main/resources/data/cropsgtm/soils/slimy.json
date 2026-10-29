@@ -1,0 +1,6 @@
+{
+    "id":  "slimy",
+    "blocks":  [
+                   "minecraft:slime_block"
+               ]
+}

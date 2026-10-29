@@ -1,0 +1,16 @@
+{
+  "id": "cropsgtm:plumbshade",
+  "tier": 6,
+  "drop_rounds": 0.735091890625,
+  "growth_duration": 2800,
+  "colors": ["#523B52", "#6D4E6D"],
+  "soil": "stone",
+  "growth_requirements": [
+    { "type": "sub_soil", "id": "lead" }
+  ],
+  "drops": [
+    { "gt": "dustTiny", "material": "lead", "chance": 10000 }
+  ],
+  "liked_biomes": ["forge:is_hot", "forge:is_wet"],
+  "mutation_pools": ["purple", "bush", "dense", "leafy", "metal", "lead"]
+}

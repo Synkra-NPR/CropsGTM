@@ -1,0 +1,106 @@
+{
+  "parent": "minecraft:block/block",
+  "dynamic_renders": [
+    {
+      "type": "cropsgtm:industrial_farm_part_casing",
+      "casing": {
+        "Name": "cropsgtm:industrial_farm_casing"
+      }
+    }
+  ],
+  "loader": "gtceu:machine",
+  "machine": "cropsgtm:industrial_farm",
+  "texture_overrides": {
+    "all": "cropsgtm:block/industrialfarm/brickedagriculturalcasing"
+  },
+  "variants": {
+    "is_formed=false,recipe_logic_status=idle": {
+      "model": {
+        "parent": "gtceu:block/machine/template/cube_all/sided",
+        "textures": {
+          "all": "cropsgtm:block/industrialfarm/brickedagriculturalcasing",
+          "overlay_front": "cropsgtm:block/machine/industrial_farm/overlay_front",
+          "overlay_front_emissive": "cropsgtm:block/machine/industrial_farm/overlay_front_emissive"
+        }
+      },
+      "uvlock": true
+    },
+    "is_formed=false,recipe_logic_status=suspend": {
+      "model": {
+        "parent": "gtceu:block/machine/template/cube_all/sided",
+        "textures": {
+          "all": "cropsgtm:block/industrialfarm/brickedagriculturalcasing",
+          "overlay_front": "cropsgtm:block/machine/industrial_farm/overlay_front_paused",
+          "overlay_front_emissive": "cropsgtm:block/machine/industrial_farm/overlay_front_paused_emissive"
+        }
+      },
+      "uvlock": true
+    },
+    "is_formed=false,recipe_logic_status=waiting": {
+      "model": {
+        "parent": "gtceu:block/machine/template/cube_all/sided",
+        "textures": {
+          "all": "cropsgtm:block/industrialfarm/brickedagriculturalcasing",
+          "overlay_front": "cropsgtm:block/machine/industrial_farm/overlay_front_active",
+          "overlay_front_emissive": "cropsgtm:block/machine/industrial_farm/overlay_front_active_emissive"
+        }
+      },
+      "uvlock": true
+    },
+    "is_formed=false,recipe_logic_status=working": {
+      "model": {
+        "parent": "gtceu:block/machine/template/cube_all/sided",
+        "textures": {
+          "all": "cropsgtm:block/industrialfarm/brickedagriculturalcasing",
+          "overlay_front": "cropsgtm:block/machine/industrial_farm/overlay_front_active",
+          "overlay_front_emissive": "cropsgtm:block/machine/industrial_farm/overlay_front_active_emissive"
+        }
+      },
+      "uvlock": true
+    },
+    "is_formed=true,recipe_logic_status=idle": {
+      "model": {
+        "parent": "gtceu:block/machine/template/cube_all/sided",
+        "textures": {
+          "all": "cropsgtm:block/industrialfarm/brickedagriculturalcasing",
+          "overlay_front": "cropsgtm:block/machine/industrial_farm/overlay_front",
+          "overlay_front_emissive": "cropsgtm:block/machine/industrial_farm/overlay_front_emissive"
+        }
+      },
+      "uvlock": true
+    },
+    "is_formed=true,recipe_logic_status=suspend": {
+      "model": {
+        "parent": "gtceu:block/machine/template/cube_all/sided",
+        "textures": {
+          "all": "cropsgtm:block/industrialfarm/brickedagriculturalcasing",
+          "overlay_front": "cropsgtm:block/machine/industrial_farm/overlay_front_paused",
+          "overlay_front_emissive": "cropsgtm:block/machine/industrial_farm/overlay_front_paused_emissive"
+        }
+      },
+      "uvlock": true
+    },
+    "is_formed=true,recipe_logic_status=waiting": {
+      "model": {
+        "parent": "gtceu:block/machine/template/cube_all/sided",
+        "textures": {
+          "all": "cropsgtm:block/industrialfarm/brickedagriculturalcasing",
+          "overlay_front": "cropsgtm:block/machine/industrial_farm/overlay_front_active",
+          "overlay_front_emissive": "cropsgtm:block/machine/industrial_farm/overlay_front_active_emissive"
+        }
+      },
+      "uvlock": true
+    },
+    "is_formed=true,recipe_logic_status=working": {
+      "model": {
+        "parent": "gtceu:block/machine/template/cube_all/sided",
+        "textures": {
+          "all": "cropsgtm:block/industrialfarm/brickedagriculturalcasing",
+          "overlay_front": "cropsgtm:block/machine/industrial_farm/overlay_front_active",
+          "overlay_front_emissive": "cropsgtm:block/machine/industrial_farm/overlay_front_active_emissive"
+        }
+      },
+      "uvlock": true
+    }
+  }
+}

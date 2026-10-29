@@ -1,0 +1,37 @@
+{
+    "id":  "cropsgtm:star_wart",
+    "machine_breeding_only": true,
+    "seed_shape": "spore",
+    "tier":  12,
+    "drop_rounds":  0.540360087663,
+    "growth_duration":  7200,
+    "colors":  [
+                   "#8985be",
+                   "#ffffff"
+               ],
+    "sprite":  {
+                   "base":  "cropsgtm:block/crops/core/starwart/",
+                   "min":  1,
+                   "max":  4
+               },
+    "soil":  "stone",
+    "growth_requirements":  [
+                                {
+                                    "type":  "sub_soil",
+                                    "id": "netherstar"
+                                },
+                                {
+                                    "type":  "machine_only"
+                                }
+                            ],
+    "drops":  [
+                  {
+                      "item":  "cropsgtm:star_wart",
+                      "chance":  10000
+                  }
+              ],
+    "liked_biomes":  [
+                         "minecraft:is_nether",
+                         "cropsgtm:is_dead"
+                     ]
+}

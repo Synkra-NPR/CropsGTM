@@ -1,0 +1,7 @@
+{
+    "id":  "aluminiumBauxite",
+    "materials":  [
+                      "gtceu:bauxite",
+                      "gtceu:aluminium"
+                  ]
+}

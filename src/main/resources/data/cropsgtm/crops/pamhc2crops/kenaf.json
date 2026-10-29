@@ -1,0 +1,44 @@
+{
+    "id":  "cropsgtm:kenaf",
+    "lang_key":  "cropsgtm_pam.crop.kenaf",
+    "seed_shape":  "pam",
+    "tier":  4,
+    "drop_rounds":  0.81450625,
+    "growth_duration":  1000,
+    "colors":  [
+                   "#3F4926",
+                   "#81964E"
+               ],
+    "soil":  "farmland",
+    "growth_requirements":  [
+                                {
+                                    "type":  "min_light",
+                                    "level":  9
+                                }
+                            ],
+    "drops":  [
+                  {
+                      "item":  "pamhc2crops:kenafitem",
+                      "chance":  10000
+                  }
+              ],
+    "alternate_seeds":  [
+                            "pamhc2crops:kenafseeditem"
+                        ],
+    "liked_biomes":  [
+                         "forge:is_hot",
+                         "forge:is_dry"
+                     ],
+    "mutation_pools":  [
+                           "white",
+                           "stem",
+                           "silk",
+                           "pam1",
+                           "pam2"
+                       ],
+    "sprites":  [
+                    "pamhc2crops:block/kenaf_stage_0",
+                    "pamhc2crops:block/kenaf_stage_1",
+                    "pamhc2crops:block/kenaf_stage_3"
+                ]
+}

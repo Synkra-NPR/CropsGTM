@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "cropsgtm:block/machine/crop_gene_extractor_uv",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "cropsgtm:block/machine/crop_gene_extractor_uv"
+    },
+    "facing=south": {
+      "model": "cropsgtm:block/machine/crop_gene_extractor_uv",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "cropsgtm:block/machine/crop_gene_extractor_uv",
+      "y": 270
+    }
+  }
+}

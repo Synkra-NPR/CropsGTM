@@ -1,0 +1,4 @@
+{
+  "output": "cropsgtm:flax",
+  "parents": ["cropsgtm:wheat", "cropsgtm:azureBluet"]
+}

@@ -1,0 +1,41 @@
+{
+    "id":  "cropsgtm:glowing_coral",
+    "seed_shape": "magic",
+    "tier":  5,
+    "drop_rounds":  0.7737809375,
+    "growth_duration":  450,
+    "colors":  [
+                   "#7832dc",
+                   "#d6a1ff"
+               ],
+    "sprite":  {
+                   "base":  "cropsgtm:block/crops/biomesoplenty/glowingcoral/",
+                   "min":  1,
+                   "max":  4
+               },
+    "soil":  "farmland",
+    "growth_requirements":  [
+                                {
+                                    "type":  "sub_soil",
+                                    "id":  "glowstone"
+                                }
+                            ],
+    "drops":  [
+                  {
+                      "item":  "biomesoplenty:glowing_moss_block",
+                      "chance":  10000,
+                      "required":  false
+                  }
+              ],
+    "liked_biomes":  [
+                         "minecraft:is_ocean",
+                         "minecraft:is_river"
+                     ],
+    "mutation_pools":  [
+                           "purple",
+                           "water",
+                           "light",
+                           "shiny",
+                           "ingredient"
+                       ]
+}
