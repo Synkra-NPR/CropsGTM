@@ -61,7 +61,7 @@ public class BreedingEmiCategory extends EmiRecipeCategory {
         private static final int OUTPUT_Y = 21;
         private static final int SOIL_Y = 42;
         private static final int SUB_SOIL_Y = 63;
-        private static final int TEXT_COLOR = 0x404040;
+        private static final int TEXT_COLOR = CropRecipeText.BREEDING_TEXT_COLOR;
         private static final int[] PARENT_X = { 43, 105, 22, 126 };
         private static final int PARENT_Y = 21;
 

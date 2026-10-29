@@ -605,7 +605,7 @@
   "cropsgtm_ui.weed_ex": "Weed-EX",
   "cropsgtm_ui.energy": "Energy",
   "cropsgtm_ui.water.fill": "Place water bottles or water buckets in the input slots to fill this tank. Water can also be piped in or out.",
-  "cropsgtm_ui.fertilizer.fill": "Place bone meal in the input slots to fill this tank, one bone meal is worth 25 fertilizer points.",
+  "cropsgtm_ui.fertilizer.fill": "Place bone meal in the input slots to fill this tank.",
   "cropsgtm_ui.weed_ex.fill": "Fill this tank with poison potions, poison powder or weed-ex cans in the input slots.",
   "cropsgtm_ui.energy.fill": "Put redstone (3200 FE each) or FE batteries into the battery slot.",
   "cropsgtm_ui.auto_output.on": "Auto: ON",

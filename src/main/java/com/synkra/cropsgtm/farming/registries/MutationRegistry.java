@@ -97,6 +97,15 @@ public class MutationRegistry {
         return this.deterministicMutations.get(crop);
     }
 
+    /**
+     * @return 该作物的全部确定性突变都只能在作物繁殖机中进行时返回 true；没有确定性突变时返回 false。
+     */
+    public boolean areAllMutationsMachineOnly(ICropCard crop) {
+        Collection<CropMutation> mutations = this.deterministicMutations.get(crop);
+        if (mutations == null || mutations.isEmpty()) return false;
+        return mutations.stream().allMatch(CropMutation::isMachineOnly);
+    }
+
     public @Nullable List<IMutationPool> getPossiblePoolMutations(Collection<ICropCard> parents) {
         if (parents == null || parents.size() < 2) return null;
         List<ICropCard> sortedParents = createPoolQueue(parents);

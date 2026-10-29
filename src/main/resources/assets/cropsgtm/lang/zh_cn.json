@@ -95,7 +95,7 @@
   "cropsgtm_ui.weed_ex": "除草剂",
   "cropsgtm_ui.energy": "能量",
   "cropsgtm_ui.water.fill": "在左侧输入槽放入水瓶或水桶即可填充，水也可以通过管道输入或抽出。",
-  "cropsgtm_ui.fertilizer.fill": "在左侧输入槽放入骨粉即可填充，每个骨粉提供 25 点肥料值。",
+  "cropsgtm_ui.fertilizer.fill": "在左侧输入槽放入骨粉即可填充。",
   "cropsgtm_ui.weed_ex.fill": "在左侧输入槽放入剧毒药水、毒药粉或除草剂即可填充。",
   "cropsgtm_ui.energy.fill": "在电池槽放入红石（每个 3200 FE）或储存有 FE 的电池。",
   "cropsgtm_ui.auto_output.on": "自动输出：开",

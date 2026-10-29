@@ -100,7 +100,7 @@ public class SeedGeneratorMachine extends WorkableTieredMachine
 
     public SeedGeneratorMachine(IMachineBlockEntity holder, int tier) {
         super(holder, tier, SeedGeneratorMachine::getCustomFluidCapacity);
-        this.outputFacingItems = getFrontFacing();
+        this.outputFacingItems = getFrontFacing().getOpposite();
 
         // 充电槽只接受单个电池，与 GregTech 机器保持一致
         this.chargerInventory = new CustomItemStackHandler(1) {

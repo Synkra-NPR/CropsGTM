@@ -28,6 +28,8 @@ public final class CropRecipeText {
 
     /** 常规信息行的颜色，与原作物页面一致。 */
     public static final int TEXT_COLOR = 0x404040;
+    /** 繁殖页的文本颜色，繁殖条件自带灰色样式，需要统一改成黑色。 */
+    public static final int BREEDING_TEXT_COLOR = 0x000000;
 
     private CropRecipeText() {}
 
@@ -72,14 +74,21 @@ public final class CropRecipeText {
         // 下层土壤由自己的槽位展示，这里只列出其他条件
         for (IBreedingRequirement requirement : mutation.getRequirements()) {
             if (requirement instanceof SubSoilRequirement) continue;
-            lines.add(requirement.getDescription());
+            lines.add(blackened(requirement.getDescription()));
         }
         for (IGrowthRequirement requirement : crop.getGrowthRequirements()) {
             if (requirement instanceof SubSoilRequirement) continue;
             if (!(requirement instanceof IWorldGrowthRequirement)) continue;
-            lines.add(requirement.getDescription());
+            lines.add(blackened(requirement.getDescription()));
         }
         return lines;
+    }
+
+    /**
+     * @return 把需求自带的灰色样式改成繁殖页统一的黑色。
+     */
+    private static Component blackened(Component description) {
+        return description.copy().withStyle(style -> style.withColor(TextColor.fromRgb(BREEDING_TEXT_COLOR)));
     }
 
     /**

@@ -142,7 +142,7 @@ public class CropManagerMachine extends TieredEnergyMachine
 
     public CropManagerMachine(IMachineBlockEntity holder, int tier) {
         super(holder, tier);
-        this.outputFacingItems = getFrontFacing();
+        this.outputFacingItems = getFrontFacing().getOpposite();
 
         // trait 在创建时会自行注册到机器，再次 attach 会
         // 会使每个处理器在机器 trait 中出现两次，因而在流体与

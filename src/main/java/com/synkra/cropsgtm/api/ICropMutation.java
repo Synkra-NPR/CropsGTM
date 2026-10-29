@@ -49,4 +49,11 @@ public interface ICropMutation {
     default boolean canBreedInMachine(Collection<ICropCard> parents) {
         return true;
     }
+
+    /**
+     * @return 该突变只能在作物繁殖机中进行时返回 true。
+     */
+    default boolean isMachineOnly() {
+        return false;
+    }
 }

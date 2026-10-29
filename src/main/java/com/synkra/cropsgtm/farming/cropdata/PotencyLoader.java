@@ -2,6 +2,7 @@ package com.synkra.cropsgtm.farming.cropdata;
 
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.Items;
 import net.minecraft.world.level.material.Fluid;
 import net.minecraft.world.level.material.Fluids;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -9,10 +10,12 @@ import net.minecraftforge.registries.ForgeRegistries;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 import com.synkra.cropsgtm.CropsGTM;
+import com.synkra.cropsgtm.CropsGTMPlatform;
 import com.synkra.cropsgtm.farming.PotencyData;
 import com.synkra.cropsgtm.farming.registries.FertilizerRegistry;
 import com.synkra.cropsgtm.farming.registries.HydrationRegistry;
 import com.synkra.cropsgtm.farming.registries.WeedEXRegistry;
+import com.synkra.cropsgtm.reference.Constants;
 
 import java.util.Map;
 
@@ -82,6 +85,12 @@ final class PotencyLoader {
             }
         }
         CropsGTM.LOGGER.info("Loaded {} potency definitions from the data packs.", count);
+
+        // 骨粉在 GT 环境里被 GT 肥料取代，效力下调到 5；非 GT 环境沿用数据包里的 25
+        if (CropsGTMPlatform.GREG_TECH_LOADED) {
+            FertilizerRegistry.instance.register(Items.BONE_MEAL,
+                    new PotencyData(5, Constants.MANUAL_FERTILIZER_MAX_STORAGE));
+        }
     }
 
     /**

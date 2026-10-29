@@ -64,7 +64,7 @@ public final class CropGrowthMath {
                     (CropsGTMConfig.highHumidityThreshold - CropsGTMConfig.lowHumidityThreshold);
             humidityBonus = Math.max(0.0f, Math.min(1.0f, humidityBonus)) * CropsGTMConfig.highHumidityBonus;
             int likedBiomeBonus = likedBiomeTagsCount * CropsGTMConfig.likedBiomeBonus;
-            boolean fromLikedBiomes = likedBiomeBonus > (int) humidityBonus;
+            boolean fromLikedBiomes = likedBiomeBonus > 0 && likedBiomeBonus >= (int) humidityBonus;
             int climate = fromLikedBiomes ? likedBiomeBonus : (int) humidityBonus;
             return new NutrientBreakdown(base, water, fertilizer, sky, climate, fromLikedBiomes,
                     base + water + fertilizer + sky + climate);

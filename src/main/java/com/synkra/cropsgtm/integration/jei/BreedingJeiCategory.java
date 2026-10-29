@@ -125,8 +125,8 @@ public class BreedingJeiCategory extends AbstractRecipeCategory<BreedingJeiCateg
         int y = BACKGROUND_HEIGHT + 2;
         List<FormattedText> lines = new ArrayList<>(recipe.lines.size());
         lines.addAll(recipe.lines);
-        builder.addText(lines, WIDTH - 4, getHeight() - y).setPosition(2, y).setColor(CropRecipeText.TEXT_COLOR)
-                .setShadow(false).setLineSpacing(1);
+        builder.addText(lines, WIDTH - 4, getHeight() - y).setPosition(2, y)
+                .setColor(CropRecipeText.BREEDING_TEXT_COLOR).setShadow(false).setLineSpacing(1);
     }
 
     @Override

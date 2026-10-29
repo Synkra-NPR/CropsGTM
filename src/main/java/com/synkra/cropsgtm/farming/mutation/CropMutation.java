@@ -148,6 +148,11 @@ public class CropMutation implements ICropMutation {
         return this.requirements;
     }
 
+    @Override
+    public boolean isMachineOnly() {
+        return this.requirements.stream().anyMatch(MachineOnlyBreedingRequirement.class::isInstance);
+    }
+
     private boolean hasAllParents(Collection<ICropCard> parents) {
         if (!parents.contains(this.parent1) || !parents.contains(this.parent2)) return false;
         if (this.parent3 != null && !parents.contains(this.parent3)) return false;

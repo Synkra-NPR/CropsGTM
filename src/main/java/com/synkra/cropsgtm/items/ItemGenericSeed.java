@@ -13,6 +13,7 @@ import com.synkra.cropsgtm.api.IGrowthRequirement;
 import com.synkra.cropsgtm.api.ISeedStats;
 import com.synkra.cropsgtm.farming.SeedStats;
 import com.synkra.cropsgtm.farming.registries.CropRegistry;
+import com.synkra.cropsgtm.farming.registries.MutationRegistry;
 import com.synkra.cropsgtm.reference.Constants;
 import com.synkra.cropsgtm.reference.Names;
 
@@ -74,6 +75,10 @@ public class ItemGenericSeed extends Item {
         tooltip.add(Component.translatable(crop.getSoilTypes().getUnlocalizedItemTooltip()));
         if (crop.getBreedingThreshold() < 0.0f) {
             tooltip.add(Component.translatable(Names.MOD_ID + "_tooltip.genericSeed.cannotBreedOnSticks")
+                    .withStyle(ChatFormatting.GRAY));
+        }
+        if (MutationRegistry.instance.areAllMutationsMachineOnly(crop)) {
+            tooltip.add(Component.translatable(Names.MOD_ID + "_breedingReq.lockout.machineOnly")
                     .withStyle(ChatFormatting.GRAY));
         }
         if (crop.getMinSeedBedTier() >= 0) {
