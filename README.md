@@ -13,7 +13,7 @@ CropNH 是 GTNH（1.7.10）整合包里的作物科技模组，本移植版把�
 | Java | 17 |
 | GregTech CEu Modern | 7.5.3 及以上 |
 
-值得一提的是，GregTech **不是硬性依赖**。未安装时本模组的时候也能玩部分内容：作物架、种子、工具与作物系统照常工作，同时启用FE作物管理机（`cropsgtm:crop_manager_fe`）承担自动化。
+值得一提的是，GregTech **不是硬性依赖**。未安装时本模组的时候也能玩部分内容：作物架、种子、工具与作物系统照常工作，同时启用FE作物管理机承担自动化。
 
 ## 游戏内容
 
@@ -30,8 +30,8 @@ CropNH 是 GTNH（1.7.10）整合包里的作物科技模组，本移植版把�
 | 模组 | 作物数 | 内容 |
 | --- | --- | --- |
 | GregTech CEu Modern (`gtceu`) | 66 | 金属、矿石与石材类作物，如 `aluminium_ore_berry`、`basaltLily` |
-| Pam's HarvestCraft 2 - Crops (`pamhc2crops`)（已取得材质引用许可） | 98 | 果蔬、谷物与纤维类作物 |
-| Pam's HarvestCraft 2 - Trees (`pamhc2trees`)（已取得材质引用许可） | 48 | 果树与坚果 |
+| Pam's HarvestCraft 2 - Crops (pamhc2crops)（已取得材质引用许可） | 98 | 果蔬、谷物与纤维类作物 |
+| Pam's HarvestCraft 2 - Trees (pamhc2trees)（已取得材质引用许可） | 48 | 果树与坚果 |
 | Biomes O' Plenty (`biomesoplenty`) | 7 | `eyebulb`、`glowflower`、`glowshroom` 等 |
 | Farmer's Delight (`farmersdelight`) | 4 | `tomato`、`cabbage`、`onion`、`rice` |
 | The Twilight Forest (`twilightforest`) | 4 | `knightmetal_berry`、`liveroot`、`steeleafranks`、`torchberry` |

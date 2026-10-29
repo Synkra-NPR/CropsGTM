@@ -1,6 +1,6 @@
 # CropsGTM 数据包教程
 
-适用于 CropsGTM 1.x / Minecraft 1.20.1 / Forge 47.x。本文只讲数据包侧的写法，字段名与默认值均以 `com.synkra.cropsgtm.farming.cropdata` 下的解析代码为准。
+适用于 CropsGTM 2.1.0-alpha / Minecraft 1.20.1 / Forge 47.x。本文只讲数据包侧的写法，字段名与默认值均以 `com.synkra.cropsgtm.farming.cropdata` 下的解析代码为准。
 
 ## 1. 目录结构
 
