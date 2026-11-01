@@ -31,16 +31,16 @@ CropNH 是 GTNH（1.7.10）整合包里的作物科技模组。本版将其作�
 
 | 模组 | 作物数 | 内容 |
 | --- | --- | --- |
-| GregTech CEu Modern (`gtceu`) | 66 | 金属、矿石与石材类作物，如 `aluminium_ore_berry`、`basaltLily` |
+| GregTech CEu Modern (gtceu) | 66 | 金属、矿石与石材类作物，如 aluminium_ore_berry、basaltLily |
 | Pam's HarvestCraft 2 - Crops (pamhc2crops)（已取得材质引用许可） | 98 | 果蔬、谷物与纤维类作物 |
 | Pam's HarvestCraft 2 - Trees (pamhc2trees)（已取得材质引用许可） | 48 | 果树与坚果 |
-| Biomes O' Plenty (`biomesoplenty`) | 7 | `eyebulb`、`glowflower`、`glowshroom` 等 |
-| Farmer's Delight (`farmersdelight`) | 4 | `tomato`、`cabbage`、`onion`、`rice` |
-| The Twilight Forest (`twilightforest`) | 4 | `knightmetal_berry`、`liveroot`、`steeleafranks`、`torchberry` |
-| Legendary Survival Overhaul (`legendarysurvivaloverhaul`) | 3 | `ice_fern`、`sun_fern`、`water_plant` |
-| Ars Nouveau (`ars_nouveau`) | 1 | `magebloom` |
+| Biomes O' Plenty (biomesoplenty) | 7 | eyebulb、glowflower、glowshroom 等 |
+| Farmer's Delight (farmersdelight) | 4 | tomato、cabbage、onion、rice |
+| The Twilight Forest (twilightforest) | 4 | knightmetal_berry、liveroot、steeleafranks、torchberry |
+| Legendary Survival Overhaul (legendarysurvivaloverhaul) | 3 | ice_fern、sun_fern、water_plant |
+| Ars Nouveau (ars_nouveau) | 1 | magebloom |
 
-注意作物 id 与文件名不一定相同，引用时以定义里的 `id` 字段为准。例如 Farmer's Delight 的四个作物沿用 `cropsgtm_farmersdelight` 命名空间（`cropsgtm_farmersdelight:tomato`），而 `basalt_lily.json` 的 id 是 `cropsgtm:basaltLily`。
+注意作物 id 与文件名不一定相同，引用时以定义里的 id 字段为准。例如 Farmer's Delight 的四个作物沿用 `cropsgtm_farmersdelight` 命名空间（`cropsgtm_farmersdelight:tomato`），而 `basalt_lily.json` 的 id 是 `cropsgtm:basaltLily`。
 
 ## 数据包与本地化
 
