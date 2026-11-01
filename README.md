@@ -13,7 +13,7 @@ CropNH is the crop-tech mod in the GTNH (1.7.10) modpack. This version ports its
 | Minecraft | 1.20.1 |
 | Forge | 47.4.0 or later |
 | Java | 17 |
-| GregTech CEu Modern | 7.5.3 or later |
+| GregTech CEu Modern | 7.5.3 |
 
 It is worth mentioning that GregTech is **not a hard dependency**. When it is not installed, part of the content is still playable: crop sticks, seeds, tools and the crop system work as usual, and the FE crop manager is enabled to handle automation.
 
