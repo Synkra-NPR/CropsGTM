@@ -13,7 +13,7 @@ CropNH 是 GTNH（1.7.10）整合包里的作物科技模组。本版将其作�
 | Minecraft | 1.20.1 |
 | Forge | 47.4.0 及以上 |
 | Java | 17 |
-| GregTech CEu Modern | 7.5.3 及以上 |
+| GregTech CEu Modern | 7.5.3 |
 
 值得一提的是，GregTech **不是硬性依赖**。未安装时也能玩部分内容：作物架、种子、工具与作物系统照常工作，同时启用 FE 作物管理机承担自动化。
 
