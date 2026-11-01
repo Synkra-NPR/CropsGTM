@@ -31,14 +31,14 @@ Crops from the following mods are built in, grouped by `data/cropsgtm/crops/<dir
 
 | Mod | Crops | Content |
 | --- | --- | --- |
-| GregTech CEu Modern (`gtceu`) | 66 | Metal, ore and stone crops, such as `aluminium_ore_berry`, `basaltLily` |
+| GregTech CEu Modern (gtceu) | 66 | Metal, ore and stone crops, such as aluminium_ore_berry, basaltLily |
 | Pam's HarvestCraft 2 - Crops (pamhc2crops) (texture reference permission obtained) | 98 | Fruit, vegetable, grain and fiber crops |
 | Pam's HarvestCraft 2 - Trees (pamhc2trees) (texture reference permission obtained) | 48 | Fruit trees and nuts |
-| Biomes O' Plenty (`biomesoplenty`) | 7 | `eyebulb`, `glowflower`, `glowshroom`, etc. |
-| Farmer's Delight (`farmersdelight`) | 4 | `tomato`, `cabbage`, `onion`, `rice` |
-| The Twilight Forest (`twilightforest`) | 4 | `knightmetal_berry`, `liveroot`, `steeleafranks`, `torchberry` |
-| Legendary Survival Overhaul (`legendarysurvivaloverhaul`) | 3 | `ice_fern`, `sun_fern`, `water_plant` |
-| Ars Nouveau (`ars_nouveau`) | 1 | `magebloom` |
+| Biomes O' Plenty (biomesoplenty) | 7 | eyebulb, glowflower, glowshroom, etc. |
+| Farmer's Delight (farmersdelight) | 4 | tomato, cabbage, onion, rice |
+| The Twilight Forest (twilightforest) | 4 | knightmetal_berry, liveroot, steeleafranks, torchberry |
+| Legendary Survival Overhaul (legendarysurvivaloverhaul) | 3 | ice_fern, sun_fern, water_plant |
+| Ars Nouveau (ars_nouveau) | 1 | magebloom |
 
 Note that crop ids are not always the same as file names; always use the `id` field in the definition. For example, the four Farmer's Delight crops keep the `cropsgtm_farmersdelight` namespace (`cropsgtm_farmersdelight:tomato`), while the id of `basalt_lily.json` is `cropsgtm:basaltLily`.
 
